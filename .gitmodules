@@ -1,0 +1,3 @@
+[submodule "GestorProtos"]
+	path = GestorProtos
+	url = https://github.com/GestorMax/GestorProtos.git
