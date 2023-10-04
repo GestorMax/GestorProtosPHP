@@ -20,7 +20,7 @@ class Metadata {
 				
 			case AuthTypes::Token:
 				return [
-					'authentification' => [ 'bearer ' . $auth ],
+					'authorization' => [ 'Bearer ' . $auth ],
 					'EntryEndpoint' => $entryEndpoint, 
 				];
 		
