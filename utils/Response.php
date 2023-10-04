@@ -5,10 +5,7 @@ namespace GrpcUtils;
 class Response {
 
     public static function succeded($response) {
-        if(!isset($response->result)){
-            return true;
-        }
-        return empty($response->result->error);
+        return !Response::failed($response);
     }
 
     public static function failed($response) {
@@ -21,5 +18,18 @@ class Response {
         }
         
         return !empty($response->result->error);
+    }
+
+    public static function error($response) {
+        $data = $response[0];
+        if(!isset($data)) {
+            return $response[1];
+        }
+        
+        if(method_exists($data, 'getError')){
+            return $data->getError();
+        }
+        
+        return "";
     }
 }
