@@ -20,7 +20,7 @@ class Messages
         \GPBMetadata\IntermediarioGrpc\Shared\IntermediarioCompanionMessagesG::initOnce();
         $pool->internalAddGeneratedFile(
             '
-¹T
+ãT
 )IntermediarioGrpc/Resource/Messages.protointermediarioGrpcResourceProtoMessages/Common.proto2IntermediarioGrpc/Shared/IntermediarioShared.proto?IntermediarioGrpc/Shared/IntermediarioCompanionMessages.g.proto"ç
 FisicosPorVencimientoRequest.
 
@@ -167,23 +167,23 @@ fechaHasta (2.google.protobuf.Timestamp
 codLista ("–
 PriceImporterProductResponse-
 result (2.protoMessages.ResponseResultG
-message (26.intermediarioGrpcResource.PriceImporterProductMessage"÷
+message (26.intermediarioGrpcResource.PriceImporterProductMessage"þ
 PriceImporterProductMessage
 codLista (
 codProducto (-
-descrip (2.protoMessages.StringMessage-
-importe (2.protoMessages.DoubleMessage,
+descrip (2.protoMessages.StringMessage.
+importe (2.protoMessages.DecimalMessage,
 vigDesde (2.google.protobuf.Timestamp,
 unidad (2.protoMessages.StringMessage,
-moneda	 (2.protoMessages.StringMessage0
+moneda	 (2.protoMessages.StringMessage1
 
-bonifPases (2.protoMessages.DoubleMessage2
+bonifPases (2.protoMessages.DecimalMessage3
 bonifCompras
- (2.protoMessages.DoubleMessage1
-bonifVentas (2.protoMessages.DoubleMessage2
-importePases (2.protoMessages.DoubleMessage3
-importeVentas (2.protoMessages.DoubleMessage4
-importeCompras (2.protoMessages.DoubleMessage
+ (2.protoMessages.DecimalMessage2
+bonifVentas (2.protoMessages.DecimalMessage3
+importePases (2.protoMessages.DecimalMessage4
+importeVentas (2.protoMessages.DecimalMessage5
+importeCompras (2.protoMessages.DecimalMessage
 	codMoneda ("Š
 CuentasAPagarResponse-
 result (2.protoMessages.ResponseResultB
@@ -266,10 +266,10 @@ codSumaria (2.protoMessages.Int32Message"‰
 message (2,.intermediarioCompanionGrpc.GsUnidadeMessage"‚
 UnidadesMessageList-
 result (2.protoMessages.ResponseResult<
-values (2,.intermediarioCompanionGrpc.GsUnidadeMessage";
+values (2,.intermediarioCompanionGrpc.GsUnidadeMessage"Z
 CurrencyBalanceMessage
-currency (	
-balance ("€
+currency (	.
+balance (2.protoMessages.DecimalMessage"€
 DatabaseMessageList-
 result (2.protoMessages.ResponseResult:
 values (2*.intermediarioGrpcResource.DatabaseMessage"¹
@@ -295,21 +295,21 @@ lastBackup (2.google.protobuf.Timestamp>
 intermediarioInitialized ("š
 BonificacionesPersonasResponse-
 result (2.protoMessages.ResponseResultI
-message (28.intermediarioGrpcResource.BonificacionesPersonasMessage" 
+message (28.intermediarioGrpcResource.BonificacionesPersonasMessage"£
 BonificacionesPersonasMessage
 
 databaseId (
 codLista (
 
 codPersona (,
-nombre (2.protoMessages.StringMessage1
-bonifVentas (2.protoMessages.DoubleMessage2
-bonifCompras (2.protoMessages.DoubleMessage0
+nombre (2.protoMessages.StringMessage2
+bonifVentas (2.protoMessages.DecimalMessage3
+bonifCompras (2.protoMessages.DecimalMessage1
 
-bonifPases (2.protoMessages.DoubleMessage"–
+bonifPases (2.protoMessages.DecimalMessage"–
 BonificacionesGruposResponse-
 result (2.protoMessages.ResponseResultG
-message (26.intermediarioGrpcResource.BonificacionesGruposMessage"þ
+message (26.intermediarioGrpcResource.BonificacionesGruposMessage"ÿ
 BonificacionesGruposMessage
 
 databaseId (
@@ -318,8 +318,8 @@ databaseId (
 codPersona (,
 nombre (2.protoMessages.StringMessage
 codGrupo (1
-descripcion (2.protoMessages.StringMessage2
-bonificacion (2.protoMessages.DoubleMessage"ú
+descripcion (2.protoMessages.StringMessage3
+bonificacion (2.protoMessages.DecimalMessage"ú
 FlujoDeFondosExtRequest
 soloGestion (	
 incluirSaldosIniciales (

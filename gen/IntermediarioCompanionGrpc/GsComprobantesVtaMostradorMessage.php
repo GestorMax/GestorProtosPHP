@@ -54,7 +54,7 @@ class GsComprobantesVtaMostradorMessage extends \Google\Protobuf\Internal\Messag
      */
     protected $Codbarras = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage LimiteSinIdent = 11;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage LimiteSinIdent = 11;</code>
      */
     protected $LimiteSinIdent = null;
 
@@ -74,7 +74,7 @@ class GsComprobantesVtaMostradorMessage extends \Google\Protobuf\Internal\Messag
      *     @type \ProtoMessages\Int32Message $Codiva
      *     @type \ProtoMessages\StringMessage $Notas
      *     @type \ProtoMessages\Int32Message $Codbarras
-     *     @type \ProtoMessages\DoubleMessage $LimiteSinIdent
+     *     @type \ProtoMessages\DecimalMessage $LimiteSinIdent
      * }
      */
     public function __construct($data = NULL) {
@@ -353,8 +353,8 @@ class GsComprobantesVtaMostradorMessage extends \Google\Protobuf\Internal\Messag
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage LimiteSinIdent = 11;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage LimiteSinIdent = 11;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getLimiteSinIdent()
     {
@@ -372,13 +372,13 @@ class GsComprobantesVtaMostradorMessage extends \Google\Protobuf\Internal\Messag
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage LimiteSinIdent = 11;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage LimiteSinIdent = 11;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setLimiteSinIdent($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->LimiteSinIdent = $var;
 
         return $this;

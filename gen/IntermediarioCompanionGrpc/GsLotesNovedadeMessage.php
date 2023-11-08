@@ -30,7 +30,7 @@ class GsLotesNovedadeMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codimpuesto = 0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcalc = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcalc = 5;</code>
      */
     protected $Valorcalc = null;
     /**
@@ -48,7 +48,7 @@ class GsLotesNovedadeMessage extends \Google\Protobuf\Internal\Message
      *     @type int $Codlote
      *     @type string $Tipooper
      *     @type int $Codimpuesto
-     *     @type \ProtoMessages\DoubleMessage $Valorcalc
+     *     @type \ProtoMessages\DecimalMessage $Valorcalc
      *     @type \ProtoMessages\StringMessage $Guia
      * }
      */
@@ -146,8 +146,8 @@ class GsLotesNovedadeMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcalc = 5;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcalc = 5;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getValorcalc()
     {
@@ -165,13 +165,13 @@ class GsLotesNovedadeMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcalc = 5;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcalc = 5;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setValorcalc($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Valorcalc = $var;
 
         return $this;

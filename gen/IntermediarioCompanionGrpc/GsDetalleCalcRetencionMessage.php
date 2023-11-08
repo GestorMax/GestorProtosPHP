@@ -74,15 +74,15 @@ class GsDetalleCalcRetencionMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Concepto = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Totalconcepto = 16;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Totalconcepto = 16;</code>
      */
     protected $Totalconcepto = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Porcentpago = 17;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Porcentpago = 17;</code>
      */
     protected $Porcentpago = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Totalpago = 18;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Totalpago = 18;</code>
      */
     protected $Totalpago = null;
 
@@ -107,9 +107,9 @@ class GsDetalleCalcRetencionMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\Int32Message $NumeroOp
      *     @type \ProtoMessages\StringMessage $Numdoc
      *     @type \ProtoMessages\StringMessage $Concepto
-     *     @type \ProtoMessages\DoubleMessage $Totalconcepto
-     *     @type \ProtoMessages\DoubleMessage $Porcentpago
-     *     @type \ProtoMessages\DoubleMessage $Totalpago
+     *     @type \ProtoMessages\DecimalMessage $Totalconcepto
+     *     @type \ProtoMessages\DecimalMessage $Porcentpago
+     *     @type \ProtoMessages\DecimalMessage $Totalpago
      * }
      */
     public function __construct($data = NULL) {
@@ -558,8 +558,8 @@ class GsDetalleCalcRetencionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Totalconcepto = 16;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Totalconcepto = 16;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getTotalconcepto()
     {
@@ -577,21 +577,21 @@ class GsDetalleCalcRetencionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Totalconcepto = 16;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Totalconcepto = 16;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setTotalconcepto($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Totalconcepto = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Porcentpago = 17;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Porcentpago = 17;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getPorcentpago()
     {
@@ -609,21 +609,21 @@ class GsDetalleCalcRetencionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Porcentpago = 17;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Porcentpago = 17;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setPorcentpago($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Porcentpago = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Totalpago = 18;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Totalpago = 18;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getTotalpago()
     {
@@ -641,13 +641,13 @@ class GsDetalleCalcRetencionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Totalpago = 18;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Totalpago = 18;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setTotalpago($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Totalpago = $var;
 
         return $this;

@@ -82,7 +82,7 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codentregador = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage KgsOrig = 18;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage KgsOrig = 18;</code>
      */
     protected $KgsOrig = null;
     /**
@@ -90,11 +90,11 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $HumedadOrig = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage NetoSecoOrig = 20;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage NetoSecoOrig = 20;</code>
      */
     protected $NetoSecoOrig = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage KgsDest = 21;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage KgsDest = 21;</code>
      */
     protected $KgsDest = null;
     /**
@@ -102,11 +102,11 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $HumedadDest = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage KgsAplic = 23;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage KgsAplic = 23;</code>
      */
     protected $KgsAplic = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage FleteKms = 24;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage FleteKms = 24;</code>
      */
     protected $FleteKms = null;
     /**
@@ -118,11 +118,11 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $PorcentCatac = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage FleteTarifa = 27;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage FleteTarifa = 27;</code>
      */
     protected $FleteTarifa = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage FleteImporte = 28;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage FleteImporte = 28;</code>
      */
     protected $FleteImporte = null;
     /**
@@ -206,23 +206,23 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $CuitTransp = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BrutoOrig = 49;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BrutoOrig = 49;</code>
      */
     protected $BrutoOrig = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage TaraOrig = 50;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage TaraOrig = 50;</code>
      */
     protected $TaraOrig = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BrutoDest = 51;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BrutoDest = 51;</code>
      */
     protected $BrutoDest = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage TaraDest = 52;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage TaraDest = 52;</code>
      */
     protected $TaraDest = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage TarifaFleteTransportista = 53;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage TarifaFleteTransportista = 53;</code>
      */
     protected $TarifaFleteTransportista = null;
     /**
@@ -234,15 +234,15 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Aplicado = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MermaHumedadDest = 56;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MermaHumedadDest = 56;</code>
      */
     protected $MermaHumedadDest = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MermaVolatilDest = 57;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MermaVolatilDest = 57;</code>
      */
     protected $MermaVolatilDest = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MermaOtrosDest = 58;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MermaOtrosDest = 58;</code>
      */
     protected $MermaOtrosDest = null;
     /**
@@ -277,17 +277,17 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\Int32Message $Codcorredor
      *     @type \ProtoMessages\Int32Message $Codembolsador
      *     @type \ProtoMessages\Int32Message $Codentregador
-     *     @type \ProtoMessages\DoubleMessage $KgsOrig
+     *     @type \ProtoMessages\DecimalMessage $KgsOrig
      *     @type \ProtoMessages\FloatMessage $HumedadOrig
-     *     @type \ProtoMessages\DoubleMessage $NetoSecoOrig
-     *     @type \ProtoMessages\DoubleMessage $KgsDest
+     *     @type \ProtoMessages\DecimalMessage $NetoSecoOrig
+     *     @type \ProtoMessages\DecimalMessage $KgsDest
      *     @type \ProtoMessages\FloatMessage $HumedadDest
-     *     @type \ProtoMessages\DoubleMessage $KgsAplic
-     *     @type \ProtoMessages\DoubleMessage $FleteKms
+     *     @type \ProtoMessages\DecimalMessage $KgsAplic
+     *     @type \ProtoMessages\DecimalMessage $FleteKms
      *     @type \ProtoMessages\Int32Message $Codcatac
      *     @type \ProtoMessages\FloatMessage $PorcentCatac
-     *     @type \ProtoMessages\DoubleMessage $FleteTarifa
-     *     @type \ProtoMessages\DoubleMessage $FleteImporte
+     *     @type \ProtoMessages\DecimalMessage $FleteTarifa
+     *     @type \ProtoMessages\DecimalMessage $FleteImporte
      *     @type \ProtoMessages\Int32Message $Codestablecimiento
      *     @type \ProtoMessages\StringMessage $Observ
      *     @type \ProtoMessages\StringMessage $Impresa
@@ -308,16 +308,16 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\StringMessage $PatenteCamion
      *     @type \ProtoMessages\StringMessage $PatenteAcoplado
      *     @type \ProtoMessages\StringMessage $CuitTransp
-     *     @type \ProtoMessages\DoubleMessage $BrutoOrig
-     *     @type \ProtoMessages\DoubleMessage $TaraOrig
-     *     @type \ProtoMessages\DoubleMessage $BrutoDest
-     *     @type \ProtoMessages\DoubleMessage $TaraDest
-     *     @type \ProtoMessages\DoubleMessage $TarifaFleteTransportista
+     *     @type \ProtoMessages\DecimalMessage $BrutoOrig
+     *     @type \ProtoMessages\DecimalMessage $TaraOrig
+     *     @type \ProtoMessages\DecimalMessage $BrutoDest
+     *     @type \ProtoMessages\DecimalMessage $TaraDest
+     *     @type \ProtoMessages\DecimalMessage $TarifaFleteTransportista
      *     @type \ProtoMessages\StringMessage $NoFacturarFlete
      *     @type \ProtoMessages\StringMessage $Aplicado
-     *     @type \ProtoMessages\DoubleMessage $MermaHumedadDest
-     *     @type \ProtoMessages\DoubleMessage $MermaVolatilDest
-     *     @type \ProtoMessages\DoubleMessage $MermaOtrosDest
+     *     @type \ProtoMessages\DecimalMessage $MermaHumedadDest
+     *     @type \ProtoMessages\DecimalMessage $MermaVolatilDest
+     *     @type \ProtoMessages\DecimalMessage $MermaOtrosDest
      *     @type \ProtoMessages\Int32Message $Codmulti
      *     @type \ProtoMessages\StringMessage $OrigenEstimado
      * }
@@ -802,8 +802,8 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage KgsOrig = 18;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage KgsOrig = 18;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getKgsOrig()
     {
@@ -821,13 +821,13 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage KgsOrig = 18;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage KgsOrig = 18;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setKgsOrig($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->KgsOrig = $var;
 
         return $this;
@@ -866,8 +866,8 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage NetoSecoOrig = 20;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage NetoSecoOrig = 20;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getNetoSecoOrig()
     {
@@ -885,21 +885,21 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage NetoSecoOrig = 20;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage NetoSecoOrig = 20;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setNetoSecoOrig($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->NetoSecoOrig = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage KgsDest = 21;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage KgsDest = 21;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getKgsDest()
     {
@@ -917,13 +917,13 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage KgsDest = 21;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage KgsDest = 21;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setKgsDest($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->KgsDest = $var;
 
         return $this;
@@ -962,8 +962,8 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage KgsAplic = 23;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage KgsAplic = 23;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getKgsAplic()
     {
@@ -981,21 +981,21 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage KgsAplic = 23;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage KgsAplic = 23;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setKgsAplic($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->KgsAplic = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage FleteKms = 24;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage FleteKms = 24;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getFleteKms()
     {
@@ -1013,13 +1013,13 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage FleteKms = 24;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage FleteKms = 24;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setFleteKms($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->FleteKms = $var;
 
         return $this;
@@ -1090,8 +1090,8 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage FleteTarifa = 27;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage FleteTarifa = 27;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getFleteTarifa()
     {
@@ -1109,21 +1109,21 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage FleteTarifa = 27;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage FleteTarifa = 27;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setFleteTarifa($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->FleteTarifa = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage FleteImporte = 28;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage FleteImporte = 28;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getFleteImporte()
     {
@@ -1141,13 +1141,13 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage FleteImporte = 28;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage FleteImporte = 28;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setFleteImporte($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->FleteImporte = $var;
 
         return $this;
@@ -1764,8 +1764,8 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BrutoOrig = 49;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BrutoOrig = 49;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getBrutoOrig()
     {
@@ -1783,21 +1783,21 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BrutoOrig = 49;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BrutoOrig = 49;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setBrutoOrig($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->BrutoOrig = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage TaraOrig = 50;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage TaraOrig = 50;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getTaraOrig()
     {
@@ -1815,21 +1815,21 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage TaraOrig = 50;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage TaraOrig = 50;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setTaraOrig($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->TaraOrig = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BrutoDest = 51;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BrutoDest = 51;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getBrutoDest()
     {
@@ -1847,21 +1847,21 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BrutoDest = 51;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BrutoDest = 51;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setBrutoDest($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->BrutoDest = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage TaraDest = 52;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage TaraDest = 52;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getTaraDest()
     {
@@ -1879,21 +1879,21 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage TaraDest = 52;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage TaraDest = 52;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setTaraDest($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->TaraDest = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage TarifaFleteTransportista = 53;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage TarifaFleteTransportista = 53;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getTarifaFleteTransportista()
     {
@@ -1911,13 +1911,13 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage TarifaFleteTransportista = 53;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage TarifaFleteTransportista = 53;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setTarifaFleteTransportista($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->TarifaFleteTransportista = $var;
 
         return $this;
@@ -1988,8 +1988,8 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MermaHumedadDest = 56;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MermaHumedadDest = 56;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getMermaHumedadDest()
     {
@@ -2007,21 +2007,21 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MermaHumedadDest = 56;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MermaHumedadDest = 56;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setMermaHumedadDest($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->MermaHumedadDest = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MermaVolatilDest = 57;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MermaVolatilDest = 57;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getMermaVolatilDest()
     {
@@ -2039,21 +2039,21 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MermaVolatilDest = 57;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MermaVolatilDest = 57;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setMermaVolatilDest($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->MermaVolatilDest = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MermaOtrosDest = 58;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MermaOtrosDest = 58;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getMermaOtrosDest()
     {
@@ -2071,13 +2071,13 @@ class GsCosechag3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MermaOtrosDest = 58;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MermaOtrosDest = 58;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setMermaOtrosDest($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->MermaOtrosDest = $var;
 
         return $this;

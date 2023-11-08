@@ -26,35 +26,35 @@ class GsListasPreciosDetalleMessage extends \Google\Protobuf\Internal\Message
      */
     protected $VigDesde = null;
     /**
-     * Generated from protobuf field <code>double Importe = 4;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 4;</code>
      */
-    protected $Importe = 0.0;
+    protected $Importe = null;
     /**
      * Generated from protobuf field <code>int32 Codmoneda = 5;</code>
      */
     protected $Codmoneda = 0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BonifVentas = 6;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BonifVentas = 6;</code>
      */
     protected $BonifVentas = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BonifCompras = 7;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BonifCompras = 7;</code>
      */
     protected $BonifCompras = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage ImporteCompras = 8;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage ImporteCompras = 8;</code>
      */
     protected $ImporteCompras = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage ImporteVentas = 9;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage ImporteVentas = 9;</code>
      */
     protected $ImporteVentas = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BonifPases = 10;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BonifPases = 10;</code>
      */
     protected $BonifPases = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage ImportePases = 11;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage ImportePases = 11;</code>
      */
     protected $ImportePases = null;
 
@@ -67,14 +67,14 @@ class GsListasPreciosDetalleMessage extends \Google\Protobuf\Internal\Message
      *     @type int $Codlista
      *     @type int $Codproducto
      *     @type \Google\Protobuf\Timestamp $VigDesde
-     *     @type float $Importe
+     *     @type \ProtoMessages\DecimalMessage $Importe
      *     @type int $Codmoneda
-     *     @type \ProtoMessages\DoubleMessage $BonifVentas
-     *     @type \ProtoMessages\DoubleMessage $BonifCompras
-     *     @type \ProtoMessages\DoubleMessage $ImporteCompras
-     *     @type \ProtoMessages\DoubleMessage $ImporteVentas
-     *     @type \ProtoMessages\DoubleMessage $BonifPases
-     *     @type \ProtoMessages\DoubleMessage $ImportePases
+     *     @type \ProtoMessages\DecimalMessage $BonifVentas
+     *     @type \ProtoMessages\DecimalMessage $BonifCompras
+     *     @type \ProtoMessages\DecimalMessage $ImporteCompras
+     *     @type \ProtoMessages\DecimalMessage $ImporteVentas
+     *     @type \ProtoMessages\DecimalMessage $BonifPases
+     *     @type \ProtoMessages\DecimalMessage $ImportePases
      * }
      */
     public function __construct($data = NULL) {
@@ -159,22 +159,32 @@ class GsListasPreciosDetalleMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>double Importe = 4;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 4;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getImporte()
     {
         return $this->Importe;
     }
 
+    public function hasImporte()
+    {
+        return isset($this->Importe);
+    }
+
+    public function clearImporte()
+    {
+        unset($this->Importe);
+    }
+
     /**
-     * Generated from protobuf field <code>double Importe = 4;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 4;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setImporte($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Importe = $var;
 
         return $this;
@@ -203,8 +213,8 @@ class GsListasPreciosDetalleMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BonifVentas = 6;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BonifVentas = 6;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getBonifVentas()
     {
@@ -222,21 +232,21 @@ class GsListasPreciosDetalleMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BonifVentas = 6;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BonifVentas = 6;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setBonifVentas($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->BonifVentas = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BonifCompras = 7;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BonifCompras = 7;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getBonifCompras()
     {
@@ -254,21 +264,21 @@ class GsListasPreciosDetalleMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BonifCompras = 7;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BonifCompras = 7;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setBonifCompras($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->BonifCompras = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage ImporteCompras = 8;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage ImporteCompras = 8;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getImporteCompras()
     {
@@ -286,21 +296,21 @@ class GsListasPreciosDetalleMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage ImporteCompras = 8;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage ImporteCompras = 8;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setImporteCompras($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->ImporteCompras = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage ImporteVentas = 9;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage ImporteVentas = 9;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getImporteVentas()
     {
@@ -318,21 +328,21 @@ class GsListasPreciosDetalleMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage ImporteVentas = 9;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage ImporteVentas = 9;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setImporteVentas($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->ImporteVentas = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BonifPases = 10;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BonifPases = 10;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getBonifPases()
     {
@@ -350,21 +360,21 @@ class GsListasPreciosDetalleMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage BonifPases = 10;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage BonifPases = 10;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setBonifPases($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->BonifPases = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage ImportePases = 11;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage ImportePases = 11;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getImportePases()
     {
@@ -382,13 +392,13 @@ class GsListasPreciosDetalleMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage ImportePases = 11;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage ImportePases = 11;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setImportePases($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->ImportePases = $var;
 
         return $this;

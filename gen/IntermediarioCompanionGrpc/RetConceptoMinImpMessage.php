@@ -26,9 +26,9 @@ class RetConceptoMinImpMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Concepto = '';
     /**
-     * Generated from protobuf field <code>double MinimoImponible = 4;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MinimoImponible = 4;</code>
      */
-    protected $MinimoImponible = 0.0;
+    protected $MinimoImponible = null;
     /**
      * Generated from protobuf field <code>int32 Codretencion = 5;</code>
      */
@@ -55,7 +55,7 @@ class RetConceptoMinImpMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\Int32Message $Codplan
      *     @type \ProtoMessages\Int32Message $Codcuenta
      *     @type string $Concepto
-     *     @type float $MinimoImponible
+     *     @type \ProtoMessages\DecimalMessage $MinimoImponible
      *     @type int $Codretencion
      *     @type int $Orden
      *     @type \ProtoMessages\StringMessage $Codzona
@@ -154,22 +154,32 @@ class RetConceptoMinImpMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>double MinimoImponible = 4;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MinimoImponible = 4;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getMinimoImponible()
     {
         return $this->MinimoImponible;
     }
 
+    public function hasMinimoImponible()
+    {
+        return isset($this->MinimoImponible);
+    }
+
+    public function clearMinimoImponible()
+    {
+        unset($this->MinimoImponible);
+    }
+
     /**
-     * Generated from protobuf field <code>double MinimoImponible = 4;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MinimoImponible = 4;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setMinimoImponible($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->MinimoImponible = $var;
 
         return $this;

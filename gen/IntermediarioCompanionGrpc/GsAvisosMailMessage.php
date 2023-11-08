@@ -122,7 +122,7 @@ class GsAvisosMailMessage extends \Google\Protobuf\Internal\Message
      */
     protected $AgruparMails = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MinImporte = 28;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MinImporte = 28;</code>
      */
     protected $MinImporte = null;
     /**
@@ -163,7 +163,7 @@ class GsAvisosMailMessage extends \Google\Protobuf\Internal\Message
      *     @type string $AntIngresos
      *     @type string $AntEgresos
      *     @type \ProtoMessages\StringMessage $AgruparMails
-     *     @type \ProtoMessages\DoubleMessage $MinImporte
+     *     @type \ProtoMessages\DecimalMessage $MinImporte
      *     @type \ProtoMessages\Int32Message $FinAviso
      * }
      */
@@ -847,8 +847,8 @@ class GsAvisosMailMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MinImporte = 28;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MinImporte = 28;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getMinImporte()
     {
@@ -866,13 +866,13 @@ class GsAvisosMailMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MinImporte = 28;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MinImporte = 28;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setMinImporte($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->MinImporte = $var;
 
         return $this;

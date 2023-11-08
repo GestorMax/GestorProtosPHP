@@ -46,7 +46,7 @@ class GsDevengadoMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codmoneda = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 9;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 9;</code>
      */
     protected $Valorcambio = null;
     /**
@@ -276,7 +276,7 @@ class GsDevengadoMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\Int32Message $Codpersona
      *     @type \ProtoMessages\Int32Message $Codcobpag
      *     @type \ProtoMessages\Int32Message $Codmoneda
-     *     @type \ProtoMessages\DoubleMessage $Valorcambio
+     *     @type \ProtoMessages\DecimalMessage $Valorcambio
      *     @type string $Tipooper
      *     @type \ProtoMessages\Int32Message $Codpase
      *     @type \ProtoMessages\Int32Message $Tipdoc
@@ -574,8 +574,8 @@ class GsDevengadoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 9;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 9;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getValorcambio()
     {
@@ -593,13 +593,13 @@ class GsDevengadoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 9;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 9;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setValorcambio($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Valorcambio = $var;
 
         return $this;

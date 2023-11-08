@@ -18,9 +18,9 @@ class CurrencyBalanceMessage extends \Google\Protobuf\Internal\Message
      */
     protected $currency = '';
     /**
-     * Generated from protobuf field <code>double balance = 2;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage balance = 2;</code>
      */
-    protected $balance = 0.0;
+    protected $balance = null;
 
     /**
      * Constructor.
@@ -29,7 +29,7 @@ class CurrencyBalanceMessage extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type string $currency
-     *     @type float $balance
+     *     @type \ProtoMessages\DecimalMessage $balance
      * }
      */
     public function __construct($data = NULL) {
@@ -60,22 +60,32 @@ class CurrencyBalanceMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>double balance = 2;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage balance = 2;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getBalance()
     {
         return $this->balance;
     }
 
+    public function hasBalance()
+    {
+        return isset($this->balance);
+    }
+
+    public function clearBalance()
+    {
+        unset($this->balance);
+    }
+
     /**
-     * Generated from protobuf field <code>double balance = 2;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage balance = 2;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setBalance($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->balance = $var;
 
         return $this;

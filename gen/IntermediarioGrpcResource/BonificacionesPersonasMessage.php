@@ -30,15 +30,15 @@ class BonificacionesPersonasMessage extends \Google\Protobuf\Internal\Message
      */
     protected $nombre = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage bonifVentas = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage bonifVentas = 5;</code>
      */
     protected $bonifVentas = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage bonifCompras = 6;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage bonifCompras = 6;</code>
      */
     protected $bonifCompras = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage bonifPases = 7;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage bonifPases = 7;</code>
      */
     protected $bonifPases = null;
 
@@ -52,9 +52,9 @@ class BonificacionesPersonasMessage extends \Google\Protobuf\Internal\Message
      *     @type int $codLista
      *     @type int $codPersona
      *     @type \ProtoMessages\StringMessage $nombre
-     *     @type \ProtoMessages\DoubleMessage $bonifVentas
-     *     @type \ProtoMessages\DoubleMessage $bonifCompras
-     *     @type \ProtoMessages\DoubleMessage $bonifPases
+     *     @type \ProtoMessages\DecimalMessage $bonifVentas
+     *     @type \ProtoMessages\DecimalMessage $bonifCompras
+     *     @type \ProtoMessages\DecimalMessage $bonifPases
      * }
      */
     public function __construct($data = NULL) {
@@ -161,8 +161,8 @@ class BonificacionesPersonasMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage bonifVentas = 5;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage bonifVentas = 5;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getBonifVentas()
     {
@@ -180,21 +180,21 @@ class BonificacionesPersonasMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage bonifVentas = 5;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage bonifVentas = 5;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setBonifVentas($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->bonifVentas = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage bonifCompras = 6;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage bonifCompras = 6;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getBonifCompras()
     {
@@ -212,21 +212,21 @@ class BonificacionesPersonasMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage bonifCompras = 6;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage bonifCompras = 6;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setBonifCompras($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->bonifCompras = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage bonifPases = 7;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage bonifPases = 7;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getBonifPases()
     {
@@ -244,13 +244,13 @@ class BonificacionesPersonasMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage bonifPases = 7;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage bonifPases = 7;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setBonifPases($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->bonifPases = $var;
 
         return $this;

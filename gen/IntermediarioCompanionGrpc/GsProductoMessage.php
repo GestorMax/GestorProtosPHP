@@ -30,7 +30,7 @@ class GsProductoMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Unidtotal = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Coef = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Coef = 5;</code>
      */
     protected $Coef = null;
     /**
@@ -92,7 +92,7 @@ class GsProductoMessage extends \Google\Protobuf\Internal\Message
      *     @type string $Descrip
      *     @type \ProtoMessages\Int32Message $Unidparte
      *     @type \ProtoMessages\Int32Message $Unidtotal
-     *     @type \ProtoMessages\DoubleMessage $Coef
+     *     @type \ProtoMessages\DecimalMessage $Coef
      *     @type \ProtoMessages\DoubleMessage $Importe
      *     @type string $Prodogrupo
      *     @type \ProtoMessages\Int32Message $Codgrupo
@@ -221,8 +221,8 @@ class GsProductoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Coef = 5;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Coef = 5;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getCoef()
     {
@@ -240,13 +240,13 @@ class GsProductoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Coef = 5;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Coef = 5;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setCoef($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Coef = $var;
 
         return $this;

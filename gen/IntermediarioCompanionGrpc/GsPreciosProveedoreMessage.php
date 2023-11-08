@@ -26,9 +26,9 @@ class GsPreciosProveedoreMessage extends \Google\Protobuf\Internal\Message
      */
     protected $VigDesde = null;
     /**
-     * Generated from protobuf field <code>double Importe = 4;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 4;</code>
      */
-    protected $Importe = 0.0;
+    protected $Importe = null;
 
     /**
      * Constructor.
@@ -39,7 +39,7 @@ class GsPreciosProveedoreMessage extends \Google\Protobuf\Internal\Message
      *     @type int $Codpersona
      *     @type int $Codproducto
      *     @type \Google\Protobuf\Timestamp $VigDesde
-     *     @type float $Importe
+     *     @type \ProtoMessages\DecimalMessage $Importe
      * }
      */
     public function __construct($data = NULL) {
@@ -124,22 +124,32 @@ class GsPreciosProveedoreMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>double Importe = 4;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 4;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getImporte()
     {
         return $this->Importe;
     }
 
+    public function hasImporte()
+    {
+        return isset($this->Importe);
+    }
+
+    public function clearImporte()
+    {
+        unset($this->Importe);
+    }
+
     /**
-     * Generated from protobuf field <code>double Importe = 4;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 4;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setImporte($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Importe = $var;
 
         return $this;

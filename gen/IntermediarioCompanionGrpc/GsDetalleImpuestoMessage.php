@@ -30,9 +30,9 @@ class GsDetalleImpuestoMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codimpuesto = 0;
     /**
-     * Generated from protobuf field <code>double Tasa = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Tasa = 5;</code>
      */
-    protected $Tasa = 0.0;
+    protected $Tasa = null;
     /**
      * Generated from protobuf field <code>.protoMessages.DoubleMessage Aplica = 6;</code>
      */
@@ -48,7 +48,7 @@ class GsDetalleImpuestoMessage extends \Google\Protobuf\Internal\Message
      *     @type int $Numero
      *     @type int $Numlinea
      *     @type int $Codimpuesto
-     *     @type float $Tasa
+     *     @type \ProtoMessages\DecimalMessage $Tasa
      *     @type \ProtoMessages\DoubleMessage $Aplica
      * }
      */
@@ -146,22 +146,32 @@ class GsDetalleImpuestoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>double Tasa = 5;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Tasa = 5;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getTasa()
     {
         return $this->Tasa;
     }
 
+    public function hasTasa()
+    {
+        return isset($this->Tasa);
+    }
+
+    public function clearTasa()
+    {
+        unset($this->Tasa);
+    }
+
     /**
-     * Generated from protobuf field <code>double Tasa = 5;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Tasa = 5;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setTasa($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Tasa = $var;
 
         return $this;

@@ -22,15 +22,15 @@ class RetConceptoAlicuotaMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Coditem = 0;
     /**
-     * Generated from protobuf field <code>double Desde = 3;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Desde = 3;</code>
      */
-    protected $Desde = 0.0;
+    protected $Desde = null;
     /**
      * Generated from protobuf field <code>double Porcentaje = 4;</code>
      */
     protected $Porcentaje = 0.0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage SumaFija = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage SumaFija = 5;</code>
      */
     protected $SumaFija = null;
     /**
@@ -50,9 +50,9 @@ class RetConceptoAlicuotaMessage extends \Google\Protobuf\Internal\Message
      *
      *     @type int $Codcondicion
      *     @type int $Coditem
-     *     @type float $Desde
+     *     @type \ProtoMessages\DecimalMessage $Desde
      *     @type float $Porcentaje
-     *     @type \ProtoMessages\DoubleMessage $SumaFija
+     *     @type \ProtoMessages\DecimalMessage $SumaFija
      *     @type int $Codretencion
      *     @type int $Orden
      * }
@@ -107,22 +107,32 @@ class RetConceptoAlicuotaMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>double Desde = 3;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Desde = 3;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getDesde()
     {
         return $this->Desde;
     }
 
+    public function hasDesde()
+    {
+        return isset($this->Desde);
+    }
+
+    public function clearDesde()
+    {
+        unset($this->Desde);
+    }
+
     /**
-     * Generated from protobuf field <code>double Desde = 3;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Desde = 3;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setDesde($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Desde = $var;
 
         return $this;
@@ -151,8 +161,8 @@ class RetConceptoAlicuotaMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage SumaFija = 5;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage SumaFija = 5;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getSumaFija()
     {
@@ -170,13 +180,13 @@ class RetConceptoAlicuotaMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage SumaFija = 5;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage SumaFija = 5;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setSumaFija($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->SumaFija = $var;
 
         return $this;

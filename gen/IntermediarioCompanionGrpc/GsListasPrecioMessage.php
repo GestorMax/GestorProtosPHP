@@ -26,15 +26,19 @@ class GsListasPrecioMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Defecto = '';
     /**
-     * Generated from protobuf field <code>.protoMessages.Int32Message CodivaVentas = 4;</code>
+     * Generated from protobuf field <code>.protoMessages.StringMessage Tipooper = 4;</code>
+     */
+    protected $Tipooper = null;
+    /**
+     * Generated from protobuf field <code>.protoMessages.Int32Message CodivaVentas = 5;</code>
      */
     protected $CodivaVentas = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.Int32Message CodivaCompras = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.Int32Message CodivaCompras = 6;</code>
      */
     protected $CodivaCompras = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.StringMessage Oprod = 6;</code>
+     * Generated from protobuf field <code>.protoMessages.StringMessage Oprod = 7;</code>
      */
     protected $Oprod = null;
 
@@ -47,6 +51,7 @@ class GsListasPrecioMessage extends \Google\Protobuf\Internal\Message
      *     @type int $Codlista
      *     @type string $Descrip
      *     @type string $Defecto
+     *     @type \ProtoMessages\StringMessage $Tipooper
      *     @type \ProtoMessages\Int32Message $CodivaVentas
      *     @type \ProtoMessages\Int32Message $CodivaCompras
      *     @type \ProtoMessages\StringMessage $Oprod
@@ -124,7 +129,39 @@ class GsListasPrecioMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.Int32Message CodivaVentas = 4;</code>
+     * Generated from protobuf field <code>.protoMessages.StringMessage Tipooper = 4;</code>
+     * @return \ProtoMessages\StringMessage|null
+     */
+    public function getTipooper()
+    {
+        return $this->Tipooper;
+    }
+
+    public function hasTipooper()
+    {
+        return isset($this->Tipooper);
+    }
+
+    public function clearTipooper()
+    {
+        unset($this->Tipooper);
+    }
+
+    /**
+     * Generated from protobuf field <code>.protoMessages.StringMessage Tipooper = 4;</code>
+     * @param \ProtoMessages\StringMessage $var
+     * @return $this
+     */
+    public function setTipooper($var)
+    {
+        GPBUtil::checkMessage($var, \ProtoMessages\StringMessage::class);
+        $this->Tipooper = $var;
+
+        return $this;
+    }
+
+    /**
+     * Generated from protobuf field <code>.protoMessages.Int32Message CodivaVentas = 5;</code>
      * @return \ProtoMessages\Int32Message|null
      */
     public function getCodivaVentas()
@@ -143,7 +180,7 @@ class GsListasPrecioMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.Int32Message CodivaVentas = 4;</code>
+     * Generated from protobuf field <code>.protoMessages.Int32Message CodivaVentas = 5;</code>
      * @param \ProtoMessages\Int32Message $var
      * @return $this
      */
@@ -156,7 +193,7 @@ class GsListasPrecioMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.Int32Message CodivaCompras = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.Int32Message CodivaCompras = 6;</code>
      * @return \ProtoMessages\Int32Message|null
      */
     public function getCodivaCompras()
@@ -175,7 +212,7 @@ class GsListasPrecioMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.Int32Message CodivaCompras = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.Int32Message CodivaCompras = 6;</code>
      * @param \ProtoMessages\Int32Message $var
      * @return $this
      */
@@ -188,7 +225,7 @@ class GsListasPrecioMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.StringMessage Oprod = 6;</code>
+     * Generated from protobuf field <code>.protoMessages.StringMessage Oprod = 7;</code>
      * @return \ProtoMessages\StringMessage|null
      */
     public function getOprod()
@@ -207,7 +244,7 @@ class GsListasPrecioMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.StringMessage Oprod = 6;</code>
+     * Generated from protobuf field <code>.protoMessages.StringMessage Oprod = 7;</code>
      * @param \ProtoMessages\StringMessage $var
      * @return $this
      */

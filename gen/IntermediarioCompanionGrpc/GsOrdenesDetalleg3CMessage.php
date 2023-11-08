@@ -50,15 +50,15 @@ class GsOrdenesDetalleg3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Coddeposito = 0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Cantparte = 10;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantparte = 10;</code>
      */
     protected $Cantparte = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Canttotal = 11;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 11;</code>
      */
     protected $Canttotal = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Coef = 12;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Coef = 12;</code>
      */
     protected $Coef = null;
     /**
@@ -70,7 +70,7 @@ class GsOrdenesDetalleg3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Observ = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Importe = 15;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 15;</code>
      */
     protected $Importe = null;
     /**
@@ -78,7 +78,7 @@ class GsOrdenesDetalleg3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codmoneda = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 17;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 17;</code>
      */
     protected $Valorcambio = null;
 
@@ -97,14 +97,14 @@ class GsOrdenesDetalleg3CMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\Int32Message $CodremitoEntrega
      *     @type \ProtoMessages\Int32Message $CodremitoDelovuc
      *     @type int $Coddeposito
-     *     @type \ProtoMessages\DoubleMessage $Cantparte
-     *     @type \ProtoMessages\DoubleMessage $Canttotal
-     *     @type \ProtoMessages\DoubleMessage $Coef
+     *     @type \ProtoMessages\DecimalMessage $Cantparte
+     *     @type \ProtoMessages\DecimalMessage $Canttotal
+     *     @type \ProtoMessages\DecimalMessage $Coef
      *     @type \ProtoMessages\StringMessage $ProduccionPropia
      *     @type \ProtoMessages\StringMessage $Observ
-     *     @type \ProtoMessages\DoubleMessage $Importe
+     *     @type \ProtoMessages\DecimalMessage $Importe
      *     @type \ProtoMessages\Int32Message $Codmoneda
-     *     @type \ProtoMessages\DoubleMessage $Valorcambio
+     *     @type \ProtoMessages\DecimalMessage $Valorcambio
      * }
      */
     public function __construct($data = NULL) {
@@ -341,8 +341,8 @@ class GsOrdenesDetalleg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Cantparte = 10;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantparte = 10;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getCantparte()
     {
@@ -360,21 +360,21 @@ class GsOrdenesDetalleg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Cantparte = 10;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantparte = 10;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setCantparte($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Cantparte = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Canttotal = 11;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 11;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getCanttotal()
     {
@@ -392,21 +392,21 @@ class GsOrdenesDetalleg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Canttotal = 11;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 11;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setCanttotal($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Canttotal = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Coef = 12;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Coef = 12;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getCoef()
     {
@@ -424,13 +424,13 @@ class GsOrdenesDetalleg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Coef = 12;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Coef = 12;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setCoef($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Coef = $var;
 
         return $this;
@@ -501,8 +501,8 @@ class GsOrdenesDetalleg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Importe = 15;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 15;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getImporte()
     {
@@ -520,13 +520,13 @@ class GsOrdenesDetalleg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Importe = 15;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 15;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setImporte($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Importe = $var;
 
         return $this;
@@ -565,8 +565,8 @@ class GsOrdenesDetalleg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 17;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 17;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getValorcambio()
     {
@@ -584,13 +584,13 @@ class GsOrdenesDetalleg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 17;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 17;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setValorcambio($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Valorcambio = $var;
 
         return $this;

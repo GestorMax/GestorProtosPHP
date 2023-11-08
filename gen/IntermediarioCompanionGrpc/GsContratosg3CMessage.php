@@ -70,7 +70,7 @@ class GsContratosg3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $FleteComprador = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage ComisEntregador = 15;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage ComisEntregador = 15;</code>
      */
     protected $ComisEntregador = null;
     /**
@@ -78,19 +78,19 @@ class GsContratosg3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Observ = null;
     /**
-     * Generated from protobuf field <code>double TnAcordadas = 17;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage TnAcordadas = 17;</code>
      */
-    protected $TnAcordadas = 0.0;
+    protected $TnAcordadas = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MinTnAFijar = 18;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MinTnAFijar = 18;</code>
      */
     protected $MinTnAFijar = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MaxTnAFijar = 19;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MaxTnAFijar = 19;</code>
      */
     protected $MaxTnAFijar = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Comision = 20;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Comision = 20;</code>
      */
     protected $Comision = null;
     /**
@@ -98,7 +98,7 @@ class GsContratosg3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codentregador = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage DescuentoFlete = 22;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage DescuentoFlete = 22;</code>
      */
     protected $DescuentoFlete = null;
     /**
@@ -170,14 +170,14 @@ class GsContratosg3CMessage extends \Google\Protobuf\Internal\Message
      *     @type \Google\Protobuf\Timestamp $FechaLimite
      *     @type int $Codprocedencia
      *     @type \ProtoMessages\StringMessage $FleteComprador
-     *     @type \ProtoMessages\DoubleMessage $ComisEntregador
+     *     @type \ProtoMessages\DecimalMessage $ComisEntregador
      *     @type \ProtoMessages\StringMessage $Observ
-     *     @type float $TnAcordadas
-     *     @type \ProtoMessages\DoubleMessage $MinTnAFijar
-     *     @type \ProtoMessages\DoubleMessage $MaxTnAFijar
-     *     @type \ProtoMessages\DoubleMessage $Comision
+     *     @type \ProtoMessages\DecimalMessage $TnAcordadas
+     *     @type \ProtoMessages\DecimalMessage $MinTnAFijar
+     *     @type \ProtoMessages\DecimalMessage $MaxTnAFijar
+     *     @type \ProtoMessages\DecimalMessage $Comision
      *     @type \ProtoMessages\Int32Message $Codentregador
-     *     @type \ProtoMessages\DoubleMessage $DescuentoFlete
+     *     @type \ProtoMessages\DecimalMessage $DescuentoFlete
      *     @type \ProtoMessages\Int32Message $Codplan
      *     @type \ProtoMessages\Int32Message $Codcuenta
      *     @type \ProtoMessages\Int32Message $UsrAlta
@@ -556,8 +556,8 @@ class GsContratosg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage ComisEntregador = 15;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage ComisEntregador = 15;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getComisEntregador()
     {
@@ -575,13 +575,13 @@ class GsContratosg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage ComisEntregador = 15;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage ComisEntregador = 15;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setComisEntregador($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->ComisEntregador = $var;
 
         return $this;
@@ -620,30 +620,40 @@ class GsContratosg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>double TnAcordadas = 17;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage TnAcordadas = 17;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getTnAcordadas()
     {
         return $this->TnAcordadas;
     }
 
+    public function hasTnAcordadas()
+    {
+        return isset($this->TnAcordadas);
+    }
+
+    public function clearTnAcordadas()
+    {
+        unset($this->TnAcordadas);
+    }
+
     /**
-     * Generated from protobuf field <code>double TnAcordadas = 17;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage TnAcordadas = 17;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setTnAcordadas($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->TnAcordadas = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MinTnAFijar = 18;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MinTnAFijar = 18;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getMinTnAFijar()
     {
@@ -661,21 +671,21 @@ class GsContratosg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MinTnAFijar = 18;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MinTnAFijar = 18;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setMinTnAFijar($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->MinTnAFijar = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MaxTnAFijar = 19;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MaxTnAFijar = 19;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getMaxTnAFijar()
     {
@@ -693,21 +703,21 @@ class GsContratosg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage MaxTnAFijar = 19;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage MaxTnAFijar = 19;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setMaxTnAFijar($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->MaxTnAFijar = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Comision = 20;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Comision = 20;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getComision()
     {
@@ -725,13 +735,13 @@ class GsContratosg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Comision = 20;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Comision = 20;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setComision($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Comision = $var;
 
         return $this;
@@ -770,8 +780,8 @@ class GsContratosg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage DescuentoFlete = 22;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage DescuentoFlete = 22;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getDescuentoFlete()
     {
@@ -789,13 +799,13 @@ class GsContratosg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage DescuentoFlete = 22;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage DescuentoFlete = 22;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setDescuentoFlete($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->DescuentoFlete = $var;
 
         return $this;

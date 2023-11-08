@@ -46,7 +46,7 @@ class GsPersonasBonificacioneMessage extends \Google\Protobuf\Internal\Message
      */
     protected $TipoBonif = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Bonificacion = 9;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Bonificacion = 9;</code>
      */
     protected $Bonificacion = null;
     /**
@@ -76,7 +76,7 @@ class GsPersonasBonificacioneMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\Int32Message $CodplanNegocios
      *     @type \ProtoMessages\Int32Message $CodcuentaNegocios
      *     @type \ProtoMessages\StringMessage $TipoBonif
-     *     @type \ProtoMessages\DoubleMessage $Bonificacion
+     *     @type \ProtoMessages\DecimalMessage $Bonificacion
      *     @type \Google\Protobuf\Timestamp $VigDesde
      *     @type \Google\Protobuf\Timestamp $VigHasta
      *     @type string $Tipooper
@@ -314,8 +314,8 @@ class GsPersonasBonificacioneMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Bonificacion = 9;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Bonificacion = 9;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getBonificacion()
     {
@@ -333,13 +333,13 @@ class GsPersonasBonificacioneMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Bonificacion = 9;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Bonificacion = 9;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setBonificacion($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Bonificacion = $var;
 
         return $this;
