@@ -19,13 +19,12 @@ class Grpc
         \GPBMetadata\ProtoMessages\Common::initOnce();
         $pool->internalAddGeneratedFile(
             '
-×
-!AnalyticsGrpc/Resource/Grpc.protoanalyticsGrpcResource%AnalyticsGrpc/Resource/Messages.protoProtoMessages/Common.proto2Ï
-
+¿
+!AnalyticsGrpc/Resource/Grpc.protoanalyticsGrpcResource%AnalyticsGrpc/Resource/Messages.protoProtoMessages/Common.proto2·
 AnalyticsResourceR
 ListSources.google.protobuf.Empty+.analyticsGrpcResource.ApiSourceMessageListR
-ListMetrics.google.protobuf.Empty+.analyticsGrpcResource.ApiMetricMessageList_
-	ListDatas".analyticsGrpcResource.DataRequest..analyticsGrpcResource.ApiScrapDataMessageList`
+ListMetrics.google.protobuf.Empty+.analyticsGrpcResource.ApiMetricMessageList^
+	ListDatas".analyticsGrpcResource.DataRequest+.analyticsGrpcResource.ApiScrapDataResponse0`
 ListLastMeasurements.google.protobuf.Empty0.analyticsGrpcResource.ApiMeasurementMessageList[
 LastMeasurement.google.protobuf.Empty0.analyticsGrpcResource.ApiMeasurementMessageListr
 ListMeasurements,.analyticsGrpcResource.ApiMeasurementRequest0.analyticsGrpcResource.ApiMeasurementMessageListm
@@ -36,7 +35,8 @@ ListValues#.analyticsGrpcResource.ValueRequest\'.analyticsGrpcResource.ValueMe
 ListLastValues\'.analyticsGrpcResource.LastValueRequest+.analyticsGrpcResource.LastValueMessageList}
 LastMultiMeasurements2.analyticsGrpcResource.LastMultiMeasurementRequest0.analyticsGrpcResource.ApiMeasurementMessageListy
 ListMultiMeasurements..analyticsGrpcResource.MultiMeasurementRequest0.analyticsGrpcResource.ApiMeasurementMessageListy
-LastMeasurementByDate-.analyticsGrpcResource.LastMeasurementRequest1.analyticsGrpcResource.ApiLastMeasurementResponsebproto3'
+LastMeasurementByDate-.analyticsGrpcResource.LastMeasurementRequest1.analyticsGrpcResource.ApiLastMeasurementResponseg
+GetLabelDatas(.analyticsGrpcResource.LabelDatasRequest,.analyticsGrpcResource.LabelDatasMessageListbproto3'
         , true);
 
         static::$is_initialized = true;

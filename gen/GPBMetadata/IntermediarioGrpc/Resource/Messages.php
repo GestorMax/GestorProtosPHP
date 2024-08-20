@@ -20,7 +20,7 @@ class Messages
         \GPBMetadata\IntermediarioGrpc\Shared\IntermediarioCompanionMessagesG::initOnce();
         $pool->internalAddGeneratedFile(
             '
-„T
+¯U
 )IntermediarioGrpc/Resource/Messages.protointermediarioGrpcResourceProtoMessages/Common.proto2IntermediarioGrpc/Shared/IntermediarioShared.proto?IntermediarioGrpc/Shared/IntermediarioCompanionMessages.g.proto"Á
 FisicosPorVencimientoRequest.
 
@@ -74,7 +74,11 @@ fechaHasta (2.google.protobuf.Timestamp
 omitirAsientosDeCierre ("é
 BalanceContableResponse-
 result (2.protoMessages.ResponseResultD
-message (23.intermediarioSharedMessages.BalanceContableMessage"ö
+message (23.intermediarioSharedMessages.BalanceContableMessage"g
+CuentasCorrientesSaldosRequest.
+
+fechaCorte (2.google.protobuf.Timestamp
+prioridadPlan ("ö
 LuciusBalanceContableResponse-
 result (2.protoMessages.ResponseResultJ
 message (29.intermediarioSharedMessages.LuciusBalanceContableMessage"+
@@ -95,7 +99,7 @@ fechaHasta (2.google.protobuf.Timestamp5
 soloDisponibles (2.protoMessages.StringMessage"ê
 ValoresEnCarteraResponse-
 result (2.protoMessages.ResponseResultE
-message (24.intermediarioSharedMessages.ValoresEnCarteraMessage"≥
+message (24.intermediarioSharedMessages.ValoresEnCarteraMessage"…
 LuciusMayorRequest
 codigoMoneda (.
 
@@ -103,6 +107,7 @@ fechaDesde (2.google.protobuf.Timestamp.
 
 fechaHasta (2.google.protobuf.Timestamp
 remedido (
+omitirCierre (
 soloApertura (
 filtroRubro (	
 filtroActividad (	
@@ -111,14 +116,15 @@ fechaHasta (2.google.protobuf.Timestamp
 
 filtroTipo
  (	
-filtroCampo (	"±
+filtroCampo (	"«
 LuciusBalanceRequest
 codigoMoneda (.
 
 fechaDesde (2.google.protobuf.Timestamp.
 
 fechaHasta (2.google.protobuf.Timestamp
-remedido (
+remedido (
+omitirCierre (
 apertura (	
 filtroRubro (	
 filtroActividad (	
