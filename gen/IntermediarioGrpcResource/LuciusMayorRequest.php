@@ -30,10 +30,6 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
      */
     protected $remedido = false;
     /**
-     * Generated from protobuf field <code>bool omitirCierre = 12;</code>
-     */
-    protected $omitirCierre = false;
-    /**
      * Generated from protobuf field <code>bool soloApertura = 5;</code>
      */
     protected $soloApertura = false;
@@ -72,7 +68,6 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
      *     @type \Google\Protobuf\Timestamp $fechaDesde
      *     @type \Google\Protobuf\Timestamp $fechaHasta
      *     @type bool $remedido
-     *     @type bool $omitirCierre
      *     @type bool $soloApertura
      *     @type string $filtroRubro
      *     @type string $filtroActividad
@@ -191,28 +186,6 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     {
         GPBUtil::checkBool($var);
         $this->remedido = $var;
-
-        return $this;
-    }
-
-    /**
-     * Generated from protobuf field <code>bool omitirCierre = 12;</code>
-     * @return bool
-     */
-    public function getOmitirCierre()
-    {
-        return $this->omitirCierre;
-    }
-
-    /**
-     * Generated from protobuf field <code>bool omitirCierre = 12;</code>
-     * @param bool $var
-     * @return $this
-     */
-    public function setOmitirCierre($var)
-    {
-        GPBUtil::checkBool($var);
-        $this->omitirCierre = $var;
 
         return $this;
     }

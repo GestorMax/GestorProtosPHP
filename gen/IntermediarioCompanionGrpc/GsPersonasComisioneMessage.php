@@ -46,7 +46,7 @@ class GsPersonasComisioneMessage extends \Google\Protobuf\Internal\Message
      */
     protected $CodcuentaNegocios = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Comision = 9;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Comision = 9;</code>
      */
     protected $Comision = null;
     /**
@@ -68,7 +68,7 @@ class GsPersonasComisioneMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\Int32Message $PrioridadNegocios
      *     @type \ProtoMessages\Int32Message $CodplanNegocios
      *     @type \ProtoMessages\Int32Message $CodcuentaNegocios
-     *     @type \ProtoMessages\DecimalMessage $Comision
+     *     @type \ProtoMessages\DoubleMessage $Comision
      *     @type \ProtoMessages\StringMessage $Coddestino
      * }
      */
@@ -294,8 +294,8 @@ class GsPersonasComisioneMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Comision = 9;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Comision = 9;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getComision()
     {
@@ -313,13 +313,13 @@ class GsPersonasComisioneMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Comision = 9;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Comision = 9;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setComision($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->Comision = $var;
 
         return $this;

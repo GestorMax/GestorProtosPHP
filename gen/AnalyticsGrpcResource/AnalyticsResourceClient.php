@@ -48,13 +48,13 @@ class AnalyticsResourceClient extends \Grpc\BaseStub {
      * @param \AnalyticsGrpcResource\DataRequest $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
-     * @return \Grpc\ServerStreamingCall
+     * @return \Grpc\UnaryCall
      */
     public function ListDatas(\AnalyticsGrpcResource\DataRequest $argument,
       $metadata = [], $options = []) {
-        return $this->_serverStreamRequest('/analyticsGrpcResource.AnalyticsResource/ListDatas',
+        return $this->_simpleRequest('/analyticsGrpcResource.AnalyticsResource/ListDatas',
         $argument,
-        ['\AnalyticsGrpcResource\ApiScrapDataResponse', 'decode'],
+        ['\AnalyticsGrpcResource\ApiScrapDataMessageList', 'decode'],
         $metadata, $options);
     }
 
@@ -195,20 +195,6 @@ class AnalyticsResourceClient extends \Grpc\BaseStub {
         return $this->_simpleRequest('/analyticsGrpcResource.AnalyticsResource/LastMeasurementByDate',
         $argument,
         ['\AnalyticsGrpcResource\ApiLastMeasurementResponse', 'decode'],
-        $metadata, $options);
-    }
-
-    /**
-     * @param \AnalyticsGrpcResource\LabelDatasRequest $argument input argument
-     * @param array $metadata metadata
-     * @param array $options call options
-     * @return \Grpc\UnaryCall
-     */
-    public function GetLabelDatas(\AnalyticsGrpcResource\LabelDatasRequest $argument,
-      $metadata = [], $options = []) {
-        return $this->_simpleRequest('/analyticsGrpcResource.AnalyticsResource/GetLabelDatas',
-        $argument,
-        ['\AnalyticsGrpcResource\LabelDatasMessageList', 'decode'],
         $metadata, $options);
     }
 

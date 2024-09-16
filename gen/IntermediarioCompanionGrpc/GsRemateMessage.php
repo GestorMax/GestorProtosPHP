@@ -126,7 +126,7 @@ class GsRemateMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codmoneda = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 29;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 29;</code>
      */
     protected $Valorcambio = null;
     /**
@@ -168,7 +168,7 @@ class GsRemateMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\StringMessage $OrigenHacienda
      *     @type \ProtoMessages\StringMessage $CodPostalHacienda
      *     @type \ProtoMessages\Int32Message $Codmoneda
-     *     @type \ProtoMessages\DecimalMessage $Valorcambio
+     *     @type \ProtoMessages\DoubleMessage $Valorcambio
      *     @type \Google\Protobuf\Timestamp $Fecfaena
      * }
      */
@@ -944,8 +944,8 @@ class GsRemateMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 29;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 29;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getValorcambio()
     {
@@ -963,13 +963,13 @@ class GsRemateMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 29;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 29;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setValorcambio($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->Valorcambio = $var;
 
         return $this;

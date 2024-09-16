@@ -22,9 +22,9 @@ class GsTarifasCatacg3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Distancia = 0.0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Tarifa = 3;</code>
+     * Generated from protobuf field <code>double Tarifa = 3;</code>
      */
-    protected $Tarifa = null;
+    protected $Tarifa = 0.0;
 
     /**
      * Constructor.
@@ -34,7 +34,7 @@ class GsTarifasCatacg3CMessage extends \Google\Protobuf\Internal\Message
      *
      *     @type int $Codcatac
      *     @type float $Distancia
-     *     @type \ProtoMessages\DecimalMessage $Tarifa
+     *     @type float $Tarifa
      * }
      */
     public function __construct($data = NULL) {
@@ -87,32 +87,22 @@ class GsTarifasCatacg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Tarifa = 3;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Tarifa = 3;</code>
+     * @return float
      */
     public function getTarifa()
     {
         return $this->Tarifa;
     }
 
-    public function hasTarifa()
-    {
-        return isset($this->Tarifa);
-    }
-
-    public function clearTarifa()
-    {
-        unset($this->Tarifa);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Tarifa = 3;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Tarifa = 3;</code>
+     * @param float $var
      * @return $this
      */
     public function setTarifa($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Tarifa = $var;
 
         return $this;

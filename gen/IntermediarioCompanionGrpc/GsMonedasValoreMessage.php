@@ -26,9 +26,9 @@ class GsMonedasValoreMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Fecha = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valor = 4;</code>
+     * Generated from protobuf field <code>double Valor = 4;</code>
      */
-    protected $Valor = null;
+    protected $Valor = 0.0;
 
     /**
      * Constructor.
@@ -39,7 +39,7 @@ class GsMonedasValoreMessage extends \Google\Protobuf\Internal\Message
      *     @type int $Codbase
      *     @type int $Codcambio
      *     @type \Google\Protobuf\Timestamp $Fecha
-     *     @type \ProtoMessages\DecimalMessage $Valor
+     *     @type float $Valor
      * }
      */
     public function __construct($data = NULL) {
@@ -124,32 +124,22 @@ class GsMonedasValoreMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valor = 4;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Valor = 4;</code>
+     * @return float
      */
     public function getValor()
     {
         return $this->Valor;
     }
 
-    public function hasValor()
-    {
-        return isset($this->Valor);
-    }
-
-    public function clearValor()
-    {
-        unset($this->Valor);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valor = 4;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Valor = 4;</code>
+     * @param float $var
      * @return $this
      */
     public function setValor($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Valor = $var;
 
         return $this;

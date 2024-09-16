@@ -50,15 +50,15 @@ class GsPlanAcciong3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $SupCosechada = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RindePresup = 10;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RindePresup = 10;</code>
      */
     protected $RindePresup = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RindeSembrado = 11;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RindeSembrado = 11;</code>
      */
     protected $RindeSembrado = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RindeEstimado = 12;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RindeEstimado = 12;</code>
      */
     protected $RindeEstimado = null;
     /**
@@ -81,9 +81,9 @@ class GsPlanAcciong3CMessage extends \Google\Protobuf\Internal\Message
      *     @type float $Superficie
      *     @type \ProtoMessages\StringMessage $Variedad
      *     @type \ProtoMessages\DoubleMessage $SupCosechada
-     *     @type \ProtoMessages\DecimalMessage $RindePresup
-     *     @type \ProtoMessages\DecimalMessage $RindeSembrado
-     *     @type \ProtoMessages\DecimalMessage $RindeEstimado
+     *     @type \ProtoMessages\DoubleMessage $RindePresup
+     *     @type \ProtoMessages\DoubleMessage $RindeSembrado
+     *     @type \ProtoMessages\DoubleMessage $RindeEstimado
      *     @type \ProtoMessages\StringMessage $Estado
      * }
      */
@@ -311,8 +311,8 @@ class GsPlanAcciong3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RindePresup = 10;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RindePresup = 10;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getRindePresup()
     {
@@ -330,21 +330,21 @@ class GsPlanAcciong3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RindePresup = 10;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RindePresup = 10;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setRindePresup($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->RindePresup = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RindeSembrado = 11;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RindeSembrado = 11;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getRindeSembrado()
     {
@@ -362,21 +362,21 @@ class GsPlanAcciong3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RindeSembrado = 11;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RindeSembrado = 11;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setRindeSembrado($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->RindeSembrado = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RindeEstimado = 12;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RindeEstimado = 12;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getRindeEstimado()
     {
@@ -394,13 +394,13 @@ class GsPlanAcciong3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RindeEstimado = 12;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RindeEstimado = 12;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setRindeEstimado($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->RindeEstimado = $var;
 
         return $this;

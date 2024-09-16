@@ -26,17 +26,17 @@ class GsPedidosCotizacionDetalleMessage extends \Google\Protobuf\Internal\Messag
      */
     protected $CodprodElab = 0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantidad = 4;</code>
+     * Generated from protobuf field <code>double Cantidad = 4;</code>
      */
-    protected $Cantidad = null;
+    protected $Cantidad = 0.0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Precio = 5;</code>
+     * Generated from protobuf field <code>double Precio = 5;</code>
      */
-    protected $Precio = null;
+    protected $Precio = 0.0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Total = 6;</code>
+     * Generated from protobuf field <code>double Total = 6;</code>
      */
-    protected $Total = null;
+    protected $Total = 0.0;
 
     /**
      * Constructor.
@@ -47,9 +47,9 @@ class GsPedidosCotizacionDetalleMessage extends \Google\Protobuf\Internal\Messag
      *     @type int $Codcotizacion
      *     @type int $Numlinea
      *     @type int $CodprodElab
-     *     @type \ProtoMessages\DecimalMessage $Cantidad
-     *     @type \ProtoMessages\DecimalMessage $Precio
-     *     @type \ProtoMessages\DecimalMessage $Total
+     *     @type float $Cantidad
+     *     @type float $Precio
+     *     @type float $Total
      * }
      */
     public function __construct($data = NULL) {
@@ -124,96 +124,66 @@ class GsPedidosCotizacionDetalleMessage extends \Google\Protobuf\Internal\Messag
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantidad = 4;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Cantidad = 4;</code>
+     * @return float
      */
     public function getCantidad()
     {
         return $this->Cantidad;
     }
 
-    public function hasCantidad()
-    {
-        return isset($this->Cantidad);
-    }
-
-    public function clearCantidad()
-    {
-        unset($this->Cantidad);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantidad = 4;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Cantidad = 4;</code>
+     * @param float $var
      * @return $this
      */
     public function setCantidad($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Cantidad = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Precio = 5;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Precio = 5;</code>
+     * @return float
      */
     public function getPrecio()
     {
         return $this->Precio;
     }
 
-    public function hasPrecio()
-    {
-        return isset($this->Precio);
-    }
-
-    public function clearPrecio()
-    {
-        unset($this->Precio);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Precio = 5;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Precio = 5;</code>
+     * @param float $var
      * @return $this
      */
     public function setPrecio($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Precio = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Total = 6;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Total = 6;</code>
+     * @return float
      */
     public function getTotal()
     {
         return $this->Total;
     }
 
-    public function hasTotal()
-    {
-        return isset($this->Total);
-    }
-
-    public function clearTotal()
-    {
-        unset($this->Total);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Total = 6;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Total = 6;</code>
+     * @param float $var
      * @return $this
      */
     public function setTotal($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Total = $var;
 
         return $this;

@@ -34,15 +34,15 @@ class GsPedidosCotizacionMaterialeMessage extends \Google\Protobuf\Internal\Mess
      */
     protected $FraccionesTot = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage FraccionesUsadas = 6;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage FraccionesUsadas = 6;</code>
      */
     protected $FraccionesUsadas = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Precio = 7;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Precio = 7;</code>
      */
     protected $Precio = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Total = 8;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Total = 8;</code>
      */
     protected $Total = null;
     /**
@@ -61,9 +61,9 @@ class GsPedidosCotizacionMaterialeMessage extends \Google\Protobuf\Internal\Mess
      *     @type int $Numlinea
      *     @type int $Codproducto
      *     @type \ProtoMessages\Int32Message $FraccionesTot
-     *     @type \ProtoMessages\DecimalMessage $FraccionesUsadas
-     *     @type \ProtoMessages\DecimalMessage $Precio
-     *     @type \ProtoMessages\DecimalMessage $Total
+     *     @type \ProtoMessages\DoubleMessage $FraccionesUsadas
+     *     @type \ProtoMessages\DoubleMessage $Precio
+     *     @type \ProtoMessages\DoubleMessage $Total
      *     @type string $Estado
      * }
      */
@@ -193,8 +193,8 @@ class GsPedidosCotizacionMaterialeMessage extends \Google\Protobuf\Internal\Mess
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage FraccionesUsadas = 6;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage FraccionesUsadas = 6;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getFraccionesUsadas()
     {
@@ -212,21 +212,21 @@ class GsPedidosCotizacionMaterialeMessage extends \Google\Protobuf\Internal\Mess
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage FraccionesUsadas = 6;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage FraccionesUsadas = 6;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setFraccionesUsadas($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->FraccionesUsadas = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Precio = 7;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Precio = 7;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getPrecio()
     {
@@ -244,21 +244,21 @@ class GsPedidosCotizacionMaterialeMessage extends \Google\Protobuf\Internal\Mess
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Precio = 7;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Precio = 7;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setPrecio($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->Precio = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Total = 8;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Total = 8;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getTotal()
     {
@@ -276,13 +276,13 @@ class GsPedidosCotizacionMaterialeMessage extends \Google\Protobuf\Internal\Mess
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Total = 8;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Total = 8;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setTotal($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->Total = $var;
 
         return $this;

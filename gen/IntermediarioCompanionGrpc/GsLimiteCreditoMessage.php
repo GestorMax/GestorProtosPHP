@@ -22,9 +22,9 @@ class GsLimiteCreditoMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Descrip = '';
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage LimiteCredito = 3;</code>
+     * Generated from protobuf field <code>double LimiteCredito = 3;</code>
      */
-    protected $LimiteCredito = null;
+    protected $LimiteCredito = 0.0;
 
     /**
      * Constructor.
@@ -34,7 +34,7 @@ class GsLimiteCreditoMessage extends \Google\Protobuf\Internal\Message
      *
      *     @type int $CodlimiteCredito
      *     @type string $Descrip
-     *     @type \ProtoMessages\DecimalMessage $LimiteCredito
+     *     @type float $LimiteCredito
      * }
      */
     public function __construct($data = NULL) {
@@ -87,32 +87,22 @@ class GsLimiteCreditoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage LimiteCredito = 3;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double LimiteCredito = 3;</code>
+     * @return float
      */
     public function getLimiteCredito()
     {
         return $this->LimiteCredito;
     }
 
-    public function hasLimiteCredito()
-    {
-        return isset($this->LimiteCredito);
-    }
-
-    public function clearLimiteCredito()
-    {
-        unset($this->LimiteCredito);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage LimiteCredito = 3;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double LimiteCredito = 3;</code>
+     * @param float $var
      * @return $this
      */
     public function setLimiteCredito($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->LimiteCredito = $var;
 
         return $this;

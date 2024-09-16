@@ -30,13 +30,13 @@ class GsDevengadoComisioneMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Tasa = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 5;</code>
+     * Generated from protobuf field <code>double Importe = 5;</code>
      */
-    protected $Importe = null;
+    protected $Importe = 0.0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Mimporte = 6;</code>
+     * Generated from protobuf field <code>double Mimporte = 6;</code>
      */
-    protected $Mimporte = null;
+    protected $Mimporte = 0.0;
     /**
      * Generated from protobuf field <code>.protoMessages.StringMessage Comentario = 7;</code>
      */
@@ -68,8 +68,8 @@ class GsDevengadoComisioneMessage extends \Google\Protobuf\Internal\Message
      *     @type int $Numero
      *     @type int $Codagente
      *     @type \ProtoMessages\DoubleMessage $Tasa
-     *     @type \ProtoMessages\DecimalMessage $Importe
-     *     @type \ProtoMessages\DecimalMessage $Mimporte
+     *     @type float $Importe
+     *     @type float $Mimporte
      *     @type \ProtoMessages\StringMessage $Comentario
      *     @type \ProtoMessages\Int32Message $NumeroCancelacion
      *     @type int $Orden
@@ -181,64 +181,44 @@ class GsDevengadoComisioneMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 5;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Importe = 5;</code>
+     * @return float
      */
     public function getImporte()
     {
         return $this->Importe;
     }
 
-    public function hasImporte()
-    {
-        return isset($this->Importe);
-    }
-
-    public function clearImporte()
-    {
-        unset($this->Importe);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 5;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Importe = 5;</code>
+     * @param float $var
      * @return $this
      */
     public function setImporte($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Importe = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Mimporte = 6;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Mimporte = 6;</code>
+     * @return float
      */
     public function getMimporte()
     {
         return $this->Mimporte;
     }
 
-    public function hasMimporte()
-    {
-        return isset($this->Mimporte);
-    }
-
-    public function clearMimporte()
-    {
-        unset($this->Mimporte);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Mimporte = 6;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Mimporte = 6;</code>
+     * @param float $var
      * @return $this
      */
     public function setMimporte($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Mimporte = $var;
 
         return $this;

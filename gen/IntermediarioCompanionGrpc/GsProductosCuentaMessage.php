@@ -34,13 +34,13 @@ class GsProductosCuentaMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codcuenta = 0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 6;</code>
+     * Generated from protobuf field <code>double Canttotal = 6;</code>
      */
-    protected $Canttotal = null;
+    protected $Canttotal = 0.0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 7;</code>
+     * Generated from protobuf field <code>double Importe = 7;</code>
      */
-    protected $Importe = null;
+    protected $Importe = 0.0;
 
     /**
      * Constructor.
@@ -53,8 +53,8 @@ class GsProductosCuentaMessage extends \Google\Protobuf\Internal\Message
      *     @type int $Prioridad
      *     @type int $Codplan
      *     @type int $Codcuenta
-     *     @type \ProtoMessages\DecimalMessage $Canttotal
-     *     @type \ProtoMessages\DecimalMessage $Importe
+     *     @type float $Canttotal
+     *     @type float $Importe
      * }
      */
     public function __construct($data = NULL) {
@@ -173,64 +173,44 @@ class GsProductosCuentaMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 6;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Canttotal = 6;</code>
+     * @return float
      */
     public function getCanttotal()
     {
         return $this->Canttotal;
     }
 
-    public function hasCanttotal()
-    {
-        return isset($this->Canttotal);
-    }
-
-    public function clearCanttotal()
-    {
-        unset($this->Canttotal);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 6;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Canttotal = 6;</code>
+     * @param float $var
      * @return $this
      */
     public function setCanttotal($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Canttotal = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 7;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Importe = 7;</code>
+     * @return float
      */
     public function getImporte()
     {
         return $this->Importe;
     }
 
-    public function hasImporte()
-    {
-        return isset($this->Importe);
-    }
-
-    public function clearImporte()
-    {
-        unset($this->Importe);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 7;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Importe = 7;</code>
+     * @param float $var
      * @return $this
      */
     public function setImporte($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Importe = $var;
 
         return $this;

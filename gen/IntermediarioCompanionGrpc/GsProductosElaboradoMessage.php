@@ -26,11 +26,11 @@ class GsProductosElaboradoMessage extends \Google\Protobuf\Internal\Message
      */
     protected $TipoProduccion = '';
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantparte = 4;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Cantparte = 4;</code>
      */
     protected $Cantparte = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Canttotal = 5;</code>
      */
     protected $Canttotal = null;
     /**
@@ -79,8 +79,8 @@ class GsProductosElaboradoMessage extends \Google\Protobuf\Internal\Message
      *     @type int $CodprodElab
      *     @type int $Codproducto
      *     @type string $TipoProduccion
-     *     @type \ProtoMessages\DecimalMessage $Cantparte
-     *     @type \ProtoMessages\DecimalMessage $Canttotal
+     *     @type \ProtoMessages\DoubleMessage $Cantparte
+     *     @type \ProtoMessages\DoubleMessage $Canttotal
      *     @type \ProtoMessages\DecimalMessage $Coef
      *     @type \ProtoMessages\StringMessage $Notas
      *     @type \ProtoMessages\StringMessage $ArchivosAdjuntos
@@ -164,8 +164,8 @@ class GsProductosElaboradoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantparte = 4;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Cantparte = 4;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getCantparte()
     {
@@ -183,21 +183,21 @@ class GsProductosElaboradoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantparte = 4;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Cantparte = 4;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setCantparte($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->Cantparte = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 5;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Canttotal = 5;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getCanttotal()
     {
@@ -215,13 +215,13 @@ class GsProductosElaboradoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 5;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Canttotal = 5;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setCanttotal($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->Canttotal = $var;
 
         return $this;

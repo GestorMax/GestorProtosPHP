@@ -22,9 +22,9 @@ class GsListasPreciosImportacionMessage extends \Google\Protobuf\Internal\Messag
      */
     protected $Codproducto = 0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Coef = 3;</code>
+     * Generated from protobuf field <code>double Coef = 3;</code>
      */
-    protected $Coef = null;
+    protected $Coef = 0.0;
     /**
      * Generated from protobuf field <code>int32 Codmoneda = 4;</code>
      */
@@ -38,7 +38,7 @@ class GsListasPreciosImportacionMessage extends \Google\Protobuf\Internal\Messag
      *
      *     @type int $Codlista
      *     @type int $Codproducto
-     *     @type \ProtoMessages\DecimalMessage $Coef
+     *     @type float $Coef
      *     @type int $Codmoneda
      * }
      */
@@ -92,32 +92,22 @@ class GsListasPreciosImportacionMessage extends \Google\Protobuf\Internal\Messag
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Coef = 3;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Coef = 3;</code>
+     * @return float
      */
     public function getCoef()
     {
         return $this->Coef;
     }
 
-    public function hasCoef()
-    {
-        return isset($this->Coef);
-    }
-
-    public function clearCoef()
-    {
-        unset($this->Coef);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Coef = 3;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Coef = 3;</code>
+     * @param float $var
      * @return $this
      */
     public function setCoef($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Coef = $var;
 
         return $this;

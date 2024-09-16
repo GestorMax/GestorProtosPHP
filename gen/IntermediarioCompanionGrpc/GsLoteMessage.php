@@ -54,7 +54,7 @@ class GsLoteMessage extends \Google\Protobuf\Internal\Message
      */
     protected $CodagenteVenta = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage ComisionVenta = 11;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage ComisionVenta = 11;</code>
      */
     protected $ComisionVenta = null;
     /**
@@ -62,7 +62,7 @@ class GsLoteMessage extends \Google\Protobuf\Internal\Message
      */
     protected $CodagenteCompra = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage ComisionCompra = 13;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage ComisionCompra = 13;</code>
      */
     protected $ComisionCompra = null;
     /**
@@ -94,11 +94,11 @@ class GsLoteMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codproducto = 0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantparte = 21;</code>
+     * Generated from protobuf field <code>double Cantparte = 21;</code>
      */
-    protected $Cantparte = null;
+    protected $Cantparte = 0.0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 22;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Canttotal = 22;</code>
      */
     protected $Canttotal = null;
     /**
@@ -106,9 +106,9 @@ class GsLoteMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Coddestino = '';
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Precio = 24;</code>
+     * Generated from protobuf field <code>double Precio = 24;</code>
      */
-    protected $Precio = null;
+    protected $Precio = 0.0;
     /**
      * Generated from protobuf field <code>.protoMessages.StringMessage Notas = 25;</code>
      */
@@ -154,9 +154,9 @@ class GsLoteMessage extends \Google\Protobuf\Internal\Message
      *     @type int $Codusuario
      *     @type int $Codpersfisica
      *     @type \ProtoMessages\Int32Message $CodagenteVenta
-     *     @type \ProtoMessages\DecimalMessage $ComisionVenta
+     *     @type \ProtoMessages\DoubleMessage $ComisionVenta
      *     @type \ProtoMessages\Int32Message $CodagenteCompra
-     *     @type \ProtoMessages\DecimalMessage $ComisionCompra
+     *     @type \ProtoMessages\DoubleMessage $ComisionCompra
      *     @type int $Codlocprocedencia
      *     @type int $Codlocdestino
      *     @type \ProtoMessages\Int32Message $Codfaenador
@@ -164,10 +164,10 @@ class GsLoteMessage extends \Google\Protobuf\Internal\Message
      *     @type int $CodcuentaClasif
      *     @type int $Codgrupoalic
      *     @type int $Codproducto
-     *     @type \ProtoMessages\DecimalMessage $Cantparte
-     *     @type \ProtoMessages\DecimalMessage $Canttotal
+     *     @type float $Cantparte
+     *     @type \ProtoMessages\DoubleMessage $Canttotal
      *     @type string $Coddestino
-     *     @type \ProtoMessages\DecimalMessage $Precio
+     *     @type float $Precio
      *     @type \ProtoMessages\StringMessage $Notas
      *     @type \ProtoMessages\Int32Message $UsrAlta
      *     @type \Google\Protobuf\Timestamp $FecAlta
@@ -413,8 +413,8 @@ class GsLoteMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage ComisionVenta = 11;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage ComisionVenta = 11;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getComisionVenta()
     {
@@ -432,13 +432,13 @@ class GsLoteMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage ComisionVenta = 11;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage ComisionVenta = 11;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setComisionVenta($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->ComisionVenta = $var;
 
         return $this;
@@ -477,8 +477,8 @@ class GsLoteMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage ComisionCompra = 13;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage ComisionCompra = 13;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getComisionCompra()
     {
@@ -496,13 +496,13 @@ class GsLoteMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage ComisionCompra = 13;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage ComisionCompra = 13;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setComisionCompra($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->ComisionCompra = $var;
 
         return $this;
@@ -673,40 +673,30 @@ class GsLoteMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantparte = 21;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Cantparte = 21;</code>
+     * @return float
      */
     public function getCantparte()
     {
         return $this->Cantparte;
     }
 
-    public function hasCantparte()
-    {
-        return isset($this->Cantparte);
-    }
-
-    public function clearCantparte()
-    {
-        unset($this->Cantparte);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantparte = 21;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Cantparte = 21;</code>
+     * @param float $var
      * @return $this
      */
     public function setCantparte($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Cantparte = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 22;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Canttotal = 22;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getCanttotal()
     {
@@ -724,13 +714,13 @@ class GsLoteMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 22;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Canttotal = 22;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setCanttotal($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->Canttotal = $var;
 
         return $this;
@@ -759,32 +749,22 @@ class GsLoteMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Precio = 24;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Precio = 24;</code>
+     * @return float
      */
     public function getPrecio()
     {
         return $this->Precio;
     }
 
-    public function hasPrecio()
-    {
-        return isset($this->Precio);
-    }
-
-    public function clearPrecio()
-    {
-        unset($this->Precio);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Precio = 24;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Precio = 24;</code>
+     * @param float $var
      * @return $this
      */
     public function setPrecio($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Precio = $var;
 
         return $this;

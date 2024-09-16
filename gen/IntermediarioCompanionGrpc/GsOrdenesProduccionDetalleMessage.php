@@ -38,11 +38,11 @@ class GsOrdenesProduccionDetalleMessage extends \Google\Protobuf\Internal\Messag
      */
     protected $Codproducto = 0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantparte = 7;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Cantparte = 7;</code>
      */
     protected $Cantparte = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 8;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Canttotal = 8;</code>
      */
     protected $Canttotal = null;
     /**
@@ -54,7 +54,7 @@ class GsOrdenesProduccionDetalleMessage extends \Google\Protobuf\Internal\Messag
      */
     protected $Observ = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantneta = 11;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Cantneta = 11;</code>
      */
     protected $Cantneta = null;
 
@@ -70,11 +70,11 @@ class GsOrdenesProduccionDetalleMessage extends \Google\Protobuf\Internal\Messag
      *     @type int $Dia
      *     @type \Google\Protobuf\Timestamp $Fecha
      *     @type int $Codproducto
-     *     @type \ProtoMessages\DecimalMessage $Cantparte
-     *     @type \ProtoMessages\DecimalMessage $Canttotal
+     *     @type \ProtoMessages\DoubleMessage $Cantparte
+     *     @type \ProtoMessages\DoubleMessage $Canttotal
      *     @type \ProtoMessages\DecimalMessage $Coef
      *     @type \ProtoMessages\StringMessage $Observ
-     *     @type \ProtoMessages\DecimalMessage $Cantneta
+     *     @type \ProtoMessages\DoubleMessage $Cantneta
      * }
      */
     public function __construct($data = NULL) {
@@ -225,8 +225,8 @@ class GsOrdenesProduccionDetalleMessage extends \Google\Protobuf\Internal\Messag
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantparte = 7;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Cantparte = 7;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getCantparte()
     {
@@ -244,21 +244,21 @@ class GsOrdenesProduccionDetalleMessage extends \Google\Protobuf\Internal\Messag
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantparte = 7;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Cantparte = 7;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setCantparte($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->Cantparte = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 8;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Canttotal = 8;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getCanttotal()
     {
@@ -276,13 +276,13 @@ class GsOrdenesProduccionDetalleMessage extends \Google\Protobuf\Internal\Messag
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Canttotal = 8;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Canttotal = 8;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setCanttotal($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->Canttotal = $var;
 
         return $this;
@@ -353,8 +353,8 @@ class GsOrdenesProduccionDetalleMessage extends \Google\Protobuf\Internal\Messag
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantneta = 11;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Cantneta = 11;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getCantneta()
     {
@@ -372,13 +372,13 @@ class GsOrdenesProduccionDetalleMessage extends \Google\Protobuf\Internal\Messag
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Cantneta = 11;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Cantneta = 11;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setCantneta($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->Cantneta = $var;
 
         return $this;

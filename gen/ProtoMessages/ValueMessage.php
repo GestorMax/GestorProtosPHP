@@ -25,8 +25,6 @@ class ValueMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\Int32Message $int32MessageValue
      *     @type int|string $int64Value
      *     @type \ProtoMessages\Int64Message $int64MessageValue
-     *     @type int|string $uint64Value
-     *     @type \ProtoMessages\Uint64Message $uint64MessageValue
      *     @type float $floatValue
      *     @type \ProtoMessages\FloatMessage $floatMessageValue
      *     @type float $doubleValue
@@ -156,406 +154,352 @@ class ValueMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>uint64 uint64Value = 5;</code>
-     * @return int|string
+     * Generated from protobuf field <code>float floatValue = 5;</code>
+     * @return float
      */
-    public function getUint64Value()
+    public function getFloatValue()
     {
         return $this->readOneof(5);
     }
 
-    public function hasUint64Value()
+    public function hasFloatValue()
     {
         return $this->hasOneof(5);
     }
 
     /**
-     * Generated from protobuf field <code>uint64 uint64Value = 5;</code>
-     * @param int|string $var
-     * @return $this
-     */
-    public function setUint64Value($var)
-    {
-        GPBUtil::checkUint64($var);
-        $this->writeOneof(5, $var);
-
-        return $this;
-    }
-
-    /**
-     * Generated from protobuf field <code>.protoMessages.Uint64Message uint64MessageValue = 6;</code>
-     * @return \ProtoMessages\Uint64Message|null
-     */
-    public function getUint64MessageValue()
-    {
-        return $this->readOneof(6);
-    }
-
-    public function hasUint64MessageValue()
-    {
-        return $this->hasOneof(6);
-    }
-
-    /**
-     * Generated from protobuf field <code>.protoMessages.Uint64Message uint64MessageValue = 6;</code>
-     * @param \ProtoMessages\Uint64Message $var
-     * @return $this
-     */
-    public function setUint64MessageValue($var)
-    {
-        GPBUtil::checkMessage($var, \ProtoMessages\Uint64Message::class);
-        $this->writeOneof(6, $var);
-
-        return $this;
-    }
-
-    /**
-     * Generated from protobuf field <code>float floatValue = 7;</code>
-     * @return float
-     */
-    public function getFloatValue()
-    {
-        return $this->readOneof(7);
-    }
-
-    public function hasFloatValue()
-    {
-        return $this->hasOneof(7);
-    }
-
-    /**
-     * Generated from protobuf field <code>float floatValue = 7;</code>
+     * Generated from protobuf field <code>float floatValue = 5;</code>
      * @param float $var
      * @return $this
      */
     public function setFloatValue($var)
     {
         GPBUtil::checkFloat($var);
-        $this->writeOneof(7, $var);
+        $this->writeOneof(5, $var);
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.FloatMessage floatMessageValue = 8;</code>
+     * Generated from protobuf field <code>.protoMessages.FloatMessage floatMessageValue = 6;</code>
      * @return \ProtoMessages\FloatMessage|null
      */
     public function getFloatMessageValue()
     {
-        return $this->readOneof(8);
+        return $this->readOneof(6);
     }
 
     public function hasFloatMessageValue()
     {
-        return $this->hasOneof(8);
+        return $this->hasOneof(6);
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.FloatMessage floatMessageValue = 8;</code>
+     * Generated from protobuf field <code>.protoMessages.FloatMessage floatMessageValue = 6;</code>
      * @param \ProtoMessages\FloatMessage $var
      * @return $this
      */
     public function setFloatMessageValue($var)
     {
         GPBUtil::checkMessage($var, \ProtoMessages\FloatMessage::class);
-        $this->writeOneof(8, $var);
+        $this->writeOneof(6, $var);
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>double doubleValue = 9;</code>
+     * Generated from protobuf field <code>double doubleValue = 7;</code>
      * @return float
      */
     public function getDoubleValue()
     {
-        return $this->readOneof(9);
+        return $this->readOneof(7);
     }
 
     public function hasDoubleValue()
     {
-        return $this->hasOneof(9);
+        return $this->hasOneof(7);
     }
 
     /**
-     * Generated from protobuf field <code>double doubleValue = 9;</code>
+     * Generated from protobuf field <code>double doubleValue = 7;</code>
      * @param float $var
      * @return $this
      */
     public function setDoubleValue($var)
     {
         GPBUtil::checkDouble($var);
-        $this->writeOneof(9, $var);
+        $this->writeOneof(7, $var);
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage doubleMessageValue = 10;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage doubleMessageValue = 8;</code>
      * @return \ProtoMessages\DoubleMessage|null
      */
     public function getDoubleMessageValue()
     {
-        return $this->readOneof(10);
+        return $this->readOneof(8);
     }
 
     public function hasDoubleMessageValue()
     {
-        return $this->hasOneof(10);
+        return $this->hasOneof(8);
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage doubleMessageValue = 10;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage doubleMessageValue = 8;</code>
      * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setDoubleMessageValue($var)
     {
         GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
-        $this->writeOneof(10, $var);
+        $this->writeOneof(8, $var);
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage decimalMessageValue = 11;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage decimalMessageValue = 9;</code>
      * @return \ProtoMessages\DecimalMessage|null
      */
     public function getDecimalMessageValue()
     {
-        return $this->readOneof(11);
+        return $this->readOneof(9);
     }
 
     public function hasDecimalMessageValue()
     {
-        return $this->hasOneof(11);
+        return $this->hasOneof(9);
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage decimalMessageValue = 11;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage decimalMessageValue = 9;</code>
      * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setDecimalMessageValue($var)
     {
         GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
-        $this->writeOneof(11, $var);
+        $this->writeOneof(9, $var);
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>bool boolValue = 12;</code>
+     * Generated from protobuf field <code>bool boolValue = 10;</code>
      * @return bool
      */
     public function getBoolValue()
     {
-        return $this->readOneof(12);
+        return $this->readOneof(10);
     }
 
     public function hasBoolValue()
     {
-        return $this->hasOneof(12);
+        return $this->hasOneof(10);
     }
 
     /**
-     * Generated from protobuf field <code>bool boolValue = 12;</code>
+     * Generated from protobuf field <code>bool boolValue = 10;</code>
      * @param bool $var
      * @return $this
      */
     public function setBoolValue($var)
     {
         GPBUtil::checkBool($var);
-        $this->writeOneof(12, $var);
+        $this->writeOneof(10, $var);
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.BoolMessage boolMessageValue = 13;</code>
+     * Generated from protobuf field <code>.protoMessages.BoolMessage boolMessageValue = 11;</code>
      * @return \ProtoMessages\BoolMessage|null
      */
     public function getBoolMessageValue()
     {
-        return $this->readOneof(13);
+        return $this->readOneof(11);
     }
 
     public function hasBoolMessageValue()
     {
-        return $this->hasOneof(13);
+        return $this->hasOneof(11);
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.BoolMessage boolMessageValue = 13;</code>
+     * Generated from protobuf field <code>.protoMessages.BoolMessage boolMessageValue = 11;</code>
      * @param \ProtoMessages\BoolMessage $var
      * @return $this
      */
     public function setBoolMessageValue($var)
     {
         GPBUtil::checkMessage($var, \ProtoMessages\BoolMessage::class);
-        $this->writeOneof(13, $var);
+        $this->writeOneof(11, $var);
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>string stringValue = 14;</code>
+     * Generated from protobuf field <code>string stringValue = 12;</code>
      * @return string
      */
     public function getStringValue()
     {
-        return $this->readOneof(14);
+        return $this->readOneof(12);
     }
 
     public function hasStringValue()
     {
-        return $this->hasOneof(14);
+        return $this->hasOneof(12);
     }
 
     /**
-     * Generated from protobuf field <code>string stringValue = 14;</code>
+     * Generated from protobuf field <code>string stringValue = 12;</code>
      * @param string $var
      * @return $this
      */
     public function setStringValue($var)
     {
         GPBUtil::checkString($var, True);
-        $this->writeOneof(14, $var);
+        $this->writeOneof(12, $var);
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.StringMessage stringMessageValue = 15;</code>
+     * Generated from protobuf field <code>.protoMessages.StringMessage stringMessageValue = 13;</code>
      * @return \ProtoMessages\StringMessage|null
      */
     public function getStringMessageValue()
     {
-        return $this->readOneof(15);
+        return $this->readOneof(13);
     }
 
     public function hasStringMessageValue()
     {
-        return $this->hasOneof(15);
+        return $this->hasOneof(13);
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.StringMessage stringMessageValue = 15;</code>
+     * Generated from protobuf field <code>.protoMessages.StringMessage stringMessageValue = 13;</code>
      * @param \ProtoMessages\StringMessage $var
      * @return $this
      */
     public function setStringMessageValue($var)
     {
         GPBUtil::checkMessage($var, \ProtoMessages\StringMessage::class);
-        $this->writeOneof(15, $var);
+        $this->writeOneof(13, $var);
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp timestampMessage = 16;</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp timestampMessage = 14;</code>
      * @return \Google\Protobuf\Timestamp|null
      */
     public function getTimestampMessage()
     {
-        return $this->readOneof(16);
+        return $this->readOneof(14);
     }
 
     public function hasTimestampMessage()
     {
-        return $this->hasOneof(16);
+        return $this->hasOneof(14);
     }
 
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp timestampMessage = 16;</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp timestampMessage = 14;</code>
      * @param \Google\Protobuf\Timestamp $var
      * @return $this
      */
     public function setTimestampMessage($var)
     {
         GPBUtil::checkMessage($var, \Google\Protobuf\Timestamp::class);
-        $this->writeOneof(16, $var);
+        $this->writeOneof(14, $var);
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>bytes bytesValue = 17;</code>
+     * Generated from protobuf field <code>bytes bytesValue = 15;</code>
      * @return string
      */
     public function getBytesValue()
     {
-        return $this->readOneof(17);
+        return $this->readOneof(15);
     }
 
     public function hasBytesValue()
     {
-        return $this->hasOneof(17);
+        return $this->hasOneof(15);
     }
 
     /**
-     * Generated from protobuf field <code>bytes bytesValue = 17;</code>
+     * Generated from protobuf field <code>bytes bytesValue = 15;</code>
      * @param string $var
      * @return $this
      */
     public function setBytesValue($var)
     {
         GPBUtil::checkString($var, False);
-        $this->writeOneof(17, $var);
+        $this->writeOneof(15, $var);
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.ValueMessageList listValue = 18;</code>
+     * Generated from protobuf field <code>.protoMessages.ValueMessageList listValue = 16;</code>
      * @return \ProtoMessages\ValueMessageList|null
      */
     public function getListValue()
     {
-        return $this->readOneof(18);
+        return $this->readOneof(16);
     }
 
     public function hasListValue()
     {
-        return $this->hasOneof(18);
+        return $this->hasOneof(16);
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.ValueMessageList listValue = 18;</code>
+     * Generated from protobuf field <code>.protoMessages.ValueMessageList listValue = 16;</code>
      * @param \ProtoMessages\ValueMessageList $var
      * @return $this
      */
     public function setListValue($var)
     {
         GPBUtil::checkMessage($var, \ProtoMessages\ValueMessageList::class);
-        $this->writeOneof(18, $var);
+        $this->writeOneof(16, $var);
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.StructMessage structMessage = 19;</code>
+     * Generated from protobuf field <code>.protoMessages.StructMessage structMessage = 17;</code>
      * @return \ProtoMessages\StructMessage|null
      */
     public function getStructMessage()
     {
-        return $this->readOneof(19);
+        return $this->readOneof(17);
     }
 
     public function hasStructMessage()
     {
-        return $this->hasOneof(19);
+        return $this->hasOneof(17);
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.StructMessage structMessage = 19;</code>
+     * Generated from protobuf field <code>.protoMessages.StructMessage structMessage = 17;</code>
      * @param \ProtoMessages\StructMessage $var
      * @return $this
      */
     public function setStructMessage($var)
     {
         GPBUtil::checkMessage($var, \ProtoMessages\StructMessage::class);
-        $this->writeOneof(19, $var);
+        $this->writeOneof(17, $var);
 
         return $this;
     }

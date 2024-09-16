@@ -30,7 +30,7 @@ class GsMonedaMessage extends \Google\Protobuf\Internal\Message
      */
     protected $PedirCotizacion = '';
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage MaxRedond = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage MaxRedond = 5;</code>
      */
     protected $MaxRedond = null;
     /**
@@ -60,7 +60,7 @@ class GsMonedaMessage extends \Google\Protobuf\Internal\Message
      *     @type string $Simbolo
      *     @type string $Descrip
      *     @type string $PedirCotizacion
-     *     @type \ProtoMessages\DecimalMessage $MaxRedond
+     *     @type \ProtoMessages\DoubleMessage $MaxRedond
      *     @type \ProtoMessages\StringMessage $Codmonedafe
      *     @type \ProtoMessages\StringMessage $CodmonedaComprDupl
      *     @type \ProtoMessages\StringMessage $Indice
@@ -161,8 +161,8 @@ class GsMonedaMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage MaxRedond = 5;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage MaxRedond = 5;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getMaxRedond()
     {
@@ -180,13 +180,13 @@ class GsMonedaMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage MaxRedond = 5;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage MaxRedond = 5;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setMaxRedond($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->MaxRedond = $var;
 
         return $this;

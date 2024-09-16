@@ -17,10 +17,6 @@ class ResponseResult extends \Google\Protobuf\Internal\Message
      * Generated from protobuf field <code>string error = 2;</code>
      */
     protected $error = '';
-    /**
-     * Generated from protobuf field <code>repeated .protoMessages.ErrorParameterMessage errorParameters = 3;</code>
-     */
-    private $errorParameters;
 
     /**
      * Constructor.
@@ -29,7 +25,6 @@ class ResponseResult extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type string $error
-     *     @type array<\ProtoMessages\ErrorParameterMessage>|\Google\Protobuf\Internal\RepeatedField $errorParameters
      * }
      */
     public function __construct($data = NULL) {
@@ -55,28 +50,6 @@ class ResponseResult extends \Google\Protobuf\Internal\Message
     {
         GPBUtil::checkString($var, True);
         $this->error = $var;
-
-        return $this;
-    }
-
-    /**
-     * Generated from protobuf field <code>repeated .protoMessages.ErrorParameterMessage errorParameters = 3;</code>
-     * @return \Google\Protobuf\Internal\RepeatedField
-     */
-    public function getErrorParameters()
-    {
-        return $this->errorParameters;
-    }
-
-    /**
-     * Generated from protobuf field <code>repeated .protoMessages.ErrorParameterMessage errorParameters = 3;</code>
-     * @param array<\ProtoMessages\ErrorParameterMessage>|\Google\Protobuf\Internal\RepeatedField $var
-     * @return $this
-     */
-    public function setErrorParameters($var)
-    {
-        $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \ProtoMessages\ErrorParameterMessage::class);
-        $this->errorParameters = $arr;
 
         return $this;
     }

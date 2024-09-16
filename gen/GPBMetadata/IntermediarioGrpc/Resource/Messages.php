@@ -20,7 +20,7 @@ class Messages
         \GPBMetadata\IntermediarioGrpc\Shared\IntermediarioCompanionMessagesG::initOnce();
         $pool->internalAddGeneratedFile(
             '
-¯U
+πT
 )IntermediarioGrpc/Resource/Messages.protointermediarioGrpcResourceProtoMessages/Common.proto2IntermediarioGrpc/Shared/IntermediarioShared.proto?IntermediarioGrpc/Shared/IntermediarioCompanionMessages.g.proto"Á
 FisicosPorVencimientoRequest.
 
@@ -74,11 +74,7 @@ fechaHasta (2.google.protobuf.Timestamp
 omitirAsientosDeCierre ("é
 BalanceContableResponse-
 result (2.protoMessages.ResponseResultD
-message (23.intermediarioSharedMessages.BalanceContableMessage"g
-CuentasCorrientesSaldosRequest.
-
-fechaCorte (2.google.protobuf.Timestamp
-prioridadPlan ("ö
+message (23.intermediarioSharedMessages.BalanceContableMessage"ö
 LuciusBalanceContableResponse-
 result (2.protoMessages.ResponseResultJ
 message (29.intermediarioSharedMessages.LuciusBalanceContableMessage"+
@@ -99,7 +95,7 @@ fechaHasta (2.google.protobuf.Timestamp5
 soloDisponibles (2.protoMessages.StringMessage"ê
 ValoresEnCarteraResponse-
 result (2.protoMessages.ResponseResultE
-message (24.intermediarioSharedMessages.ValoresEnCarteraMessage"…
+message (24.intermediarioSharedMessages.ValoresEnCarteraMessage"≥
 LuciusMayorRequest
 codigoMoneda (.
 
@@ -107,7 +103,6 @@ fechaDesde (2.google.protobuf.Timestamp.
 
 fechaHasta (2.google.protobuf.Timestamp
 remedido (
-omitirCierre (
 soloApertura (
 filtroRubro (	
 filtroActividad (	
@@ -116,15 +111,14 @@ fechaHasta (2.google.protobuf.Timestamp
 
 filtroTipo
  (	
-filtroCampo (	"«
+filtroCampo (	"±
 LuciusBalanceRequest
 codigoMoneda (.
 
 fechaDesde (2.google.protobuf.Timestamp.
 
 fechaHasta (2.google.protobuf.Timestamp
-remedido (
-omitirCierre (
+remedido (
 apertura (	
 filtroRubro (	
 filtroActividad (	
@@ -173,23 +167,23 @@ fechaHasta (2.google.protobuf.Timestamp
 codLista ("ñ
 PriceImporterProductResponse-
 result (2.protoMessages.ResponseResultG
-message (26.intermediarioGrpcResource.PriceImporterProductMessage"˛
+message (26.intermediarioGrpcResource.PriceImporterProductMessage"˜
 PriceImporterProductMessage
 codLista (
 codProducto (-
-descrip (2.protoMessages.StringMessage.
-importe (2.protoMessages.DecimalMessage,
+descrip (2.protoMessages.StringMessage-
+importe (2.protoMessages.DoubleMessage,
 vigDesde (2.google.protobuf.Timestamp,
 unidad (2.protoMessages.StringMessage,
-moneda	 (2.protoMessages.StringMessage1
+moneda	 (2.protoMessages.StringMessage0
 
-bonifPases (2.protoMessages.DecimalMessage3
+bonifPases (2.protoMessages.DoubleMessage2
 bonifCompras
- (2.protoMessages.DecimalMessage2
-bonifVentas (2.protoMessages.DecimalMessage3
-importePases (2.protoMessages.DecimalMessage4
-importeVentas (2.protoMessages.DecimalMessage5
-importeCompras (2.protoMessages.DecimalMessage
+ (2.protoMessages.DoubleMessage1
+bonifVentas (2.protoMessages.DoubleMessage2
+importePases (2.protoMessages.DoubleMessage3
+importeVentas (2.protoMessages.DoubleMessage4
+importeCompras (2.protoMessages.DoubleMessage
 	codMoneda ("ä
 CuentasAPagarResponse-
 result (2.protoMessages.ResponseResultB
@@ -272,10 +266,10 @@ codSumaria (2.protoMessages.Int32Message"â
 message (2,.intermediarioCompanionGrpc.GsUnidadeMessage"Ç
 UnidadesMessageList-
 result (2.protoMessages.ResponseResult<
-values (2,.intermediarioCompanionGrpc.GsUnidadeMessage"Z
+values (2,.intermediarioCompanionGrpc.GsUnidadeMessage";
 CurrencyBalanceMessage
-currency (	.
-balance (2.protoMessages.DecimalMessage"Ä
+currency (	
+balance ("Ä
 DatabaseMessageList-
 result (2.protoMessages.ResponseResult:
 values (2*.intermediarioGrpcResource.DatabaseMessage"π
@@ -301,21 +295,21 @@ lastBackup (2.google.protobuf.Timestamp>
 intermediarioInitialized ("ö
 BonificacionesPersonasResponse-
 result (2.protoMessages.ResponseResultI
-message (28.intermediarioGrpcResource.BonificacionesPersonasMessage"£
+message (28.intermediarioGrpcResource.BonificacionesPersonasMessage"†
 BonificacionesPersonasMessage
 
 databaseId (
 codLista (
 
 codPersona (,
-nombre (2.protoMessages.StringMessage2
-bonifVentas (2.protoMessages.DecimalMessage3
-bonifCompras (2.protoMessages.DecimalMessage1
+nombre (2.protoMessages.StringMessage1
+bonifVentas (2.protoMessages.DoubleMessage2
+bonifCompras (2.protoMessages.DoubleMessage0
 
-bonifPases (2.protoMessages.DecimalMessage"ñ
+bonifPases (2.protoMessages.DoubleMessage"ñ
 BonificacionesGruposResponse-
 result (2.protoMessages.ResponseResultG
-message (26.intermediarioGrpcResource.BonificacionesGruposMessage"ˇ
+message (26.intermediarioGrpcResource.BonificacionesGruposMessage"˛
 BonificacionesGruposMessage
 
 databaseId (
@@ -324,8 +318,8 @@ databaseId (
 codPersona (,
 nombre (2.protoMessages.StringMessage
 codGrupo (1
-descripcion (2.protoMessages.StringMessage3
-bonificacion (2.protoMessages.DecimalMessage"˙
+descripcion (2.protoMessages.StringMessage2
+bonificacion (2.protoMessages.DoubleMessage"˙
 FlujoDeFondosExtRequest
 soloGestion (	
 incluirSaldosIniciales (

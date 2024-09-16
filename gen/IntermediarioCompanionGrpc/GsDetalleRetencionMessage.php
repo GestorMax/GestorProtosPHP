@@ -22,11 +22,11 @@ class GsDetalleRetencionMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Numero = 0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage MontoMes = 3;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage MontoMes = 3;</code>
      */
     protected $MontoMes = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage MinimoImp = 4;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage MinimoImp = 4;</code>
      */
     protected $MinimoImp = null;
     /**
@@ -34,15 +34,15 @@ class GsDetalleRetencionMessage extends \Google\Protobuf\Internal\Message
      */
     protected $PorcentRetenc = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RetencCalc = 6;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RetencCalc = 6;</code>
      */
     protected $RetencCalc = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage SumaFija = 7;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage SumaFija = 7;</code>
      */
     protected $SumaFija = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RetencionesMes = 8;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RetencionesMes = 8;</code>
      */
     protected $RetencionesMes = null;
     /**
@@ -50,7 +50,7 @@ class GsDetalleRetencionMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Calculosistema = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage TotalRetenible = 10;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage TotalRetenible = 10;</code>
      */
     protected $TotalRetenible = null;
 
@@ -62,14 +62,14 @@ class GsDetalleRetencionMessage extends \Google\Protobuf\Internal\Message
      *
      *     @type int $Codempre
      *     @type int $Numero
-     *     @type \ProtoMessages\DecimalMessage $MontoMes
-     *     @type \ProtoMessages\DecimalMessage $MinimoImp
+     *     @type \ProtoMessages\DoubleMessage $MontoMes
+     *     @type \ProtoMessages\DoubleMessage $MinimoImp
      *     @type \ProtoMessages\DoubleMessage $PorcentRetenc
-     *     @type \ProtoMessages\DecimalMessage $RetencCalc
-     *     @type \ProtoMessages\DecimalMessage $SumaFija
-     *     @type \ProtoMessages\DecimalMessage $RetencionesMes
+     *     @type \ProtoMessages\DoubleMessage $RetencCalc
+     *     @type \ProtoMessages\DoubleMessage $SumaFija
+     *     @type \ProtoMessages\DoubleMessage $RetencionesMes
      *     @type \ProtoMessages\StringMessage $Calculosistema
-     *     @type \ProtoMessages\DecimalMessage $TotalRetenible
+     *     @type \ProtoMessages\DoubleMessage $TotalRetenible
      * }
      */
     public function __construct($data = NULL) {
@@ -122,8 +122,8 @@ class GsDetalleRetencionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage MontoMes = 3;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage MontoMes = 3;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getMontoMes()
     {
@@ -141,21 +141,21 @@ class GsDetalleRetencionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage MontoMes = 3;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage MontoMes = 3;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setMontoMes($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->MontoMes = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage MinimoImp = 4;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage MinimoImp = 4;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getMinimoImp()
     {
@@ -173,13 +173,13 @@ class GsDetalleRetencionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage MinimoImp = 4;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage MinimoImp = 4;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setMinimoImp($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->MinimoImp = $var;
 
         return $this;
@@ -218,8 +218,8 @@ class GsDetalleRetencionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RetencCalc = 6;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RetencCalc = 6;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getRetencCalc()
     {
@@ -237,21 +237,21 @@ class GsDetalleRetencionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RetencCalc = 6;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RetencCalc = 6;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setRetencCalc($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->RetencCalc = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage SumaFija = 7;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage SumaFija = 7;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getSumaFija()
     {
@@ -269,21 +269,21 @@ class GsDetalleRetencionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage SumaFija = 7;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage SumaFija = 7;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setSumaFija($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->SumaFija = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RetencionesMes = 8;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RetencionesMes = 8;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getRetencionesMes()
     {
@@ -301,13 +301,13 @@ class GsDetalleRetencionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage RetencionesMes = 8;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage RetencionesMes = 8;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setRetencionesMes($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->RetencionesMes = $var;
 
         return $this;
@@ -346,8 +346,8 @@ class GsDetalleRetencionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage TotalRetenible = 10;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage TotalRetenible = 10;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getTotalRetenible()
     {
@@ -365,13 +365,13 @@ class GsDetalleRetencionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage TotalRetenible = 10;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage TotalRetenible = 10;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setTotalRetenible($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->TotalRetenible = $var;
 
         return $this;

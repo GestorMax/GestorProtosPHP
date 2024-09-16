@@ -22,19 +22,19 @@ class GsFijacionesContratog3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Orden = 0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage TnFijacion = 3;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage TnFijacion = 3;</code>
      */
     protected $TnFijacion = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage PrecioTn = 4;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage PrecioTn = 4;</code>
      */
     protected $PrecioTn = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage MprecioTn = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage MprecioTn = 5;</code>
      */
     protected $MprecioTn = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 6;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 6;</code>
      */
     protected $Valorcambio = null;
 
@@ -46,10 +46,10 @@ class GsFijacionesContratog3CMessage extends \Google\Protobuf\Internal\Message
      *
      *     @type int $Codcontrato
      *     @type int $Orden
-     *     @type \ProtoMessages\DecimalMessage $TnFijacion
-     *     @type \ProtoMessages\DecimalMessage $PrecioTn
-     *     @type \ProtoMessages\DecimalMessage $MprecioTn
-     *     @type \ProtoMessages\DecimalMessage $Valorcambio
+     *     @type \ProtoMessages\DoubleMessage $TnFijacion
+     *     @type \ProtoMessages\DoubleMessage $PrecioTn
+     *     @type \ProtoMessages\DoubleMessage $MprecioTn
+     *     @type \ProtoMessages\DoubleMessage $Valorcambio
      * }
      */
     public function __construct($data = NULL) {
@@ -102,8 +102,8 @@ class GsFijacionesContratog3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage TnFijacion = 3;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage TnFijacion = 3;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getTnFijacion()
     {
@@ -121,21 +121,21 @@ class GsFijacionesContratog3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage TnFijacion = 3;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage TnFijacion = 3;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setTnFijacion($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->TnFijacion = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage PrecioTn = 4;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage PrecioTn = 4;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getPrecioTn()
     {
@@ -153,21 +153,21 @@ class GsFijacionesContratog3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage PrecioTn = 4;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage PrecioTn = 4;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setPrecioTn($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->PrecioTn = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage MprecioTn = 5;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage MprecioTn = 5;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getMprecioTn()
     {
@@ -185,21 +185,21 @@ class GsFijacionesContratog3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage MprecioTn = 5;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage MprecioTn = 5;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setMprecioTn($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->MprecioTn = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 6;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 6;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getValorcambio()
     {
@@ -217,13 +217,13 @@ class GsFijacionesContratog3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 6;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 6;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setValorcambio($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->Valorcambio = $var;
 
         return $this;

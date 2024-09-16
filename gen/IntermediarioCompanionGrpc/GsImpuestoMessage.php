@@ -34,7 +34,7 @@ class GsImpuestoMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codgrupo = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Tasa = 6;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Tasa = 6;</code>
      */
     protected $Tasa = null;
     /**
@@ -78,7 +78,7 @@ class GsImpuestoMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Padron = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage TasaError = 17;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage TasaError = 17;</code>
      */
     protected $TasaError = null;
     /**
@@ -105,7 +105,7 @@ class GsImpuestoMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\StringMessage $Concepto
      *     @type string $Impogrupo
      *     @type \ProtoMessages\Int32Message $Codgrupo
-     *     @type \ProtoMessages\DecimalMessage $Tasa
+     *     @type \ProtoMessages\DoubleMessage $Tasa
      *     @type \ProtoMessages\StringMessage $Tipooper
      *     @type \ProtoMessages\StringMessage $Gravada
      *     @type \ProtoMessages\StringMessage $Codfiscal
@@ -116,7 +116,7 @@ class GsImpuestoMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\StringMessage $TipotributoFe
      *     @type \ProtoMessages\DoubleMessage $PorcentAplicar
      *     @type \ProtoMessages\StringMessage $Padron
-     *     @type \ProtoMessages\DecimalMessage $TasaError
+     *     @type \ProtoMessages\DoubleMessage $TasaError
      *     @type \ProtoMessages\StringMessage $Codfelsp
      *     @type \ProtoMessages\DoubleMessage $TasaCateg13
      *     @type \ProtoMessages\DoubleMessage $TasaCateg47
@@ -258,8 +258,8 @@ class GsImpuestoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Tasa = 6;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Tasa = 6;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getTasa()
     {
@@ -277,13 +277,13 @@ class GsImpuestoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Tasa = 6;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Tasa = 6;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setTasa($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->Tasa = $var;
 
         return $this;
@@ -610,8 +610,8 @@ class GsImpuestoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage TasaError = 17;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage TasaError = 17;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getTasaError()
     {
@@ -629,13 +629,13 @@ class GsImpuestoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage TasaError = 17;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage TasaError = 17;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setTasaError($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->TasaError = $var;
 
         return $this;

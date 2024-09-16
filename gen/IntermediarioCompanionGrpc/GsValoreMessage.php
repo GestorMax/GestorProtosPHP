@@ -54,9 +54,9 @@ class GsValoreMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Numdoc = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 11;</code>
+     * Generated from protobuf field <code>double Importe = 11;</code>
      */
-    protected $Importe = null;
+    protected $Importe = 0.0;
     /**
      * Generated from protobuf field <code>int32 Codbanco = 12;</code>
      */
@@ -78,7 +78,7 @@ class GsValoreMessage extends \Google\Protobuf\Internal\Message
      *     @type \Google\Protobuf\Timestamp $Fecha
      *     @type \ProtoMessages\Int32Message $Tipdoc
      *     @type \ProtoMessages\StringMessage $Numdoc
-     *     @type \ProtoMessages\DecimalMessage $Importe
+     *     @type float $Importe
      *     @type int $Codbanco
      * }
      */
@@ -358,32 +358,22 @@ class GsValoreMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 11;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Importe = 11;</code>
+     * @return float
      */
     public function getImporte()
     {
         return $this->Importe;
     }
 
-    public function hasImporte()
-    {
-        return isset($this->Importe);
-    }
-
-    public function clearImporte()
-    {
-        unset($this->Importe);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Importe = 11;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Importe = 11;</code>
+     * @param float $var
      * @return $this
      */
     public function setImporte($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Importe = $var;
 
         return $this;

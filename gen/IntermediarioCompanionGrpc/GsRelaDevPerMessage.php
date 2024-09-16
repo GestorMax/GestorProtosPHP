@@ -34,21 +34,21 @@ class GsRelaDevPerMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Fechavenc = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Debe = 6;</code>
+     * Generated from protobuf field <code>double Debe = 6;</code>
      */
-    protected $Debe = null;
+    protected $Debe = 0.0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Haber = 7;</code>
+     * Generated from protobuf field <code>double Haber = 7;</code>
      */
-    protected $Haber = null;
+    protected $Haber = 0.0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Mdebe = 8;</code>
+     * Generated from protobuf field <code>double Mdebe = 8;</code>
      */
-    protected $Mdebe = null;
+    protected $Mdebe = 0.0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Mhaber = 9;</code>
+     * Generated from protobuf field <code>double Mhaber = 9;</code>
      */
-    protected $Mhaber = null;
+    protected $Mhaber = 0.0;
     /**
      * Generated from protobuf field <code>.protoMessages.StringMessage Comentario = 10;</code>
      */
@@ -85,10 +85,10 @@ class GsRelaDevPerMessage extends \Google\Protobuf\Internal\Message
      *     @type int $Orden
      *     @type \ProtoMessages\Int32Message $Percibido
      *     @type \Google\Protobuf\Timestamp $Fechavenc
-     *     @type \ProtoMessages\DecimalMessage $Debe
-     *     @type \ProtoMessages\DecimalMessage $Haber
-     *     @type \ProtoMessages\DecimalMessage $Mdebe
-     *     @type \ProtoMessages\DecimalMessage $Mhaber
+     *     @type float $Debe
+     *     @type float $Haber
+     *     @type float $Mdebe
+     *     @type float $Mhaber
      *     @type \ProtoMessages\StringMessage $Comentario
      *     @type float $PorcentPago
      *     @type \ProtoMessages\Int32Message $Codplan
@@ -233,128 +233,88 @@ class GsRelaDevPerMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Debe = 6;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Debe = 6;</code>
+     * @return float
      */
     public function getDebe()
     {
         return $this->Debe;
     }
 
-    public function hasDebe()
-    {
-        return isset($this->Debe);
-    }
-
-    public function clearDebe()
-    {
-        unset($this->Debe);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Debe = 6;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Debe = 6;</code>
+     * @param float $var
      * @return $this
      */
     public function setDebe($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Debe = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Haber = 7;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Haber = 7;</code>
+     * @return float
      */
     public function getHaber()
     {
         return $this->Haber;
     }
 
-    public function hasHaber()
-    {
-        return isset($this->Haber);
-    }
-
-    public function clearHaber()
-    {
-        unset($this->Haber);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Haber = 7;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Haber = 7;</code>
+     * @param float $var
      * @return $this
      */
     public function setHaber($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Haber = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Mdebe = 8;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Mdebe = 8;</code>
+     * @return float
      */
     public function getMdebe()
     {
         return $this->Mdebe;
     }
 
-    public function hasMdebe()
-    {
-        return isset($this->Mdebe);
-    }
-
-    public function clearMdebe()
-    {
-        unset($this->Mdebe);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Mdebe = 8;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Mdebe = 8;</code>
+     * @param float $var
      * @return $this
      */
     public function setMdebe($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Mdebe = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Mhaber = 9;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Mhaber = 9;</code>
+     * @return float
      */
     public function getMhaber()
     {
         return $this->Mhaber;
     }
 
-    public function hasMhaber()
-    {
-        return isset($this->Mhaber);
-    }
-
-    public function clearMhaber()
-    {
-        unset($this->Mhaber);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Mhaber = 9;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Mhaber = 9;</code>
+     * @param float $var
      * @return $this
      */
     public function setMhaber($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Mhaber = $var;
 
         return $this;

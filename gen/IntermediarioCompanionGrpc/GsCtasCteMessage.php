@@ -26,9 +26,9 @@ class GsCtasCteMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Descrip = '';
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage SaldoInic = 4;</code>
+     * Generated from protobuf field <code>double SaldoInic = 4;</code>
      */
-    protected $SaldoInic = null;
+    protected $SaldoInic = 0.0;
     /**
      * Generated from protobuf field <code>int32 Codmoneda = 5;</code>
      */
@@ -75,7 +75,7 @@ class GsCtasCteMessage extends \Google\Protobuf\Internal\Message
      *     @type int $Codempre
      *     @type int $Codctacte
      *     @type string $Descrip
-     *     @type \ProtoMessages\DecimalMessage $SaldoInic
+     *     @type float $SaldoInic
      *     @type int $Codmoneda
      *     @type string $Bloqueada
      *     @type \Google\Protobuf\Timestamp $FecConciliacion
@@ -159,32 +159,22 @@ class GsCtasCteMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage SaldoInic = 4;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double SaldoInic = 4;</code>
+     * @return float
      */
     public function getSaldoInic()
     {
         return $this->SaldoInic;
     }
 
-    public function hasSaldoInic()
-    {
-        return isset($this->SaldoInic);
-    }
-
-    public function clearSaldoInic()
-    {
-        unset($this->SaldoInic);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage SaldoInic = 4;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double SaldoInic = 4;</code>
+     * @param float $var
      * @return $this
      */
     public function setSaldoInic($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->SaldoInic = $var;
 
         return $this;

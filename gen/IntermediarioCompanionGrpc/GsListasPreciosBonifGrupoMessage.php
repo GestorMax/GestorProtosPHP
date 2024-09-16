@@ -26,9 +26,9 @@ class GsListasPreciosBonifGrupoMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codgrupo = 0;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Bonif = 4;</code>
+     * Generated from protobuf field <code>double Bonif = 4;</code>
      */
-    protected $Bonif = null;
+    protected $Bonif = 0.0;
 
     /**
      * Constructor.
@@ -39,7 +39,7 @@ class GsListasPreciosBonifGrupoMessage extends \Google\Protobuf\Internal\Message
      *     @type int $Codlista
      *     @type int $Codpersona
      *     @type int $Codgrupo
-     *     @type \ProtoMessages\DecimalMessage $Bonif
+     *     @type float $Bonif
      * }
      */
     public function __construct($data = NULL) {
@@ -114,32 +114,22 @@ class GsListasPreciosBonifGrupoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Bonif = 4;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>double Bonif = 4;</code>
+     * @return float
      */
     public function getBonif()
     {
         return $this->Bonif;
     }
 
-    public function hasBonif()
-    {
-        return isset($this->Bonif);
-    }
-
-    public function clearBonif()
-    {
-        unset($this->Bonif);
-    }
-
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Bonif = 4;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>double Bonif = 4;</code>
+     * @param float $var
      * @return $this
      */
     public function setBonif($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkDouble($var);
         $this->Bonif = $var;
 
         return $this;

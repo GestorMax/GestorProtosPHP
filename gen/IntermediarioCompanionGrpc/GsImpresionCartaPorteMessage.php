@@ -50,7 +50,7 @@ class GsImpresionCartaPorteMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Direccdestino = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Tara = 10;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Tara = 10;</code>
      */
     protected $Tara = null;
     /**
@@ -74,7 +74,7 @@ class GsImpresionCartaPorteMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Provinciadestino = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage TarifaReferencia = 16;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage TarifaReferencia = 16;</code>
      */
     protected $TarifaReferencia = null;
     /**
@@ -129,13 +129,13 @@ class GsImpresionCartaPorteMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\Int32Message $Coddestino
      *     @type \ProtoMessages\StringMessage $Direccprocedencia
      *     @type \ProtoMessages\StringMessage $Direccdestino
-     *     @type \ProtoMessages\DecimalMessage $Tara
+     *     @type \ProtoMessages\DoubleMessage $Tara
      *     @type \ProtoMessages\StringMessage $Ciudadorigen
      *     @type \ProtoMessages\StringMessage $Ciudaddestino
      *     @type \ProtoMessages\StringMessage $Establecimientoorigen
      *     @type \ProtoMessages\StringMessage $Provinciaorigen
      *     @type \ProtoMessages\StringMessage $Provinciadestino
-     *     @type \ProtoMessages\DecimalMessage $TarifaReferencia
+     *     @type \ProtoMessages\DoubleMessage $TarifaReferencia
      *     @type \ProtoMessages\StringMessage $CodigoAlfanumerico
      *     @type \ProtoMessages\Int32Message $Ctg
      *     @type int $Codempre
@@ -431,8 +431,8 @@ class GsImpresionCartaPorteMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Tara = 10;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Tara = 10;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getTara()
     {
@@ -450,13 +450,13 @@ class GsImpresionCartaPorteMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage Tara = 10;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage Tara = 10;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setTara($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->Tara = $var;
 
         return $this;
@@ -623,8 +623,8 @@ class GsImpresionCartaPorteMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage TarifaReferencia = 16;</code>
-     * @return \ProtoMessages\DecimalMessage|null
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage TarifaReferencia = 16;</code>
+     * @return \ProtoMessages\DoubleMessage|null
      */
     public function getTarifaReferencia()
     {
@@ -642,13 +642,13 @@ class GsImpresionCartaPorteMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DecimalMessage TarifaReferencia = 16;</code>
-     * @param \ProtoMessages\DecimalMessage $var
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage TarifaReferencia = 16;</code>
+     * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
     public function setTarifaReferencia($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
         $this->TarifaReferencia = $var;
 
         return $this;
