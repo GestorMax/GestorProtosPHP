@@ -9,9 +9,9 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * Generated from protobuf message <code>protoMessages.Uint64Message</code>
+ * Generated from protobuf message <code>protoMessages.UInt64Message</code>
  */
-class Uint64Message extends \Google\Protobuf\Internal\Message
+class UInt64Message extends \Google\Protobuf\Internal\Message
 {
     /**
      * Generated from protobuf field <code>uint64 value = 1;</code>

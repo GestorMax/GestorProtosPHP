@@ -18,13 +18,13 @@ class IntermediarioCompanionMessagesG
         \GPBMetadata\ProtoMessages\Common::initOnce();
         $pool->internalAddGeneratedFile(
             '
-ÎÃ
-?IntermediarioGrpc/Shared/IntermediarioCompanionMessages.g.protointermediarioCompanionGrpcProtoMessages/Common.proto"¢
+∞⁄
+?IntermediarioGrpc/Shared/IntermediarioCompanionMessages.g.protointermediarioCompanionGrpcProtoMessages/Common.proto"£
 GsActividadesg3CMessage
 Codactividad (
 Descrip (	0
-Codproducto (2.protoMessages.Int32Message.
-PrecioTn (2.protoMessages.DoubleMessage"è
+Codproducto (2.protoMessages.Int32Message/
+PrecioTn (2.protoMessages.DecimalMessage"ê
 GsAvisosMailMessage
 Codtipoaviso (
 Codaviso (
@@ -55,9 +55,9 @@ ComprasInv (	
 AntIngresos (	
 
 AntEgresos (	2
-AgruparMails (2.protoMessages.StringMessage0
+AgruparMails (2.protoMessages.StringMessage1
 
-MinImporte (2.protoMessages.DoubleMessage-
+MinImporte (2.protoMessages.DecimalMessage-
 FinAviso (2.protoMessages.Int32Message"3
 GsBancoMessage
 Codbanco (
@@ -163,7 +163,7 @@ Codpersona (
 Codcomprobante (
 Codempre (
 Tipdoc (
-Codtipotalonario ("®
+Codtipotalonario ("©
 !GsComprobantesVtaMostradorMessage
 Codcomprobante (
 Descrip (	
@@ -176,8 +176,8 @@ Codpersona (2.protoMessages.Int32Message+
 Codiva (2.protoMessages.Int32Message+
 Notas	 (2.protoMessages.StringMessage.
 	Codbarras
- (2.protoMessages.Int32Message4
-LimiteSinIdent (2.protoMessages.DoubleMessage"Ü
+ (2.protoMessages.Int32Message5
+LimiteSinIdent (2.protoMessages.DecimalMessage"Ü
 GsCondsVentaMessage
 CodcondVenta (
 Descrip (	
@@ -199,15 +199,15 @@ Codpersona (2.protoMessages.Int32Message+
 GsConfigInfContratoMessage
 TipoColumna (	
 Codplan (
-	Codcuenta ("ê?
+	Codcuenta ("ì?
 GsConfiguracionMessage
 Version (	
 Descripcioncuit (	
 Validacioncuit (	
 Mascaracuit (	8
 RetencionGanancias (2.protoMessages.StringMessage1
-LugarCheque (2.protoMessages.StringMessage5
-RetencionMinima (2.protoMessages.DoubleMessage
+LugarCheque (2.protoMessages.StringMessage6
+RetencionMinima (2.protoMessages.DecimalMessage
 
 GenerarLog (	5
 MetodoValuacion	 (2.protoMessages.StringMessage@
@@ -295,8 +295,8 @@ FactElectrS (2.protoMessages.StringMessage0
 SolapasOtsT (2.protoMessages.StringMessage.
 G3Campo2U (2.protoMessages.StringMessage-
 MailSslV (2.protoMessages.StringMessage/
-	G3CosechaW (2.protoMessages.StringMessage:
-LimiteDifKgsSecoDestX (2.protoMessages.DoubleMessage-
+	G3CosechaW (2.protoMessages.StringMessage;
+LimiteDifKgsSecoDestX (2.protoMessages.DecimalMessage-
 CodfleteY (2.protoMessages.Int32Message<
 ControlPorFecimpuestosZ (2.protoMessages.StringMessage:
 UtilizarFecAlicuotas[ (2.protoMessages.StringMessage3
@@ -314,8 +314,8 @@ SolapasOtsT (2.protoMessages.StringMessage.
 RegSellosRegistrog (2.protoMessages.Int32Message3
 RegSellosIibb2h (2.protoMessages.Int32Message3
 RegSellosIibb3i (2.protoMessages.Int32Message4
-CodsaldoCalidadj (2.protoMessages.Int32Message9
-LimiteKgsFleteCortok (2.protoMessages.DoubleMessage2
+CodsaldoCalidadj (2.protoMessages.Int32Message:
+LimiteKgsFleteCortok (2.protoMessages.DecimalMessage2
 FondoFedAgropl (2.protoMessages.Int32Message3
 OrdenesCompram (2.protoMessages.StringMessage>
 CosechaDiscriminarMermasn (2.protoMessages.StringMessage.
@@ -363,8 +363,7 @@ G3Comercioí (2.protoMessages.StringMessage:
 
 DatabaseIdñ (2.protoMessages.StringMessage4
 ControlaStockó (2.protoMessages.StringMessage-
-Luciusò (2.protoMessages.StringMessage"ˆ
-
+Luciusò (2.protoMessages.StringMessage"ö
 GsContratosg3CMessage
 Codcontrato (
 Codempre (
@@ -382,15 +381,15 @@ Coddestino (
 FechaNegocio (2.google.protobuf.Timestamp/
 FechaLimite (2.google.protobuf.Timestamp
 Codprocedencia (4
-FleteComprador (2.protoMessages.StringMessage5
-ComisEntregador (2.protoMessages.DoubleMessage,
-Observ (2.protoMessages.StringMessage
-TnAcordadas (1
-MinTnAFijar (2.protoMessages.DoubleMessage1
-MaxTnAFijar (2.protoMessages.DoubleMessage.
-Comision (2.protoMessages.DoubleMessage2
-Codentregador (2.protoMessages.Int32Message4
-DescuentoFlete (2.protoMessages.DoubleMessage,
+FleteComprador (2.protoMessages.StringMessage6
+ComisEntregador (2.protoMessages.DecimalMessage,
+Observ (2.protoMessages.StringMessage2
+TnAcordadas (2.protoMessages.DecimalMessage2
+MinTnAFijar (2.protoMessages.DecimalMessage2
+MaxTnAFijar (2.protoMessages.DecimalMessage/
+Comision (2.protoMessages.DecimalMessage2
+Codentregador (2.protoMessages.Int32Message5
+DescuentoFlete (2.protoMessages.DecimalMessage,
 Codplan (2.protoMessages.Int32Message.
 	Codcuenta (2.protoMessages.Int32Message,
 UsrAlta (2.protoMessages.Int32Message+
@@ -402,7 +401,7 @@ Coddestino (
 	Direccion (2.protoMessages.StringMessage4
 CodcorredorVend  (2.protoMessages.Int32Message6
 Codmercadotermino! (2.protoMessages.Int32Message3
-CodintermFlete" (2.protoMessages.Int32Message"¿
+CodintermFlete" (2.protoMessages.Int32Message"œ
 GsCosechag3CMessage
 
 Codcosecha (
@@ -424,18 +423,18 @@ Codcultivo (,
 Codcontratista (2.protoMessages.Int32Message0
 Codcorredor (2.protoMessages.Int32Message2
 Codembolsador (2.protoMessages.Int32Message2
-Codentregador (2.protoMessages.Int32Message-
-KgsOrig (2.protoMessages.DoubleMessage0
-HumedadOrig (2.protoMessages.FloatMessage2
-NetoSecoOrig (2.protoMessages.DoubleMessage-
-KgsDest (2.protoMessages.DoubleMessage0
-HumedadDest (2.protoMessages.FloatMessage.
-KgsAplic (2.protoMessages.DoubleMessage.
-FleteKms (2.protoMessages.DoubleMessage-
+Codentregador (2.protoMessages.Int32Message.
+KgsOrig (2.protoMessages.DecimalMessage0
+HumedadOrig (2.protoMessages.FloatMessage3
+NetoSecoOrig (2.protoMessages.DecimalMessage.
+KgsDest (2.protoMessages.DecimalMessage0
+HumedadDest (2.protoMessages.FloatMessage/
+KgsAplic (2.protoMessages.DecimalMessage/
+FleteKms (2.protoMessages.DecimalMessage-
 Codcatac (2.protoMessages.Int32Message1
-PorcentCatac (2.protoMessages.FloatMessage1
-FleteTarifa (2.protoMessages.DoubleMessage2
-FleteImporte (2.protoMessages.DoubleMessage7
+PorcentCatac (2.protoMessages.FloatMessage2
+FleteTarifa (2.protoMessages.DecimalMessage3
+FleteImporte (2.protoMessages.DecimalMessage7
 Codestablecimiento (2.protoMessages.Int32Message,
 Observ (2.protoMessages.StringMessage-
 Impresa (2.protoMessages.StringMessage4
@@ -459,24 +458,24 @@ TipoTransp\' (	/
 PatenteCamion. (2.protoMessages.StringMessage5
 PatenteAcoplado/ (2.protoMessages.StringMessage0
 
-CuitTransp0 (2.protoMessages.StringMessage/
-	BrutoOrig1 (2.protoMessages.DoubleMessage.
-TaraOrig2 (2.protoMessages.DoubleMessage/
-	BrutoDest3 (2.protoMessages.DoubleMessage.
-TaraDest4 (2.protoMessages.DoubleMessage>
-TarifaFleteTransportista5 (2.protoMessages.DoubleMessage5
+CuitTransp0 (2.protoMessages.StringMessage0
+	BrutoOrig1 (2.protoMessages.DecimalMessage/
+TaraOrig2 (2.protoMessages.DecimalMessage0
+	BrutoDest3 (2.protoMessages.DecimalMessage/
+TaraDest4 (2.protoMessages.DecimalMessage?
+TarifaFleteTransportista5 (2.protoMessages.DecimalMessage5
 NoFacturarFlete6 (2.protoMessages.StringMessage.
-Aplicado7 (2.protoMessages.StringMessage6
-MermaHumedadDest8 (2.protoMessages.DoubleMessage6
-MermaVolatilDest9 (2.protoMessages.DoubleMessage4
-MermaOtrosDest: (2.protoMessages.DoubleMessage-
+Aplicado7 (2.protoMessages.StringMessage7
+MermaHumedadDest8 (2.protoMessages.DecimalMessage7
+MermaVolatilDest9 (2.protoMessages.DecimalMessage5
+MermaOtrosDest: (2.protoMessages.DecimalMessage-
 Codmulti; (2.protoMessages.Int32Message4
 OrigenEstimado< (2.protoMessages.StringMessage"e
 &GsCotizacionesImportacionConfigMessage
 Codcotizimport (
 
 Cotizacion (	
-UrlPath (	"‰
+UrlPath (	"‹
 GsCptosContrImportadoMessage
 Codempre (
 Codimportacion (
@@ -491,22 +490,22 @@ Cotizacion (	
  (
 	CantCptos (
 CodcptoContrato (	
-Concepto (	
-Total (
-	NoGravado (
-	Gravado21 (
-Iva21 (
-	Gravado27 (
-Iva27 (
+Concepto (	,
+Total (2.protoMessages.DecimalMessage0
+	NoGravado (2.protoMessages.DecimalMessage0
+	Gravado21 (2.protoMessages.DecimalMessage,
+Iva21 (2.protoMessages.DecimalMessage0
+	Gravado27 (2.protoMessages.DecimalMessage,
+Iva27 (2.protoMessages.DecimalMessage1
 
-Gravado105 (
-Iva105 (-
-NumeroG3 (2.protoMessages.Int32Message"®
+Gravado105 (2.protoMessages.DecimalMessage-
+Iva105 (2.protoMessages.DecimalMessage-
+NumeroG3 (2.protoMessages.Int32Message"«
 GsCtasCteMessage
 Codempre (
 	Codctacte (
-Descrip (	
-	SaldoInic (
+Descrip (	0
+	SaldoInic (2.protoMessages.DecimalMessage
 	Codmoneda (
 	Bloqueada (	3
 FecConciliacion (2.google.protobuf.Timestamp
@@ -545,22 +544,22 @@ Codusuario (
 GsDestinosTeoricosg3CMessage
 
 Coddestino (
-Coddestinoteorico ("Û
+Coddestinoteorico ("Ú
 GsDetalleMessage
 Codempre (
 Numero (
 Numlinea (0
 Codproducto (2.protoMessages.Int32Message.
-Concepto (2.protoMessages.StringMessage/
-	Cantparte (2.protoMessages.DoubleMessage/
-	Canttotal (2.protoMessages.DoubleMessage+
-Coef (2.protoMessages.DecimalMessage-
-Importe	 (2.protoMessages.DoubleMessage
+Concepto (2.protoMessages.StringMessage0
+	Cantparte (2.protoMessages.DecimalMessage0
+	Canttotal (2.protoMessages.DecimalMessage+
+Coef (2.protoMessages.DecimalMessage.
+Importe	 (2.protoMessages.DecimalMessage+
 Debe
- (
-Haber (
-Mdebe (
-Mhaber (0
+ (2.protoMessages.DecimalMessage,
+Haber (2.protoMessages.DecimalMessage,
+Mdebe (2.protoMessages.DecimalMessage-
+Mhaber (2.protoMessages.DecimalMessage0
 Codimpuesto (2.protoMessages.Int32Message,
 Codbien (2.protoMessages.Int32Message
 	Tipointer (,
@@ -586,7 +585,7 @@ NumeroFact (2.protoMessages.Int32Message1
 NumeroLiqProd! (2.protoMessages.Int32Message4
 NumlineaLiqProd" (2.protoMessages.Int32Message0
 NumlineaLsp# (2.protoMessages.Int32Message+
-Notas$ (2.protoMessages.StringMessage"˝
+Notas$ (2.protoMessages.StringMessage"Ä
 GsDetalleCalcRetencionMessage
 Codempre (
 Numero (
@@ -605,10 +604,10 @@ Codpersona (2.protoMessages.Int32Message,
 Fechaorden (2.google.protobuf.Timestamp-
 NumeroOp (2.protoMessages.Int32Message,
 Numdoc (2.protoMessages.StringMessage.
-Concepto (2.protoMessages.StringMessage3
-Totalconcepto (2.protoMessages.DoubleMessage1
-Porcentpago (2.protoMessages.DoubleMessage/
-	Totalpago (2.protoMessages.DoubleMessage"–
+Concepto (2.protoMessages.StringMessage4
+Totalconcepto (2.protoMessages.DecimalMessage2
+Porcentpago (2.protoMessages.DecimalMessage0
+	Totalpago (2.protoMessages.DecimalMessage"–
 GsDetalleCuentaMessage
 Codempre (
 Numero (
@@ -616,36 +615,36 @@ Fechaorden (2.google.protobuf.Timestamp-
 	Prioridad (
 Codplan (.
 	Codcuenta (2.protoMessages.Int32Message.
-Concepto (2.protoMessages.StringMessage"ü
+Concepto (2.protoMessages.StringMessage"æ
 GsDetalleImpuestoMessage
 Codempre (
 Numero (
 Numlinea (
-Codimpuesto (
-Tasa (,
-Aplica (2.protoMessages.DoubleMessage"◊
+Codimpuesto (+
+Tasa (2.protoMessages.DecimalMessage,
+Aplica (2.protoMessages.DoubleMessage"›
 GsDetalleRetencionMessage
 Codempre (
-Numero (.
-MontoMes (2.protoMessages.DoubleMessage/
-	MinimoImp (2.protoMessages.DoubleMessage3
-PorcentRetenc (2.protoMessages.DoubleMessage0
+Numero (/
+MontoMes (2.protoMessages.DecimalMessage0
+	MinimoImp (2.protoMessages.DecimalMessage3
+PorcentRetenc (2.protoMessages.DoubleMessage1
 
-RetencCalc (2.protoMessages.DoubleMessage.
-SumaFija (2.protoMessages.DoubleMessage4
-RetencionesMes (2.protoMessages.DoubleMessage4
-Calculosistema	 (2.protoMessages.StringMessage4
+RetencCalc (2.protoMessages.DecimalMessage/
+SumaFija (2.protoMessages.DecimalMessage5
+RetencionesMes (2.protoMessages.DecimalMessage4
+Calculosistema	 (2.protoMessages.StringMessage5
 TotalRetenible
- (2.protoMessages.DoubleMessage"ú
+ (2.protoMessages.DecimalMessage"ò
 GsDetalleVencimientoMessage
 Codempre (
 Numero (
 Numlinea (
-Orden (
-Debe (
-Haber (
-Mdebe (
-Mhaber ("π
+Orden (+
+Debe (2.protoMessages.DecimalMessage,
+Haber (2.protoMessages.DecimalMessage,
+Mdebe (2.protoMessages.DecimalMessage-
+Mhaber (2.protoMessages.DecimalMessage"∫
 GsDevengadoMessage
 Codempre (
 Numero (,
@@ -655,8 +654,8 @@ RetencCalc (2.protoMessages.DoubleMessage.
 
 Codpersona (2.protoMessages.Int32Message.
 	Codcobpag (2.protoMessages.Int32Message.
-	Codmoneda (2.protoMessages.Int32Message1
-Valorcambio	 (2.protoMessages.DoubleMessage
+	Codmoneda (2.protoMessages.Int32Message2
+Valorcambio	 (2.protoMessages.DecimalMessage
 Tipooper
  (	,
 Codpase (2.protoMessages.Int32Message+
@@ -713,14 +712,14 @@ FecVtoPago9 (2.google.protobuf.Timestamp5
 NoConciliar; (2.protoMessages.StringMessage5
 TransmisionPyme< (2.protoMessages.StringMessage6
 FecDesdeReferencia= (2.google.protobuf.Timestamp6
-FecHastaReferencia> (2.google.protobuf.Timestamp"¯
+FecHastaReferencia> (2.google.protobuf.Timestamp"∂
 GsDevengadoComisioneMessage
 Codempre (
 Numero (
 	Codagente (*
-Tasa (2.protoMessages.DoubleMessage
-Importe (
-Mimporte (0
+Tasa (2.protoMessages.DoubleMessage.
+Importe (2.protoMessages.DecimalMessage/
+Mimporte (2.protoMessages.DecimalMessage0
 
 Comentario (2.protoMessages.StringMessage6
 NumeroCancelacion (2.protoMessages.Int32Message
@@ -874,15 +873,15 @@ Codpersona (
 Estado (	"l
 GsFeriadoMessage)
 Fecha (2.google.protobuf.Timestamp-
-Descrip (2.protoMessages.StringMessage"ä
+Descrip (2.protoMessages.StringMessage"é
 GsFijacionesContratog3CMessage
 Codcontrato (
-Orden (0
+Orden (1
 
-TnFijacion (2.protoMessages.DoubleMessage.
-PrecioTn (2.protoMessages.DoubleMessage/
-	MprecioTn (2.protoMessages.DoubleMessage1
-Valorcambio (2.protoMessages.DoubleMessage"£
+TnFijacion (2.protoMessages.DecimalMessage/
+PrecioTn (2.protoMessages.DecimalMessage0
+	MprecioTn (2.protoMessages.DecimalMessage2
+Valorcambio (2.protoMessages.DecimalMessage"£
 GsFormNotaremisionMessage
 Codformulario (
 
@@ -1317,7 +1316,7 @@ LetraCompr (	"Ç
 Idimportacion (
 Idreferencia (
 Idagrupapase (
-NumeroGestor ("˚	
+NumeroGestor ("˝	
 GsImpresionCartaPorteMessage
 
 Codcosecha (5
@@ -1329,15 +1328,15 @@ Codcosecha (5
 
 Coddestino (2.protoMessages.Int32Message7
 Direccprocedencia (2.protoMessages.StringMessage3
-Direccdestino	 (2.protoMessages.StringMessage*
+Direccdestino	 (2.protoMessages.StringMessage+
 Tara
- (2.protoMessages.DoubleMessage2
+ (2.protoMessages.DecimalMessage2
 Ciudadorigen (2.protoMessages.StringMessage3
 Ciudaddestino (2.protoMessages.StringMessage;
 Establecimientoorigen (2.protoMessages.StringMessage5
 Provinciaorigen (2.protoMessages.StringMessage6
-Provinciadestino (2.protoMessages.StringMessage6
-TarifaReferencia (2.protoMessages.DoubleMessage8
+Provinciadestino (2.protoMessages.StringMessage7
+TarifaReferencia (2.protoMessages.DecimalMessage8
 CodigoAlfanumerico (2.protoMessages.StringMessage(
 Ctg (2.protoMessages.Int32Message
 Codempre (-
@@ -1347,14 +1346,14 @@ IdContrato (2.protoMessages.StringMessage,
 Renspa (2.protoMessages.StringMessage4
 CodcorredorVend (2.protoMessages.Int32Message6
 Codmercadotermino (2.protoMessages.Int32Message3
-CodintermFlete (2.protoMessages.Int32Message"É
+CodintermFlete (2.protoMessages.Int32Message"Ö
 GsImpuestoMessage
 Codimpuesto (
 Descrip (	.
 Concepto (2.protoMessages.StringMessage
 	Impogrupo (	-
-Codgrupo (2.protoMessages.Int32Message*
-Tasa (2.protoMessages.DoubleMessage.
+Codgrupo (2.protoMessages.Int32Message+
+Tasa (2.protoMessages.DecimalMessage.
 Tipooper (2.protoMessages.StringMessage-
 Gravada (2.protoMessages.StringMessage/
 	Codfiscal	 (2.protoMessages.StringMessage,
@@ -1365,8 +1364,8 @@ IdContrato (2.protoMessages.StringMessage,
 Codivafe (2.protoMessages.StringMessage3
 TipotributoFe (2.protoMessages.StringMessage4
 PorcentAplicar (2.protoMessages.DoubleMessage,
-Padron (2.protoMessages.StringMessage/
-	TasaError (2.protoMessages.DoubleMessage.
+Padron (2.protoMessages.StringMessage0
+	TasaError (2.protoMessages.DecimalMessage.
 Codfelsp (2.protoMessages.StringMessage1
 TasaCateg13 (2.protoMessages.DoubleMessage1
 TasaCateg47 (2.protoMessages.DoubleMessage"p
@@ -1397,11 +1396,11 @@ Codpersona (
 !GsImputacionesVtaMostradorMessage
 Codcomprobante (
 Codplan (
-	Codcuenta ("_
+	Codcuenta ("~
 GsIndiceMessage
 	Codindice ()
-Fecha (2.google.protobuf.Timestamp
-Indice ("à
+Fecha (2.google.protobuf.Timestamp-
+Indice (2.protoMessages.DecimalMessage"à
 GsInfGestionMessage
 Codinfgestion (
 Descrip (	
@@ -1451,67 +1450,68 @@ Superficie ("’
 CodplanCentro (2.protoMessages.Int32Message4
 CodcuentaCentro (2.protoMessages.Int32Message
 
-Superficie ("Z
+Superficie ("y
 GsLimiteCreditoMessage
 CodlimiteCredito (
-Descrip (	
-LimiteCredito ("r
+Descrip (	4
+LimiteCredito (2.protoMessages.DecimalMessage"r
 GsListadosConfiguradoMessage
 Nombre (	0
 
 Parametros (2.protoMessages.StringMessage
-MenuName (	"∞
+MenuName (	"¥
 GsListasImportadaMessage)
 Fecha (2.google.protobuf.Timestamp
 	Codfisico (	0
 
 Descfisico (2.protoMessages.StringMessage2
 Unidadfisico (2.protoMessages.StringMessage,
-Moneda (2.protoMessages.StringMessage,
-Precio (2.protoMessages.DoubleMessage1
-Bonifcompra (2.protoMessages.DoubleMessage0
+Moneda (2.protoMessages.StringMessage-
+Precio (2.protoMessages.DecimalMessage2
+Bonifcompra (2.protoMessages.DecimalMessage1
 
-Bonifventa (2.protoMessages.DoubleMessage/
-	Bonifpase	 (2.protoMessages.DoubleMessage"ﬂ
+Bonifventa (2.protoMessages.DecimalMessage0
+	Bonifpase	 (2.protoMessages.DecimalMessage"è
 GsListasPrecioMessage
 Codlista (
 Descrip (	
-Defecto (	1
-CodivaVentas (2.protoMessages.Int32Message2
-CodivaCompras (2.protoMessages.Int32Message+
-Oprod (2.protoMessages.StringMessage"i
+Defecto (	.
+Tipooper (2.protoMessages.StringMessage1
+CodivaVentas (2.protoMessages.Int32Message2
+CodivaCompras (2.protoMessages.Int32Message+
+Oprod (2.protoMessages.StringMessage"à
  GsListasPreciosBonifGrupoMessage
 Codlista (
 
 Codpersona (
-Codgrupo (
-Bonif ("£
+Codgrupo (,
+Bonif (2.protoMessages.DecimalMessage"‚
 GsListasPreciosBonifPerMessage
 Codlista (
 
-Codpersona (
-BonifVentas (
-BonifCompras (0
+Codpersona (2
+BonifVentas (2.protoMessages.DecimalMessage3
+BonifCompras (2.protoMessages.DecimalMessage1
 
-BonifPases (2.protoMessages.DoubleMessage"–
+BonifPases (2.protoMessages.DecimalMessage"ı
 GsListasPreciosDetalleMessage
 Codlista (
 Codproducto (,
-VigDesde (2.google.protobuf.Timestamp
-Importe (
-	Codmoneda (1
-BonifVentas (2.protoMessages.DoubleMessage2
-BonifCompras (2.protoMessages.DoubleMessage4
-ImporteCompras (2.protoMessages.DoubleMessage3
-ImporteVentas	 (2.protoMessages.DoubleMessage0
+VigDesde (2.google.protobuf.Timestamp.
+Importe (2.protoMessages.DecimalMessage
+	Codmoneda (2
+BonifVentas (2.protoMessages.DecimalMessage3
+BonifCompras (2.protoMessages.DecimalMessage5
+ImporteCompras (2.protoMessages.DecimalMessage4
+ImporteVentas	 (2.protoMessages.DecimalMessage1
 
 BonifPases
- (2.protoMessages.DoubleMessage2
-ImportePases (2.protoMessages.DoubleMessage"k
+ (2.protoMessages.DecimalMessage3
+ImportePases (2.protoMessages.DecimalMessage"ä
 !GsListasPreciosImportacionMessage
 Codlista (
-Codproducto (
-Coef (
+Codproducto (+
+Coef (2.protoMessages.DecimalMessage
 	Codmoneda ("V
 GsListasPreciosTipoDocMessage
 Codlista (
@@ -1522,7 +1522,7 @@ BonifPases
 	Localidad (	
 Codprovoncca (
 
-Codpartido ("â
+Codpartido (" 
 GsLoteMessage
 	Codremate (
 Codlote (
@@ -1535,22 +1535,22 @@ Codpartido ("â
 Codusuario (
 Codpersfisica	 (3
 CodagenteVenta
- (2.protoMessages.Int32Message3
-ComisionVenta (2.protoMessages.DoubleMessage4
-CodagenteCompra (2.protoMessages.Int32Message4
-ComisionCompra (2.protoMessages.DoubleMessage
+ (2.protoMessages.Int32Message4
+ComisionVenta (2.protoMessages.DecimalMessage4
+CodagenteCompra (2.protoMessages.Int32Message5
+ComisionCompra (2.protoMessages.DecimalMessage
 Codlocprocedencia (
 Codlocdestino (0
 Codfaenador (2.protoMessages.Int32Message
 CodplanClasif (
 CodcuentaClasif (
 Codgrupoalic (
-Codproducto (
-	Cantparte (/
-	Canttotal (2.protoMessages.DoubleMessage
+Codproducto (0
+	Cantparte (2.protoMessages.DecimalMessage0
+	Canttotal (2.protoMessages.DecimalMessage
 
-Coddestino (	
-Precio (+
+Coddestino (	-
+Precio (2.protoMessages.DecimalMessage+
 Notas (2.protoMessages.StringMessage,
 UsrAlta (2.protoMessages.Int32Message+
 FecAlta (2.google.protobuf.Timestamp-
@@ -1563,13 +1563,13 @@ Coddestino (	
 Coddestino (	
 Descrip (	.
 	Codfiscal (2.protoMessages.Int32Message+
-Codfe (2.protoMessages.StringMessage"¿
+Codfe (2.protoMessages.StringMessage"¡
 GsLotesNovedadeMessage
 	Codremate (
 Codlote (
 Tipooper (	
-Codimpuesto (/
-	Valorcalc (2.protoMessages.DoubleMessage*
+Codimpuesto (0
+	Valorcalc (2.protoMessages.DecimalMessage*
 Guia (2.protoMessages.StringMessage"‚
 GsLotesVencimientoMessage
 	Codremate (
@@ -1653,30 +1653,30 @@ Percepcion (
 Cuit (	
 
 Percepcion (
-	Retencion ("‡
+	Retencion ("·
 GsMonedaMessage
 	Codmoneda (
 Simbolo (	
 Descrip (	
-PedirCotizacion (	/
-	MaxRedond (2.protoMessages.DoubleMessage1
+PedirCotizacion (	0
+	MaxRedond (2.protoMessages.DecimalMessage1
 Codmonedafe (2.protoMessages.StringMessage8
 CodmonedaComprDupl (2.protoMessages.StringMessage,
 Indice (2.protoMessages.StringMessage3
-Codcotizimport	 (2.protoMessages.Int32Message"v
+Codcotizimport	 (2.protoMessages.Int32Message"ï
 GsMonedasValoreMessage
 Codbase (
 	Codcambio ()
-Fecha (2.google.protobuf.Timestamp
-Valor ("Ú
+Fecha (2.google.protobuf.Timestamp,
+Valor (2.protoMessages.DecimalMessage"ı
 GsMovsHaciendag3CMessage
 Codempre (
 Codmovimiento (
 TipoMov (	
-Codproducto (/
-	Cantparte (2.protoMessages.DoubleMessage/
-	Canttotal (2.protoMessages.DoubleMessage*
-Coef (2.protoMessages.DoubleMessage0
+Codproducto (0
+	Cantparte (2.protoMessages.DecimalMessage0
+	Canttotal (2.protoMessages.DecimalMessage+
+Coef (2.protoMessages.DecimalMessage0
 Codproddest (2.protoMessages.Int32Message
 Codestablecimiento	 (/
 
@@ -1690,15 +1690,15 @@ Codestdest
 FecBaja (2.google.protobuf.Timestamp,
 UsrBaja (2.protoMessages.Int32Message
 Estado (	,
-Observ (2.protoMessages.StringMessage"õ
+Observ (2.protoMessages.StringMessage"û
 GsMovsInsumosDetalleg3CMessage
 Codempre (
 Codmovimiento (
 Numlinea (0
-Codproducto (2.protoMessages.Int32Message/
-	Cantparte (2.protoMessages.DoubleMessage/
-	Canttotal (2.protoMessages.DoubleMessage*
-Coef (2.protoMessages.DoubleMessage"≠
+Codproducto (2.protoMessages.Int32Message0
+	Cantparte (2.protoMessages.DecimalMessage0
+	Canttotal (2.protoMessages.DecimalMessage+
+Coef (2.protoMessages.DecimalMessage"≠
 GsMovsInsumosg3CMessage
 Codempre (
 Codmovimiento (
@@ -1764,7 +1764,7 @@ Codplnhsta ("Â
 CodplanNegocios (
 CodcuentaNegocios (1
 Codoperacion (2.protoMessages.Int32Message1
-LugarOrigen (2.protoMessages.StringMessage"≤
+LugarOrigen (2.protoMessages.StringMessage"∑
 GsOrdenesDetalleg3CMessage
 Codempre (
 Codorden (
@@ -1775,23 +1775,23 @@ Codcultivo (,
 Codproducto (5
 CodremitoEntrega (2.protoMessages.Int32Message5
 CodremitoDelovuc (2.protoMessages.Int32Message
-Coddeposito	 (/
+Coddeposito	 (0
 	Cantparte
- (2.protoMessages.DoubleMessage/
-	Canttotal (2.protoMessages.DoubleMessage*
-Coef (2.protoMessages.DoubleMessage6
+ (2.protoMessages.DecimalMessage0
+	Canttotal (2.protoMessages.DecimalMessage+
+Coef (2.protoMessages.DecimalMessage6
 ProduccionPropia (2.protoMessages.StringMessage,
-Observ (2.protoMessages.StringMessage-
-Importe (2.protoMessages.DoubleMessage.
-	Codmoneda (2.protoMessages.Int32Message1
-Valorcambio (2.protoMessages.DoubleMessage"í
+Observ (2.protoMessages.StringMessage.
+Importe (2.protoMessages.DecimalMessage.
+	Codmoneda (2.protoMessages.Int32Message2
+Valorcambio (2.protoMessages.DecimalMessage"î
 GsOrdenesProduccionMessage
 Codempre (
 Codorden ()
 Fecha (2.google.protobuf.Timestamp
-Codproducto (/
-	Cantparte (2.protoMessages.DoubleMessage/
-	Canttotal (2.protoMessages.DoubleMessage+
+Codproducto (0
+	Cantparte (2.protoMessages.DecimalMessage0
+	Canttotal (2.protoMessages.DecimalMessage+
 Coef (2.protoMessages.DecimalMessage0
 FechaEntrega (2.google.protobuf.Timestamp
 OrdenadaPor	 (
@@ -1805,20 +1805,20 @@ Codcultivo (,
 FecModif (2.google.protobuf.Timestamp-
 UsrModif (2.protoMessages.Int32Message+
 FecBaja (2.google.protobuf.Timestamp,
-UsrBaja (2.protoMessages.Int32Message"ì
+UsrBaja (2.protoMessages.Int32Message"ñ
 !GsOrdenesProduccionDetalleMessage
 Codempre (
 Codorden (
 Numlinea (
 Dia ()
 Fecha (2.google.protobuf.Timestamp
-Codproducto (/
-	Cantparte (2.protoMessages.DoubleMessage/
-	Canttotal (2.protoMessages.DoubleMessage+
+Codproducto (0
+	Cantparte (2.protoMessages.DecimalMessage0
+	Canttotal (2.protoMessages.DecimalMessage+
 Coef	 (2.protoMessages.DecimalMessage,
 Observ
- (2.protoMessages.StringMessage.
-Cantneta (2.protoMessages.DoubleMessage"‰
+ (2.protoMessages.StringMessage/
+Cantneta (2.protoMessages.DecimalMessage"‰
 GsOrdenesg3CMessage
 Codempre (
 Codorden (
@@ -1910,30 +1910,30 @@ Referencia (2.protoMessages.StringMessage2
 	FormaPago (2.protoMessages.StringMessage6
 CondicionEntrega (2.protoMessages.StringMessage+
 Flete (2.protoMessages.StringMessage+
-Notas (2.protoMessages.StringMessage"í
+Notas (2.protoMessages.StringMessage"Ô
 !GsPedidosCotizacionDetalleMessage
 Codcotizacion (
 Numlinea (
-CodprodElab (
-Cantidad (
-Precio (
-Total ("–
+CodprodElab (/
+Cantidad (2.protoMessages.DecimalMessage-
+Precio (2.protoMessages.DecimalMessage,
+Total (2.protoMessages.DecimalMessage"”
 #GsPedidosCotizacionMaterialeMessage
 Codcotizacion (
 Codproveedor (
 Numlinea (
 Codproducto (2
-FraccionesTot (2.protoMessages.Int32Message6
-FraccionesUsadas (2.protoMessages.DoubleMessage,
-Precio (2.protoMessages.DoubleMessage+
-Total (2.protoMessages.DoubleMessage
+FraccionesTot (2.protoMessages.Int32Message7
+FraccionesUsadas (2.protoMessages.DecimalMessage-
+Precio (2.protoMessages.DecimalMessage,
+Total (2.protoMessages.DecimalMessage
 Estado	 (	"∆
 $GsPedidosCotizacionProveedoreMessage
 Codcotizacion (
 Codproveedor (/
 FechaPedido (2.google.protobuf.Timestamp0
 FechaEntrega (2.google.protobuf.Timestamp
-Estado (	"ö
+Estado (	"õ
 GsPercibidoMessage
 Codempre (
 	Percibido ()
@@ -1955,8 +1955,8 @@ $GsPedidosCotizacionProveedoreMessage
 PersonaRecibo (2.protoMessages.StringMessage6
 ArchivosAdjuntos (2.protoMessages.StringMessage1
 SoloGestion (2.protoMessages.StringMessage.
-	Codmoneda (2.protoMessages.Int32Message1
-Valorcambio (2.protoMessages.DoubleMessage6
+	Codmoneda (2.protoMessages.Int32Message2
+Valorcambio (2.protoMessages.DecimalMessage6
 CodcomprMostrador (2.protoMessages.Int32Message2
 EnvioPorMail (2.protoMessages.StringMessage"O
 GsPercibidoOcMessage
@@ -1967,7 +1967,7 @@ OrdenCobro ("N
 GsPercibidoOpMessage
 Codempre (
 	Percibido (
-	OrdenPago ("’
+	OrdenPago ("
 GsPercibidoValoreMessage
 Codempre (
 	Percibido (
@@ -1976,13 +1976,13 @@ OrdenCobro ("N
 Fecemision (2.google.protobuf.Timestamp+
 Tipdoc (2.protoMessages.Int32Message,
 Numdoc (2.protoMessages.StringMessage
-	Codctacte (
-Debe (
-Haber	 (
+	Codctacte (+
+Debe (2.protoMessages.DecimalMessage,
+Haber	 (2.protoMessages.DecimalMessage,
 Mdebe
- (
-Mhaber (
-Valorcambio (.
+ (2.protoMessages.DecimalMessage-
+Mhaber (2.protoMessages.DecimalMessage2
+Valorcambio (2.protoMessages.DecimalMessage.
 
 Fechabanco (2.google.protobuf.Timestamp/
 	OrdenCheq (2.protoMessages.StringMessage
@@ -2076,7 +2076,7 @@ TipoCuenta (2.protoMessages.StringMessage/
 	NroCuenta (2.protoMessages.StringMessage.
 Sucursal	 (2.protoMessages.StringMessage)
 Cbu
- (2.protoMessages.StringMessage"ä
+ (2.protoMessages.StringMessage"ã
 GsPersonasBonificacioneMessage
 Codbonificacion (
 
@@ -2086,8 +2086,8 @@ Codpersona (
 PrioridadNegocios (2.protoMessages.Int32Message4
 CodplanNegocios (2.protoMessages.Int32Message6
 CodcuentaNegocios (2.protoMessages.Int32Message/
-	TipoBonif (2.protoMessages.StringMessage2
-Bonificacion	 (2.protoMessages.DoubleMessage,
+	TipoBonif (2.protoMessages.StringMessage3
+Bonificacion	 (2.protoMessages.DecimalMessage,
 VigDesde
  (2.google.protobuf.Timestamp,
 VigHasta (2.google.protobuf.Timestamp
@@ -2099,7 +2099,7 @@ Codpersona (
 	Codcuenta ("F
  GsPersonasClasificacionexMessage
 Codplan (
-	Codcuenta ("°
+	Codcuenta ("¢
 GsPersonasComisioneMessage
 Codcomision (
 
@@ -2109,8 +2109,8 @@ Codpersona (
 Codempre (2.protoMessages.Int32Message6
 PrioridadNegocios (2.protoMessages.Int32Message4
 CodplanNegocios (2.protoMessages.Int32Message6
-CodcuentaNegocios (2.protoMessages.Int32Message.
-Comision	 (2.protoMessages.DoubleMessage0
+CodcuentaNegocios (2.protoMessages.Int32Message/
+Comision	 (2.protoMessages.DecimalMessage0
 
 Coddestino
  (2.protoMessages.StringMessage"|
@@ -2142,7 +2142,7 @@ Codpersona (
 GsPersonasMailMessage
 Codtipoaviso (
 
-Codpersona ("’
+Codpersona ("ÿ
 GsPlanAcciong3CMessage
 Codplan (
 Codcampania (
@@ -2153,11 +2153,11 @@ Codpersona ("’
 
 Superficie (.
 Variedad (2.protoMessages.StringMessage2
-SupCosechada	 (2.protoMessages.DoubleMessage1
+SupCosechada	 (2.protoMessages.DoubleMessage2
 RindePresup
- (2.protoMessages.DoubleMessage3
-RindeSembrado (2.protoMessages.DoubleMessage3
-RindeEstimado (2.protoMessages.DoubleMessage,
+ (2.protoMessages.DecimalMessage4
+RindeSembrado (2.protoMessages.DecimalMessage4
+RindeEstimado (2.protoMessages.DecimalMessage,
 Estado (2.protoMessages.StringMessage"Ô
 GsPlanDeCuentaMessage
 Codplan (
@@ -2186,24 +2186,24 @@ TipoCuenta (	.
 Fecha (2.google.protobuf.Timestamp
 Codproducto (
 Precio (,
-FecModif (2.google.protobuf.Timestamp"Ñ
+FecModif (2.google.protobuf.Timestamp"£
 GsPreciosProveedoreMessage
 
 Codpersona (
 Codproducto (,
-VigDesde (2.google.protobuf.Timestamp
-Importe ("|
+VigDesde (2.google.protobuf.Timestamp.
+Importe (2.protoMessages.DecimalMessage"|
 GsPresupuestoMessage
 Codpresupuesto (
 Codempre (
 Descrip (	)
-Fecha (2.google.protobuf.Timestamp"÷
+Fecha (2.google.protobuf.Timestamp"◊
 GsProductoMessage
 Codproducto (
 Descrip (	.
 	Unidparte (2.protoMessages.Int32Message.
-	Unidtotal (2.protoMessages.Int32Message*
-Coef (2.protoMessages.DoubleMessage-
+	Unidtotal (2.protoMessages.Int32Message+
+Coef (2.protoMessages.DecimalMessage-
 Importe (2.protoMessages.DoubleMessage
 
 Prodogrupo (	-
@@ -2217,21 +2217,21 @@ Prodogrupo (	-
 DescripDetallada (2.protoMessages.StringMessage+
 Codiva (2.protoMessages.Int32Message+
 Codfe (2.protoMessages.StringMessage4
-Codimportacion (2.protoMessages.StringMessage"ú
+Codimportacion (2.protoMessages.StringMessage"⁄
 GsProductosCuentaMessage
 Codempre (
 Codproducto (
 	Prioridad (
 Codplan (
-	Codcuenta (
-	Canttotal (
-Importe ("Ê
+	Codcuenta (0
+	Canttotal (2.protoMessages.DecimalMessage.
+Importe (2.protoMessages.DecimalMessage"Ë
 GsProductosElaboradoMessage
 CodprodElab (
 Codproducto (
-TipoProduccion (	/
-	Cantparte (2.protoMessages.DoubleMessage/
-	Canttotal (2.protoMessages.DoubleMessage+
+TipoProduccion (	0
+	Cantparte (2.protoMessages.DecimalMessage0
+	Canttotal (2.protoMessages.DecimalMessage+
 Coef (2.protoMessages.DecimalMessage+
 Notas (2.protoMessages.StringMessage6
 ArchivosAdjuntos (2.protoMessages.StringMessage+
@@ -2241,17 +2241,17 @@ Prodogrupo (	-
 FecModif (2.google.protobuf.Timestamp-
 UsrModif (2.protoMessages.Int32Message+
 FecBaja (2.google.protobuf.Timestamp,
-UsrBaja (2.protoMessages.Int32Message"€
+UsrBaja (2.protoMessages.Int32Message"ﬁ
 #GsProductosElaboradosDetalleMessage
 CodprodElab (
-Numlinea (
-Codproducto (/
-	Cantparte (2.protoMessages.DoubleMessage/
-	Canttotal (2.protoMessages.DoubleMessage+
-Coef (2.protoMessages.DecimalMessage
-Dia (,
-Observ (2.protoMessages.StringMessage.
-Cantneta	 (2.protoMessages.DoubleMessage"j
+Numlinea (
+Dia (
+Codproducto (0
+	Cantparte (2.protoMessages.DecimalMessage0
+	Canttotal (2.protoMessages.DecimalMessage+
+Coef (2.protoMessages.DecimalMessage,
+Observ (2.protoMessages.StringMessage/
+Cantneta	 (2.protoMessages.DecimalMessage"j
 GsProductosImputacioneMessage
 Codproducto (
 Tipooper (	
@@ -2268,17 +2268,17 @@ Prodogrupo (	-
 GsRazaMessage
 Codraza (
 Raza (	,
-Codafip (2.protoMessages.Int32Message"Î
+Codafip (2.protoMessages.Int32Message"Á
 GsRelaDevPerMessage
 Codempre (
 Numero (
 Orden (.
 	Percibido (2.protoMessages.Int32Message-
-	Fechavenc (2.google.protobuf.Timestamp
-Debe (
-Haber (
-Mdebe (
-Mhaber	 (0
+	Fechavenc (2.google.protobuf.Timestamp+
+Debe (2.protoMessages.DecimalMessage,
+Haber (2.protoMessages.DecimalMessage,
+Mdebe (2.protoMessages.DecimalMessage-
+Mhaber	 (2.protoMessages.DecimalMessage0
 
 Comentario
  (2.protoMessages.StringMessage
@@ -2309,7 +2309,7 @@ Codplnhsta (
 Numlinea (
 TipooperRel (	
 	NumeroRel (
-NumlineaRel ("˙
+NumlineaRel ("˚
 GsRemateMessage
 	Codremate (
 Codempre (
@@ -2341,24 +2341,24 @@ Fecemision (2.google.protobuf.Timestamp+
 FecModif (2.google.protobuf.Timestamp4
 OrigenHacienda (2.protoMessages.StringMessage7
 CodPostalHacienda (2.protoMessages.StringMessage.
-	Codmoneda (2.protoMessages.Int32Message1
-Valorcambio (2.protoMessages.DoubleMessage,
-Fecfaena (2.google.protobuf.Timestamp"â
+	Codmoneda (2.protoMessages.Int32Message2
+Valorcambio (2.protoMessages.DecimalMessage,
+Fecfaena (2.google.protobuf.Timestamp"é
 GsRemitosDetalleg3CMessage
 Codempre (
 	Codremito (
 Numlinea (0
-Codproducto (2.protoMessages.Int32Message/
-	Cantparte (2.protoMessages.DoubleMessage/
-	Canttotal (2.protoMessages.DoubleMessage*
-Coef (2.protoMessages.DoubleMessage/
+Codproducto (2.protoMessages.Int32Message0
+	Cantparte (2.protoMessages.DecimalMessage0
+	Canttotal (2.protoMessages.DecimalMessage+
+Coef (2.protoMessages.DecimalMessage/
 
 NumeroFact (2.protoMessages.Int32Message1
-NumlineaFact	 (2.protoMessages.Int32Message-
+NumlineaFact	 (2.protoMessages.Int32Message.
 Importe
- (2.protoMessages.DoubleMessage.
-	Codmoneda (2.protoMessages.Int32Message1
-Valorcambio (2.protoMessages.DoubleMessage"É
+ (2.protoMessages.DecimalMessage.
+	Codmoneda (2.protoMessages.Int32Message2
+Valorcambio (2.protoMessages.DecimalMessage"É
 GsRemitosFacturaMessage
 Codempre (
 
@@ -2426,13 +2426,13 @@ Codreporte (
 
 Codreporte (
 Codparametro (
-	Parametro (	"“
+	Parametro (	"Ò
 GsRetencioneMessage
 Codretencion (
 Descrip (	0
 Codacreedor (2.protoMessages.Int32Message0
-Codimpuesto (2.protoMessages.Int32Message
-RetencionMinima (
+Codimpuesto (2.protoMessages.Int32Message6
+RetencionMinima (2.protoMessages.DecimalMessage
 	TipoReten (	
 	UsaRubros (	
 UsaZonas (	
@@ -2507,11 +2507,11 @@ PuntoVenta (	"º
 NroChequera (
 NroDesde (
 NroHasta (
-Estado (	"O
+Estado (	"n
 GsTarifasCatacg3CMessage
 Codcatac (
-	Distancia (
-Tarifa ("”
+	Distancia (-
+Tarifa (2.protoMessages.DecimalMessage"”
 GsTipoDocMessage
 Codigo (
 Tipdoc (	
@@ -2640,7 +2640,7 @@ Habilitado (	
 GsUsuariosEmpresaMessage
 Codempre (
 
-Codusuario ("Û
+Codusuario ("í
 GsValoreMessage
 Numero (
 Codempre (
@@ -2654,8 +2654,8 @@ Fecemision (2.google.protobuf.Timestamp)
 Fecha (2.google.protobuf.Timestamp+
 Tipdoc	 (2.protoMessages.Int32Message,
 Numdoc
- (2.protoMessages.StringMessage
-Importe (
+ (2.protoMessages.StringMessage.
+Importe (2.protoMessages.DecimalMessage
 Codbanco ("√
 GsValuacionesPendienteMessage
 Codempre (
@@ -2699,21 +2699,21 @@ Fecemision (2.google.protobuf.Timestamp)
 
 Codpersona (
 Codcondicion (
-Coditem ("ª
+Coditem ("€
 RetConceptoAlicuotaMessage
 Codcondicion (
-Coditem (
-Desde (
+Coditem (,
+Desde (2.protoMessages.DecimalMessage
 
-Porcentaje (.
-SumaFija (2.protoMessages.DoubleMessage
+Porcentaje (/
+SumaFija (2.protoMessages.DecimalMessage
 Codretencion (
-Orden ("®
+Orden ("«
 RetConceptoMinImpMessage,
 Codplan (2.protoMessages.Int32Message.
 	Codcuenta (2.protoMessages.Int32Message
-Concepto (	
-MinimoImponible (
+Concepto (	6
+MinimoImponible (2.protoMessages.DecimalMessage
 Codretencion (
 Orden (-
 Codzona (2.protoMessages.StringMessage/

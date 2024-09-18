@@ -30,9 +30,9 @@ class GsRetencioneMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codimpuesto = null;
     /**
-     * Generated from protobuf field <code>double RetencionMinima = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage RetencionMinima = 5;</code>
      */
-    protected $RetencionMinima = 0.0;
+    protected $RetencionMinima = null;
     /**
      * Generated from protobuf field <code>string TipoReten = 6;</code>
      */
@@ -100,7 +100,7 @@ class GsRetencioneMessage extends \Google\Protobuf\Internal\Message
      *     @type string $Descrip
      *     @type \ProtoMessages\Int32Message $Codacreedor
      *     @type \ProtoMessages\Int32Message $Codimpuesto
-     *     @type float $RetencionMinima
+     *     @type \ProtoMessages\DecimalMessage $RetencionMinima
      *     @type string $TipoReten
      *     @type string $UsaRubros
      *     @type string $UsaZonas
@@ -231,22 +231,32 @@ class GsRetencioneMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>double RetencionMinima = 5;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage RetencionMinima = 5;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getRetencionMinima()
     {
         return $this->RetencionMinima;
     }
 
+    public function hasRetencionMinima()
+    {
+        return isset($this->RetencionMinima);
+    }
+
+    public function clearRetencionMinima()
+    {
+        unset($this->RetencionMinima);
+    }
+
     /**
-     * Generated from protobuf field <code>double RetencionMinima = 5;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage RetencionMinima = 5;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setRetencionMinima($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->RetencionMinima = $var;
 
         return $this;

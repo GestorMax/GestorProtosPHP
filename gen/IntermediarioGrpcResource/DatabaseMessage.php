@@ -38,7 +38,7 @@ class DatabaseMessage extends \Google\Protobuf\Internal\Message
      */
     protected $lastBackup = null;
     /**
-     * Generated from protobuf field <code>repeated .intermediarioSharedMessages.CompanyMessage companies = 7;</code>
+     * Generated from protobuf field <code>repeated .intermediario.grpc.common.CompanyMessage companies = 7;</code>
      */
     private $companies;
     /**
@@ -66,7 +66,7 @@ class DatabaseMessage extends \Google\Protobuf\Internal\Message
      *     @type string $serverInstance
      *     @type string $serverDBName
      *     @type \Google\Protobuf\Timestamp $lastBackup
-     *     @type array<\IntermediarioSharedMessages\CompanyMessage>|\Google\Protobuf\Internal\RepeatedField $companies
+     *     @type array<\Intermediario\Grpc\Common\CompanyMessage>|\Google\Protobuf\Internal\RepeatedField $companies
      *     @type string $customerCompanyName
      *     @type bool $gestorConnectActive
      *     @type bool $intermediarioInitialized
@@ -220,7 +220,7 @@ class DatabaseMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>repeated .intermediarioSharedMessages.CompanyMessage companies = 7;</code>
+     * Generated from protobuf field <code>repeated .intermediario.grpc.common.CompanyMessage companies = 7;</code>
      * @return \Google\Protobuf\Internal\RepeatedField
      */
     public function getCompanies()
@@ -229,13 +229,13 @@ class DatabaseMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>repeated .intermediarioSharedMessages.CompanyMessage companies = 7;</code>
-     * @param array<\IntermediarioSharedMessages\CompanyMessage>|\Google\Protobuf\Internal\RepeatedField $var
+     * Generated from protobuf field <code>repeated .intermediario.grpc.common.CompanyMessage companies = 7;</code>
+     * @param array<\Intermediario\Grpc\Common\CompanyMessage>|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setCompanies($var)
     {
-        $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \IntermediarioSharedMessages\CompanyMessage::class);
+        $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \Intermediario\Grpc\Common\CompanyMessage::class);
         $this->companies = $arr;
 
         return $this;

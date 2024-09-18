@@ -38,7 +38,7 @@ class GsConfiguracionMessage extends \Google\Protobuf\Internal\Message
      */
     protected $LugarCheque = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage RetencionMinima = 7;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage RetencionMinima = 7;</code>
      */
     protected $RetencionMinima = null;
     /**
@@ -362,7 +362,7 @@ class GsConfiguracionMessage extends \Google\Protobuf\Internal\Message
      */
     protected $G3Cosecha = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage LimiteDifKgsSecoDest = 88;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage LimiteDifKgsSecoDest = 88;</code>
      */
     protected $LimiteDifKgsSecoDest = null;
     /**
@@ -438,7 +438,7 @@ class GsConfiguracionMessage extends \Google\Protobuf\Internal\Message
      */
     protected $CodsaldoCalidad = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage LimiteKgsFleteCorto = 107;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage LimiteKgsFleteCorto = 107;</code>
      */
     protected $LimiteKgsFleteCorto = null;
     /**
@@ -634,7 +634,7 @@ class GsConfiguracionMessage extends \Google\Protobuf\Internal\Message
      *     @type string $Mascaracuit
      *     @type \ProtoMessages\StringMessage $RetencionGanancias
      *     @type \ProtoMessages\StringMessage $LugarCheque
-     *     @type \ProtoMessages\DoubleMessage $RetencionMinima
+     *     @type \ProtoMessages\DecimalMessage $RetencionMinima
      *     @type string $GenerarLog
      *     @type \ProtoMessages\StringMessage $MetodoValuacion
      *     @type \ProtoMessages\StringMessage $ControlOrdenesCorrelativas
@@ -715,7 +715,7 @@ class GsConfiguracionMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\StringMessage $G3Campo2
      *     @type \ProtoMessages\StringMessage $MailSsl
      *     @type \ProtoMessages\StringMessage $G3Cosecha
-     *     @type \ProtoMessages\DoubleMessage $LimiteDifKgsSecoDest
+     *     @type \ProtoMessages\DecimalMessage $LimiteDifKgsSecoDest
      *     @type \ProtoMessages\Int32Message $Codflete
      *     @type \ProtoMessages\StringMessage $ControlPorFecimpuestos
      *     @type \ProtoMessages\StringMessage $UtilizarFecAlicuotas
@@ -734,7 +734,7 @@ class GsConfiguracionMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\Int32Message $RegSellosIibb2
      *     @type \ProtoMessages\Int32Message $RegSellosIibb3
      *     @type \ProtoMessages\Int32Message $CodsaldoCalidad
-     *     @type \ProtoMessages\DoubleMessage $LimiteKgsFleteCorto
+     *     @type \ProtoMessages\DecimalMessage $LimiteKgsFleteCorto
      *     @type \ProtoMessages\Int32Message $FondoFedAgrop
      *     @type \ProtoMessages\StringMessage $OrdenesCompra
      *     @type \ProtoMessages\StringMessage $CosechaDiscriminarMermas
@@ -940,8 +940,8 @@ class GsConfiguracionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage RetencionMinima = 7;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage RetencionMinima = 7;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getRetencionMinima()
     {
@@ -959,13 +959,13 @@ class GsConfiguracionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage RetencionMinima = 7;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage RetencionMinima = 7;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setRetencionMinima($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->RetencionMinima = $var;
 
         return $this;
@@ -3522,8 +3522,8 @@ class GsConfiguracionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage LimiteDifKgsSecoDest = 88;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage LimiteDifKgsSecoDest = 88;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getLimiteDifKgsSecoDest()
     {
@@ -3541,13 +3541,13 @@ class GsConfiguracionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage LimiteDifKgsSecoDest = 88;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage LimiteDifKgsSecoDest = 88;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setLimiteDifKgsSecoDest($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->LimiteDifKgsSecoDest = $var;
 
         return $this;
@@ -4130,8 +4130,8 @@ class GsConfiguracionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage LimiteKgsFleteCorto = 107;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage LimiteKgsFleteCorto = 107;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getLimiteKgsFleteCorto()
     {
@@ -4149,13 +4149,13 @@ class GsConfiguracionMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage LimiteKgsFleteCorto = 107;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage LimiteKgsFleteCorto = 107;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setLimiteKgsFleteCorto($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->LimiteKgsFleteCorto = $var;
 
         return $this;

@@ -94,7 +94,7 @@ class GsPercibidoMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codmoneda = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 21;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 21;</code>
      */
     protected $Valorcambio = null;
     /**
@@ -132,7 +132,7 @@ class GsPercibidoMessage extends \Google\Protobuf\Internal\Message
      *     @type \ProtoMessages\StringMessage $ArchivosAdjuntos
      *     @type \ProtoMessages\StringMessage $SoloGestion
      *     @type \ProtoMessages\Int32Message $Codmoneda
-     *     @type \ProtoMessages\DoubleMessage $Valorcambio
+     *     @type \ProtoMessages\DecimalMessage $Valorcambio
      *     @type \ProtoMessages\Int32Message $CodcomprMostrador
      *     @type \ProtoMessages\StringMessage $EnvioPorMail
      * }
@@ -753,8 +753,8 @@ class GsPercibidoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 21;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 21;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getValorcambio()
     {
@@ -772,13 +772,13 @@ class GsPercibidoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage Valorcambio = 21;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Valorcambio = 21;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setValorcambio($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Valorcambio = $var;
 
         return $this;

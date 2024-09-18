@@ -66,37 +66,37 @@ class GsCptosContrImportadoMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Concepto = '';
     /**
-     * Generated from protobuf field <code>double Total = 14;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Total = 14;</code>
      */
-    protected $Total = 0.0;
+    protected $Total = null;
     /**
-     * Generated from protobuf field <code>double NoGravado = 15;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage NoGravado = 15;</code>
      */
-    protected $NoGravado = 0.0;
+    protected $NoGravado = null;
     /**
-     * Generated from protobuf field <code>double Gravado21 = 16;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Gravado21 = 16;</code>
      */
-    protected $Gravado21 = 0.0;
+    protected $Gravado21 = null;
     /**
-     * Generated from protobuf field <code>double Iva21 = 17;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Iva21 = 17;</code>
      */
-    protected $Iva21 = 0.0;
+    protected $Iva21 = null;
     /**
-     * Generated from protobuf field <code>double Gravado27 = 18;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Gravado27 = 18;</code>
      */
-    protected $Gravado27 = 0.0;
+    protected $Gravado27 = null;
     /**
-     * Generated from protobuf field <code>double Iva27 = 19;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Iva27 = 19;</code>
      */
-    protected $Iva27 = 0.0;
+    protected $Iva27 = null;
     /**
-     * Generated from protobuf field <code>double Gravado105 = 20;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Gravado105 = 20;</code>
      */
-    protected $Gravado105 = 0.0;
+    protected $Gravado105 = null;
     /**
-     * Generated from protobuf field <code>double Iva105 = 21;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Iva105 = 21;</code>
      */
-    protected $Iva105 = 0.0;
+    protected $Iva105 = null;
     /**
      * Generated from protobuf field <code>.protoMessages.Int32Message NumeroG3 = 22;</code>
      */
@@ -121,14 +121,14 @@ class GsCptosContrImportadoMessage extends \Google\Protobuf\Internal\Message
      *     @type int $CantCptos
      *     @type string $CodcptoContrato
      *     @type string $Concepto
-     *     @type float $Total
-     *     @type float $NoGravado
-     *     @type float $Gravado21
-     *     @type float $Iva21
-     *     @type float $Gravado27
-     *     @type float $Iva27
-     *     @type float $Gravado105
-     *     @type float $Iva105
+     *     @type \ProtoMessages\DecimalMessage $Total
+     *     @type \ProtoMessages\DecimalMessage $NoGravado
+     *     @type \ProtoMessages\DecimalMessage $Gravado21
+     *     @type \ProtoMessages\DecimalMessage $Iva21
+     *     @type \ProtoMessages\DecimalMessage $Gravado27
+     *     @type \ProtoMessages\DecimalMessage $Iva27
+     *     @type \ProtoMessages\DecimalMessage $Gravado105
+     *     @type \ProtoMessages\DecimalMessage $Iva105
      *     @type \ProtoMessages\Int32Message $NumeroG3
      * }
      */
@@ -434,176 +434,256 @@ class GsCptosContrImportadoMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>double Total = 14;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Total = 14;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getTotal()
     {
         return $this->Total;
     }
 
+    public function hasTotal()
+    {
+        return isset($this->Total);
+    }
+
+    public function clearTotal()
+    {
+        unset($this->Total);
+    }
+
     /**
-     * Generated from protobuf field <code>double Total = 14;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Total = 14;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setTotal($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Total = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>double NoGravado = 15;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage NoGravado = 15;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getNoGravado()
     {
         return $this->NoGravado;
     }
 
+    public function hasNoGravado()
+    {
+        return isset($this->NoGravado);
+    }
+
+    public function clearNoGravado()
+    {
+        unset($this->NoGravado);
+    }
+
     /**
-     * Generated from protobuf field <code>double NoGravado = 15;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage NoGravado = 15;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setNoGravado($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->NoGravado = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>double Gravado21 = 16;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Gravado21 = 16;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getGravado21()
     {
         return $this->Gravado21;
     }
 
+    public function hasGravado21()
+    {
+        return isset($this->Gravado21);
+    }
+
+    public function clearGravado21()
+    {
+        unset($this->Gravado21);
+    }
+
     /**
-     * Generated from protobuf field <code>double Gravado21 = 16;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Gravado21 = 16;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setGravado21($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Gravado21 = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>double Iva21 = 17;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Iva21 = 17;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getIva21()
     {
         return $this->Iva21;
     }
 
+    public function hasIva21()
+    {
+        return isset($this->Iva21);
+    }
+
+    public function clearIva21()
+    {
+        unset($this->Iva21);
+    }
+
     /**
-     * Generated from protobuf field <code>double Iva21 = 17;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Iva21 = 17;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setIva21($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Iva21 = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>double Gravado27 = 18;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Gravado27 = 18;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getGravado27()
     {
         return $this->Gravado27;
     }
 
+    public function hasGravado27()
+    {
+        return isset($this->Gravado27);
+    }
+
+    public function clearGravado27()
+    {
+        unset($this->Gravado27);
+    }
+
     /**
-     * Generated from protobuf field <code>double Gravado27 = 18;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Gravado27 = 18;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setGravado27($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Gravado27 = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>double Iva27 = 19;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Iva27 = 19;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getIva27()
     {
         return $this->Iva27;
     }
 
+    public function hasIva27()
+    {
+        return isset($this->Iva27);
+    }
+
+    public function clearIva27()
+    {
+        unset($this->Iva27);
+    }
+
     /**
-     * Generated from protobuf field <code>double Iva27 = 19;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Iva27 = 19;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setIva27($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Iva27 = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>double Gravado105 = 20;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Gravado105 = 20;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getGravado105()
     {
         return $this->Gravado105;
     }
 
+    public function hasGravado105()
+    {
+        return isset($this->Gravado105);
+    }
+
+    public function clearGravado105()
+    {
+        unset($this->Gravado105);
+    }
+
     /**
-     * Generated from protobuf field <code>double Gravado105 = 20;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Gravado105 = 20;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setGravado105($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Gravado105 = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>double Iva105 = 21;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Iva105 = 21;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getIva105()
     {
         return $this->Iva105;
     }
 
+    public function hasIva105()
+    {
+        return isset($this->Iva105);
+    }
+
+    public function clearIva105()
+    {
+        unset($this->Iva105);
+    }
+
     /**
-     * Generated from protobuf field <code>double Iva105 = 21;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Iva105 = 21;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setIva105($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Iva105 = $var;
 
         return $this;

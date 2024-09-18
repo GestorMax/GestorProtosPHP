@@ -26,7 +26,7 @@ class GsActividadesg3CMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Codproducto = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage PrecioTn = 4;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage PrecioTn = 4;</code>
      */
     protected $PrecioTn = null;
 
@@ -39,7 +39,7 @@ class GsActividadesg3CMessage extends \Google\Protobuf\Internal\Message
      *     @type int $Codactividad
      *     @type string $Descrip
      *     @type \ProtoMessages\Int32Message $Codproducto
-     *     @type \ProtoMessages\DoubleMessage $PrecioTn
+     *     @type \ProtoMessages\DecimalMessage $PrecioTn
      * }
      */
     public function __construct($data = NULL) {
@@ -124,8 +124,8 @@ class GsActividadesg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage PrecioTn = 4;</code>
-     * @return \ProtoMessages\DoubleMessage|null
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage PrecioTn = 4;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getPrecioTn()
     {
@@ -143,13 +143,13 @@ class GsActividadesg3CMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage PrecioTn = 4;</code>
-     * @param \ProtoMessages\DoubleMessage $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage PrecioTn = 4;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setPrecioTn($var)
     {
-        GPBUtil::checkMessage($var, \ProtoMessages\DoubleMessage::class);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->PrecioTn = $var;
 
         return $this;

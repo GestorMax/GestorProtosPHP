@@ -18,7 +18,7 @@ class Messages
         \GPBMetadata\ProtoMessages\Common::initOnce();
         $pool->internalAddGeneratedFile(
             '
-ô
+Ã
 %AnalyticsGrpc/Resource/Messages.protoanalyticsGrpcResourceProtoMessages/Common.proto"~
 ApiSourceMessageList7
 values (2\'.analyticsGrpcResource.ApiSourceMessage-
@@ -45,7 +45,10 @@ class Messages
 dataLabels (2+.analyticsGrpcResource.LabelWithTypeMessage
 
 SourceName (	
-enabled ("„
+enabled ("‚
+ApiScrapDataResponse-
+result (2.protoMessages.ResponseResult;
+message (2*.analyticsGrpcResource.ApiScrapDataMessage"„
 ApiScrapDataMessageList:
 values (2*.analyticsGrpcResource.ApiScrapDataMessage-
 result (2.protoMessages.ResponseResult"`
@@ -119,7 +122,17 @@ SourceName (	
 lastDate (2.protoMessages.DateOnlyMessage"Š
 ApiLastMeasurementResponse-
 result (2.protoMessages.ResponseResult=
-message (2,.analyticsGrpcResource.ApiMeasurementMessagebproto3'
+message (2,.analyticsGrpcResource.ApiMeasurementMessage"œ
+LabelDatasMessage
+dataId (
+dataName (	;
+labels (2+.analyticsGrpcResource.LabelWithTypeMessage(
+date (2.google.protobuf.Timestamp"€
+LabelDatasMessageList8
+values (2(.analyticsGrpcResource.LabelDatasMessage-
+result (2.protoMessages.ResponseResult"&
+LabelDatasRequest
+	labelsIds (bproto3'
         , true);
 
         static::$is_initialized = true;

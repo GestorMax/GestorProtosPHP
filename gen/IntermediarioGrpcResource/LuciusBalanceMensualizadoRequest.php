@@ -9,9 +9,9 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * Generated from protobuf message <code>intermediarioGrpcResource.LuciusMayorRequest</code>
+ * Generated from protobuf message <code>intermediarioGrpcResource.LuciusBalanceMensualizadoRequest</code>
  */
-class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
+class LuciusBalanceMensualizadoRequest extends \Google\Protobuf\Internal\Message
 {
     /**
      * Generated from protobuf field <code>int32 codigoMoneda = 1;</code>
@@ -30,35 +30,39 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
      */
     protected $remedido = false;
     /**
-     * Generated from protobuf field <code>bool omitirCierre = 12;</code>
+     * Generated from protobuf field <code>bool omitirCierre = 5;</code>
      */
     protected $omitirCierre = false;
     /**
-     * Generated from protobuf field <code>bool soloApertura = 5;</code>
+     * Generated from protobuf field <code>string apertura = 6;</code>
      */
-    protected $soloApertura = false;
+    protected $apertura = '';
     /**
-     * Generated from protobuf field <code>string filtroRubro = 6;</code>
+     * Generated from protobuf field <code>bool acumulado = 7;</code>
+     */
+    protected $acumulado = false;
+    /**
+     * Generated from protobuf field <code>string filtroRubro = 8;</code>
      */
     protected $filtroRubro = '';
     /**
-     * Generated from protobuf field <code>string filtroActividad = 7;</code>
+     * Generated from protobuf field <code>string filtroActividad = 9;</code>
      */
     protected $filtroActividad = '';
     /**
-     * Generated from protobuf field <code>string filtroMacro = 8;</code>
+     * Generated from protobuf field <code>string filtroMacro = 10;</code>
      */
     protected $filtroMacro = '';
     /**
-     * Generated from protobuf field <code>string filtroMicro = 9;</code>
+     * Generated from protobuf field <code>string filtroMicro = 11;</code>
      */
     protected $filtroMicro = '';
     /**
-     * Generated from protobuf field <code>string filtroTipo = 10;</code>
+     * Generated from protobuf field <code>string filtroTipo = 12;</code>
      */
     protected $filtroTipo = '';
     /**
-     * Generated from protobuf field <code>string filtroCampo = 11;</code>
+     * Generated from protobuf field <code>string filtroCampo = 13;</code>
      */
     protected $filtroCampo = '';
 
@@ -73,7 +77,8 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
      *     @type \Google\Protobuf\Timestamp $fechaHasta
      *     @type bool $remedido
      *     @type bool $omitirCierre
-     *     @type bool $soloApertura
+     *     @type string $apertura
+     *     @type bool $acumulado
      *     @type string $filtroRubro
      *     @type string $filtroActividad
      *     @type string $filtroMacro
@@ -196,7 +201,7 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>bool omitirCierre = 12;</code>
+     * Generated from protobuf field <code>bool omitirCierre = 5;</code>
      * @return bool
      */
     public function getOmitirCierre()
@@ -205,7 +210,7 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>bool omitirCierre = 12;</code>
+     * Generated from protobuf field <code>bool omitirCierre = 5;</code>
      * @param bool $var
      * @return $this
      */
@@ -218,29 +223,51 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>bool soloApertura = 5;</code>
-     * @return bool
+     * Generated from protobuf field <code>string apertura = 6;</code>
+     * @return string
      */
-    public function getSoloApertura()
+    public function getApertura()
     {
-        return $this->soloApertura;
+        return $this->apertura;
     }
 
     /**
-     * Generated from protobuf field <code>bool soloApertura = 5;</code>
-     * @param bool $var
+     * Generated from protobuf field <code>string apertura = 6;</code>
+     * @param string $var
      * @return $this
      */
-    public function setSoloApertura($var)
+    public function setApertura($var)
     {
-        GPBUtil::checkBool($var);
-        $this->soloApertura = $var;
+        GPBUtil::checkString($var, True);
+        $this->apertura = $var;
 
         return $this;
     }
 
     /**
-     * Generated from protobuf field <code>string filtroRubro = 6;</code>
+     * Generated from protobuf field <code>bool acumulado = 7;</code>
+     * @return bool
+     */
+    public function getAcumulado()
+    {
+        return $this->acumulado;
+    }
+
+    /**
+     * Generated from protobuf field <code>bool acumulado = 7;</code>
+     * @param bool $var
+     * @return $this
+     */
+    public function setAcumulado($var)
+    {
+        GPBUtil::checkBool($var);
+        $this->acumulado = $var;
+
+        return $this;
+    }
+
+    /**
+     * Generated from protobuf field <code>string filtroRubro = 8;</code>
      * @return string
      */
     public function getFiltroRubro()
@@ -249,7 +276,7 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string filtroRubro = 6;</code>
+     * Generated from protobuf field <code>string filtroRubro = 8;</code>
      * @param string $var
      * @return $this
      */
@@ -262,7 +289,7 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string filtroActividad = 7;</code>
+     * Generated from protobuf field <code>string filtroActividad = 9;</code>
      * @return string
      */
     public function getFiltroActividad()
@@ -271,7 +298,7 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string filtroActividad = 7;</code>
+     * Generated from protobuf field <code>string filtroActividad = 9;</code>
      * @param string $var
      * @return $this
      */
@@ -284,7 +311,7 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string filtroMacro = 8;</code>
+     * Generated from protobuf field <code>string filtroMacro = 10;</code>
      * @return string
      */
     public function getFiltroMacro()
@@ -293,7 +320,7 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string filtroMacro = 8;</code>
+     * Generated from protobuf field <code>string filtroMacro = 10;</code>
      * @param string $var
      * @return $this
      */
@@ -306,7 +333,7 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string filtroMicro = 9;</code>
+     * Generated from protobuf field <code>string filtroMicro = 11;</code>
      * @return string
      */
     public function getFiltroMicro()
@@ -315,7 +342,7 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string filtroMicro = 9;</code>
+     * Generated from protobuf field <code>string filtroMicro = 11;</code>
      * @param string $var
      * @return $this
      */
@@ -328,7 +355,7 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string filtroTipo = 10;</code>
+     * Generated from protobuf field <code>string filtroTipo = 12;</code>
      * @return string
      */
     public function getFiltroTipo()
@@ -337,7 +364,7 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string filtroTipo = 10;</code>
+     * Generated from protobuf field <code>string filtroTipo = 12;</code>
      * @param string $var
      * @return $this
      */
@@ -350,7 +377,7 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string filtroCampo = 11;</code>
+     * Generated from protobuf field <code>string filtroCampo = 13;</code>
      * @return string
      */
     public function getFiltroCampo()
@@ -359,7 +386,7 @@ class LuciusMayorRequest extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>string filtroCampo = 11;</code>
+     * Generated from protobuf field <code>string filtroCampo = 13;</code>
      * @param string $var
      * @return $this
      */

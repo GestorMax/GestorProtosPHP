@@ -22,9 +22,9 @@ class GsIndiceMessage extends \Google\Protobuf\Internal\Message
      */
     protected $Fecha = null;
     /**
-     * Generated from protobuf field <code>double Indice = 3;</code>
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Indice = 3;</code>
      */
-    protected $Indice = 0.0;
+    protected $Indice = null;
 
     /**
      * Constructor.
@@ -34,7 +34,7 @@ class GsIndiceMessage extends \Google\Protobuf\Internal\Message
      *
      *     @type int $Codindice
      *     @type \Google\Protobuf\Timestamp $Fecha
-     *     @type float $Indice
+     *     @type \ProtoMessages\DecimalMessage $Indice
      * }
      */
     public function __construct($data = NULL) {
@@ -97,22 +97,32 @@ class GsIndiceMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>double Indice = 3;</code>
-     * @return float
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Indice = 3;</code>
+     * @return \ProtoMessages\DecimalMessage|null
      */
     public function getIndice()
     {
         return $this->Indice;
     }
 
+    public function hasIndice()
+    {
+        return isset($this->Indice);
+    }
+
+    public function clearIndice()
+    {
+        unset($this->Indice);
+    }
+
     /**
-     * Generated from protobuf field <code>double Indice = 3;</code>
-     * @param float $var
+     * Generated from protobuf field <code>.protoMessages.DecimalMessage Indice = 3;</code>
+     * @param \ProtoMessages\DecimalMessage $var
      * @return $this
      */
     public function setIndice($var)
     {
-        GPBUtil::checkDouble($var);
+        GPBUtil::checkMessage($var, \ProtoMessages\DecimalMessage::class);
         $this->Indice = $var;
 
         return $this;

@@ -20,16 +20,16 @@ class Grpc
         \GPBMetadata\IntermediarioGrpc\Resource\Messages::initOnce();
         $pool->internalAddGeneratedFile(
             '
-”$
-%IntermediarioGrpc/Resource/Grpc.protointermediarioGrpcResourceProtoMessages/Common.proto2IntermediarioGrpc/Shared/IntermediarioShared.proto)IntermediarioGrpc/Resource/Messages.proto2ã#
+ñ&
+%IntermediarioGrpc/Resource/Grpc.protointermediarioGrpcResourceProtoMessages/Common.proto2IntermediarioGrpc/Shared/IntermediarioShared.proto)IntermediarioGrpc/Resource/Messages.proto2Œ$
 IntermediarioResourcex
 ListSaldoPersonas/.intermediarioGrpcResource.SaldoPersonasRequest0.intermediarioGrpcResource.SaldoPersonasResponse0Ü
 ListSaldoPersonasPorPlan6.intermediarioGrpcResource.SaldoPersonasPorPlanRequest0.intermediarioGrpcResource.SaldoPersonasResponse0¢
 ListSaldoPersonasTotalesPorPlan=.intermediarioGrpcResource.SaldoPersonasTotalesPorPlanRequest>.intermediarioGrpcResource.SaldoPersonasTotalesPorPlanResponse0x
 ListFlujoDeFondos/.intermediarioGrpcResource.FlujoDeFondosRequest0.intermediarioGrpcResource.FlujoDeFondosResponse0a
 ListCuentasACobrar.google.protobuf.Empty1.intermediarioGrpcResource.CuentasACobrarResponse0_
-ListCuentasAPagar.google.protobuf.Empty0.intermediarioGrpcResource.CuentasAPagarResponse0s
-ListCuentasCorrientesSaldos.google.protobuf.Empty:.intermediarioGrpcResource.CuentasCorrientesSaldosResponse0Å
+ListCuentasAPagar.google.protobuf.Empty0.intermediarioGrpcResource.CuentasAPagarResponse0ñ
+ListCuentasCorrientesSaldos9.intermediarioGrpcResource.CuentasCorrientesSaldosRequest:.intermediarioGrpcResource.CuentasCorrientesSaldosResponse0Å
 ListValoresEnCartera2.intermediarioGrpcResource.ValoresEnCarteraRequest3.intermediarioGrpcResource.ValoresEnCarteraResponse0á
 ListMayorDiarioFisicos4.intermediarioGrpcResource.MayorDiarioFisicosRequest5.intermediarioGrpcResource.MayorDiarioFisicosResponse0~
 ListBalanceContable1.intermediarioGrpcResource.BalanceContableRequest2.intermediarioGrpcResource.BalanceContableResponse0ê
@@ -61,7 +61,8 @@ class Grpc
 ListCompanyPersons.google.protobuf.Empty-.intermediarioGrpcResource.PersonaMessageList^
 WriteRecord0.intermediarioSharedMessages.WriteRecordsRequest.protoMessages.ResponseResultz
 ListLuciusMayor-.intermediarioGrpcResource.LuciusMayorRequest6.intermediarioGrpcResource.LuciusMayorContableResponse0Ä
-ListLuciusBalance/.intermediarioGrpcResource.LuciusBalanceRequest8.intermediarioGrpcResource.LuciusBalanceContableResponse0p
+ListLuciusBalance/.intermediarioGrpcResource.LuciusBalanceRequest8.intermediarioGrpcResource.LuciusBalanceContableResponse0ú
+ListLuciusBalanceMensualizado;.intermediarioGrpcResource.LuciusBalanceMensualizadoRequest<.intermediarioGrpcResource.LuciusBalanceMensualizadoResponse0p
 ListLuciusPlanDeCuentas.protoMessages.Int32Message6.intermediarioGrpcResource.LuciusPlanDeCuentasResponse0bproto3'
         , true);
 

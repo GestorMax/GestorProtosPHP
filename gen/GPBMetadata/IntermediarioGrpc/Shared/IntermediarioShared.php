@@ -20,21 +20,15 @@ class IntermediarioShared
         \GPBMetadata\IntermediarioGrpc\Shared\SyncedTablesG::initOnce();
         $pool->internalAddGeneratedFile(
             '
-÷ƒ
+Èƒ
 2IntermediarioGrpc/Shared/IntermediarioShared.protointermediarioSharedMessagesgoogle/protobuf/Timestamp.protoProtoMessages/Common.proto-IntermediarioGrpc/Shared/SyncedTables.g.proto"Å
 WriteRecordsRequest
 
 id (7
 table (2(.intermediarioCompanionGrpc.SyncedTables%
-records (2.google.protobuf.Any"Ô
-ConnectLogMessage
-
-Id (+
-LogDate (2.google.protobuf.Timestamp<
-LogType (2+.intermediarioSharedMessages.ConnectLogType=
-Sender (2-.intermediarioSharedMessages.ConnectLogSender
-Text (	
-AdditionalInfo (	"ã
+records (2.google.protobuf.Any")
+IntermediarioConfiguration
+uri (	"ã
 OSVersionMessage
 versionString (	
 major (
@@ -42,16 +36,7 @@ class IntermediarioShared
 revision (
 build (
 bits (
-servicePack (	"≠
-ConnectInstanceMessage
-	connected (2
-connectedSince (2.google.protobuf.TimestampL
-connectIdentity (23.intermediarioSharedMessages.ConnectIdentityMessage"ú
-ConnectStatusMessage<
-logs (2..intermediarioSharedMessages.ConnectLogMessageF
-	instances (23.intermediarioSharedMessages.ConnectInstanceMessage")
-IntermediarioConfiguration
-uri (	"…
+servicePack (	"…
 InstanceIdentityMessage
 
 databaseId (	
@@ -60,39 +45,7 @@ databaseId (	
 databaseName (	
 mD5 (	
 canAutoUpdate (>
-version (2-.intermediarioSharedMessages.OSVersionMessage"»
-ConnectIdentityMessage
-
-databaseId (
-server (	
-instance (	
-databaseName (	
-mD5 (	
-canAutoUpdate (>
-version (2-.intermediarioSharedMessages.OSVersionMessage"‡
-SyncedDatabaseMessage
-
-id (
-server (	
-instance (	
-databaseName (	
-initialized (7
-initializationStart (2.google.protobuf.Timestamp5
-initializationEnd (2.google.protobuf.Timestamp"9
-CompanyMessage
-
-id (
-name (	
-taxId (	"Q
-CompanyMessageList;
-values (2+.intermediarioSharedMessages.CompanyMessage"8
-PersonMessage
-
-id (
-name (	
-taxId (	"O
-PersonMessageList:
-values (2*.intermediarioSharedMessages.PersonMessage"ê
+version (2-.intermediarioSharedMessages.OSVersionMessage"ê
 MayorContableMessage
 ident (+
 numero (2.protoMessages.Int32Message.
@@ -484,7 +437,40 @@ descmsaldo (2.protoMessages.StringMessage/
 macro" (2.protoMessages.StringMessage+
 micro# (2.protoMessages.StringMessage*
 tipo$ (2.protoMessages.StringMessage+
-campo% (2.protoMessages.StringMessage"ã
+campo% (2.protoMessages.StringMessage"ÿ
+ LuciusBalanceMensualizadoMessage*
+orden (2.protoMessages.Int32Message.
+	codcuenta (2.protoMessages.Int32Message-
+descrip (2.protoMessages.StringMessage,
+ctactro (2.protoMessages.Int32Message1
+ctactrodesc (2.protoMessages.StringMessage.
+astosuma (2.protoMessages.StringMessage*
+nivel (2.protoMessages.Int32Message,
+sumaria	 (2.protoMessages.Int32Message-
+simbolo
+ (2.protoMessages.StringMessage/
+	msaldoant (2.protoMessages.DoubleMessage-
+saldom1 (2.protoMessages.DoubleMessage-
+saldom2 (2.protoMessages.DoubleMessage-
+saldom3 (2.protoMessages.DoubleMessage-
+saldom4 (2.protoMessages.DoubleMessage-
+saldom5 (2.protoMessages.DoubleMessage-
+saldom6 (2.protoMessages.DoubleMessage-
+saldom7 (2.protoMessages.DoubleMessage-
+saldom8 (2.protoMessages.DoubleMessage-
+saldom9 (2.protoMessages.DoubleMessage.
+saldom10 (2.protoMessages.DoubleMessage.
+saldom11 (2.protoMessages.DoubleMessage.
+saldom12 (2.protoMessages.DoubleMessage+
+saldo (2.protoMessages.DoubleMessage2
+solo_gestion (2.protoMessages.StringMessage5
+cant_movimientos (2.protoMessages.Int32Message+
+rubro (2.protoMessages.StringMessage/
+	actividad (2.protoMessages.StringMessage+
+macro (2.protoMessages.StringMessage+
+micro (2.protoMessages.StringMessage*
+tipo (2.protoMessages.StringMessage+
+campo  (2.protoMessages.StringMessage"ã
 FisicosPorVencimientoMessage
 codempre (
 numero ()
@@ -667,14 +653,7 @@ codpersona (2.protoMessages.Int32Message-
 
 modificado (2.protoMessages.Int32Message*
 color (2.protoMessages.Int32Message4
-cuentadefondos (2.protoMessages.StringMessage*W
-ConnectLogSender#
-CONNECT_LOG_SENDER_INTERMEDIARY 
-CONNECT_LOG_SENDER_CONNECT*e
-ConnectLogType
-CONNECT_LOG_TYPE_INFO 
-CONNECT_LOG_TYPE_WARNING
-CONNECT_LOG_TYPE_ERRORbproto3'
+cuentadefondos (2.protoMessages.StringMessagebproto3'
         , true);
 
         static::$is_initialized = true;
