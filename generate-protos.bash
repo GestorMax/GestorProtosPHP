@@ -13,3 +13,5 @@ protoc --proto_path=GestorProtos --php_out=$outDir GestorProtos/IntermediarioGrp
 protoc --proto_path=GestorProtos --php_out=$outDir GestorProtos/IntermediarioGrpc/Shared/IntermediarioCompanionMessages.g.proto
 protoc --proto_path=GestorProtos --php_out=$outDir GestorProtos/IntermediarioGrpc/Shared/IntermediarioShared.proto
 protoc --proto_path=GestorProtos --php_out=$outDir GestorProtos/IntermediarioGrpc/Shared/SyncedTables.g.proto
+
+protoc --proto_path=GestorProtos --php_out=$outDir GestorProtos/IntermediarioCommon/Common.proto
