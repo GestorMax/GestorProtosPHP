@@ -102,12 +102,12 @@ class IntermediarioResourceClient extends \Grpc\BaseStub {
     }
 
     /**
-     * @param \Google\Protobuf\GPBEmpty $argument input argument
+     * @param \IntermediarioGrpcResource\CuentasCorrientesSaldosRequest $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
      * @return \Grpc\ServerStreamingCall
      */
-    public function ListCuentasCorrientesSaldos(\Google\Protobuf\GPBEmpty $argument,
+    public function ListCuentasCorrientesSaldos(\IntermediarioGrpcResource\CuentasCorrientesSaldosRequest $argument,
       $metadata = [], $options = []) {
         return $this->_serverStreamRequest('/intermediarioGrpcResource.IntermediarioResource/ListCuentasCorrientesSaldos',
         $argument,
@@ -567,6 +567,20 @@ class IntermediarioResourceClient extends \Grpc\BaseStub {
         return $this->_serverStreamRequest('/intermediarioGrpcResource.IntermediarioResource/ListLuciusBalance',
         $argument,
         ['\IntermediarioGrpcResource\LuciusBalanceContableResponse', 'decode'],
+        $metadata, $options);
+    }
+
+    /**
+     * @param \IntermediarioGrpcResource\LuciusBalanceMensualizadoRequest $argument input argument
+     * @param array $metadata metadata
+     * @param array $options call options
+     * @return \Grpc\ServerStreamingCall
+     */
+    public function ListLuciusBalanceMensualizado(\IntermediarioGrpcResource\LuciusBalanceMensualizadoRequest $argument,
+      $metadata = [], $options = []) {
+        return $this->_serverStreamRequest('/intermediarioGrpcResource.IntermediarioResource/ListLuciusBalanceMensualizado',
+        $argument,
+        ['\IntermediarioGrpcResource\LuciusBalanceMensualizadoResponse', 'decode'],
         $metadata, $options);
     }
 
