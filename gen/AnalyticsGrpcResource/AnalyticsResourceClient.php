@@ -17,12 +17,12 @@ class AnalyticsResourceClient extends \Grpc\BaseStub {
     }
 
     /**
-     * @param \Google\Protobuf\GPBEmpty $argument input argument
+     * @param \Google\Protobuf\Timestamp $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
      * @return \Grpc\UnaryCall
      */
-    public function ListSources(\Google\Protobuf\GPBEmpty $argument,
+    public function ListSources(\Google\Protobuf\Timestamp $argument,
       $metadata = [], $options = []) {
         return $this->_simpleRequest('/analyticsGrpcResource.AnalyticsResource/ListSources',
         $argument,
@@ -31,12 +31,12 @@ class AnalyticsResourceClient extends \Grpc\BaseStub {
     }
 
     /**
-     * @param \Google\Protobuf\GPBEmpty $argument input argument
+     * @param \Google\Protobuf\Timestamp $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
      * @return \Grpc\UnaryCall
      */
-    public function ListMetrics(\Google\Protobuf\GPBEmpty $argument,
+    public function ListMetrics(\Google\Protobuf\Timestamp $argument,
       $metadata = [], $options = []) {
         return $this->_simpleRequest('/analyticsGrpcResource.AnalyticsResource/ListMetrics',
         $argument,
@@ -115,12 +115,12 @@ class AnalyticsResourceClient extends \Grpc\BaseStub {
     }
 
     /**
-     * @param \Google\Protobuf\GPBEmpty $argument input argument
+     * @param \Google\Protobuf\Timestamp $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
      * @return \Grpc\UnaryCall
      */
-    public function ListLabelsTypes(\Google\Protobuf\GPBEmpty $argument,
+    public function ListLabelsTypes(\Google\Protobuf\Timestamp $argument,
       $metadata = [], $options = []) {
         return $this->_simpleRequest('/analyticsGrpcResource.AnalyticsResource/ListLabelsTypes',
         $argument,
