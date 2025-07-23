@@ -9,12 +9,12 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * Generated from protobuf message <code>protoMessages.UInt64Message</code>
+ * Generated from protobuf message <code>protoMessages.UInt32Message</code>
  */
-class UInt64Message extends \Google\Protobuf\Internal\Message
+class UInt32Message extends \Google\Protobuf\Internal\Message
 {
     /**
-     * Generated from protobuf field <code>uint64 value = 1;</code>
+     * Generated from protobuf field <code>uint32 value = 1;</code>
      */
     protected $value = 0;
 
@@ -24,7 +24,7 @@ class UInt64Message extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
-     *     @type int|string $value
+     *     @type int $value
      * }
      */
     public function __construct($data = NULL) {
@@ -33,8 +33,8 @@ class UInt64Message extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>uint64 value = 1;</code>
-     * @return int|string
+     * Generated from protobuf field <code>uint32 value = 1;</code>
+     * @return int
      */
     public function getValue()
     {
@@ -42,13 +42,13 @@ class UInt64Message extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>uint64 value = 1;</code>
-     * @param int|string $var
+     * Generated from protobuf field <code>uint32 value = 1;</code>
+     * @param int $var
      * @return $this
      */
     public function setValue($var)
     {
-        GPBUtil::checkUint64($var);
+        GPBUtil::checkUint32($var);
         $this->value = $var;
 
         return $this;

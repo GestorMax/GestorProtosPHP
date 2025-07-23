@@ -9,20 +9,16 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * Generated from protobuf message <code>analyticsGrpcResource.LastValueMessage</code>
+ * Generated from protobuf message <code>analyticsGrpcResource.MeasurementMessage</code>
  */
-class LastValueMessage extends \Google\Protobuf\Internal\Message
+class MeasurementMessage extends \Google\Protobuf\Internal\Message
 {
     /**
-     * Generated from protobuf field <code>int32 dataId = 1;</code>
-     */
-    protected $dataId = 0;
-    /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp date = 4;</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp date = 1;</code>
      */
     protected $date = null;
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage value = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage value = 2;</code>
      */
     protected $value = null;
 
@@ -32,7 +28,6 @@ class LastValueMessage extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
-     *     @type int $dataId
      *     @type \Google\Protobuf\Timestamp $date
      *     @type \ProtoMessages\DoubleMessage $value
      * }
@@ -43,29 +38,7 @@ class LastValueMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>int32 dataId = 1;</code>
-     * @return int
-     */
-    public function getDataId()
-    {
-        return $this->dataId;
-    }
-
-    /**
-     * Generated from protobuf field <code>int32 dataId = 1;</code>
-     * @param int $var
-     * @return $this
-     */
-    public function setDataId($var)
-    {
-        GPBUtil::checkInt32($var);
-        $this->dataId = $var;
-
-        return $this;
-    }
-
-    /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp date = 4;</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp date = 1;</code>
      * @return \Google\Protobuf\Timestamp|null
      */
     public function getDate()
@@ -84,7 +57,7 @@ class LastValueMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.google.protobuf.Timestamp date = 4;</code>
+     * Generated from protobuf field <code>.google.protobuf.Timestamp date = 1;</code>
      * @param \Google\Protobuf\Timestamp $var
      * @return $this
      */
@@ -97,7 +70,7 @@ class LastValueMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage value = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage value = 2;</code>
      * @return \ProtoMessages\DoubleMessage|null
      */
     public function getValue()
@@ -116,7 +89,7 @@ class LastValueMessage extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.protoMessages.DoubleMessage value = 5;</code>
+     * Generated from protobuf field <code>.protoMessages.DoubleMessage value = 2;</code>
      * @param \ProtoMessages\DoubleMessage $var
      * @return $this
      */
