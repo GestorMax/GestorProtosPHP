@@ -25,33 +25,38 @@ class Response
     private static function resultFailed($response)
     {
 
-        if (method_exists($response, 'getResult')) {
+        if (!is_null($response) && method_exists($response, 'getResult')) {
             return isset($response->result);
         }
 
-        return isset($response);
+        return is_null($response);
     }
 
     public static function error($response)
     {
 
         if (is_array($response)) {
+            \Log::info('response es un array!', $response);
             $data = $response[0];
-            if (!isset($data)) {
-                return $response[1];
+            if (is_null($data)) {
+                return $response[1]->details;
             }
         } else {
+            \Log::info('response no es un array!');
             $data = $response;    
         }
 
-        if (method_exists($data, 'getResult')) {
+        if (!is_null($data) && method_exists($data, 'getResult')) {
+            \Log::info('response no es nulo y tiene metodo getResult!');
             return $data->getResult()->getError();
         }
 
-        if (method_exists($data, 'getError')) {
+        if (!is_null($data) && method_exists($data, 'getError')) {
+            \Log::info('response no es nulo y tiene metodo getError!');
             return $data->getError();
         }
 
+        \Log::info('retorno string vacío!');
         return "";
     }
 }
